@@ -1,5 +1,7 @@
 # M01 در SPSS — ورود داده، تعریف متغیرها، دادهٔ گمشده و تغییر ساختار
 
+> **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
+
 [← ماژول M01](../README.md) | [صفحهٔ مسیر SPSS](../../../tracks/spss.md)
 
 **پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md). اگر SPSS را هنوز نصب نکرده‌اید، [صفحهٔ مسیر SPSS](../../../tracks/spss.md) را ببینید.
@@ -106,19 +108,19 @@
 
 ### حل تمرین‌ها
 
-[پاسخ 1](../solutions/spss-practice.md#answer-1)
+[پاسخ 1](../solutions/spss-P01.md)
 
-[پاسخ 2](../solutions/spss-practice.md#answer-2)
+[پاسخ 2](../solutions/spss-P02.md)
 
-[پاسخ 3](../solutions/spss-practice.md#answer-3)
+[پاسخ 3](../solutions/spss-P03.md)
 
-[پاسخ 4](../solutions/spss-practice.md#answer-4)
+[پاسخ 4](../solutions/spss-P04.md)
 
-[پاسخ 5](../solutions/spss-practice.md#answer-5)
+[پاسخ 5](../solutions/spss-P05.md)
 
-[پاسخ 6](../solutions/spss-practice.md#answer-6)
+[پاسخ 6](../solutions/spss-P06.md)
 
-[پاسخ 7](../solutions/spss-practice.md#answer-7)
+[پاسخ 7](../solutions/spss-P07.md)
 
 ---
 

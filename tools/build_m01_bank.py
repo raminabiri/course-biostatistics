@@ -9,6 +9,17 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'phase-0-foundations/M01-data-and-variables/data'
 
 def build():
+    # Small first-contact table shared by all five beginner guides.
+    first_headers = ['patient_id', 'age', 'temperature']
+    first_rows = [[1, 24, 36.8], [2, 51, 37.2], [3, 38, 38.1]]
+    with (DATA / 'M01_first_steps.csv').open('w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f); writer.writerow(first_headers); writer.writerows(first_rows)
+    first = Workbook(); sheet = first.active; sheet.title = 'first_steps'
+    sheet.append(first_headers)
+    for row in first_rows: sheet.append(row)
+    sheet.freeze_panes = 'A2'
+    for column in ['A', 'B', 'C']: sheet.column_dimensions[column].width = 20
+    first.save(DATA / 'M01_first_steps.xlsx')
     patients = []
     followup = []
     laboratory = []

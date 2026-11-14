@@ -1,5 +1,7 @@
 # M01 در R — خواندن داده، factor، دادهٔ گمشده و تغییر ساختار
 
+> **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
+
 [← ماژول M01](../README.md) | [صفحهٔ مسیر R](../../../tracks/r.md)
 
 **پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md) و نصب R + RStudio ([صفحهٔ مسیر](../../../tracks/r.md)).
@@ -123,19 +125,19 @@ uti <- readRDS("M01_uti_labeled.rds")
 
 کد کامل: [`M01_solutions.R`](M01_solutions.R)
 
-[پاسخ 1](../solutions/r-practice.md#answer-1)
+[پاسخ 1](../solutions/r-P01.md)
 
-[پاسخ 2](../solutions/r-practice.md#answer-2)
+[پاسخ 2](../solutions/r-P02.md)
 
-[پاسخ 3](../solutions/r-practice.md#answer-3)
+[پاسخ 3](../solutions/r-P03.md)
 
-[پاسخ 4](../solutions/r-practice.md#answer-4)
+[پاسخ 4](../solutions/r-P04.md)
 
-[پاسخ 5](../solutions/r-practice.md#answer-5)
+[پاسخ 5](../solutions/r-P05.md)
 
-[پاسخ 6](../solutions/r-practice.md#answer-6)
+[پاسخ 6](../solutions/r-P06.md)
 
-[پاسخ 7](../solutions/r-practice.md#answer-7)
+[پاسخ 7](../solutions/r-P07.md)
 
 ---
 

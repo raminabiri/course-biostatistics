@@ -1,5 +1,7 @@
 # M01 در Python — pandas، نوع category، دادهٔ گمشده و تغییر ساختار
 
+> **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
+
 [← ماژول M01](../README.md) | [صفحهٔ مسیر Python](../../../tracks/python.md)
 
 **پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md) و نصب Python + pandas ([صفحهٔ مسیر](../../../tracks/python.md)).
@@ -117,19 +119,19 @@ uti = pd.read_pickle("M01_uti_labeled.pkl")
 
 کد کامل: [`M01_solutions.py`](M01_solutions.py)
 
-[پاسخ 1](../solutions/python-practice.md#answer-1)
+[پاسخ 1](../solutions/python-P01.md)
 
-[پاسخ 2](../solutions/python-practice.md#answer-2)
+[پاسخ 2](../solutions/python-P02.md)
 
-[پاسخ 3](../solutions/python-practice.md#answer-3)
+[پاسخ 3](../solutions/python-P03.md)
 
-[پاسخ 4](../solutions/python-practice.md#answer-4)
+[پاسخ 4](../solutions/python-P04.md)
 
-[پاسخ 5](../solutions/python-practice.md#answer-5)
+[پاسخ 5](../solutions/python-P05.md)
 
-[پاسخ 6](../solutions/python-practice.md#answer-6)
+[پاسخ 6](../solutions/python-P06.md)
 
-[پاسخ 7](../solutions/python-practice.md#answer-7)
+[پاسخ 7](../solutions/python-P07.md)
 
 ---
 

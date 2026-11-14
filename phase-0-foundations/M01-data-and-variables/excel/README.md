@@ -1,5 +1,7 @@
 # M01 در Excel — ورود داده، برچسب‌گذاری، دادهٔ گمشده و تغییر ساختار
 
+> **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
+
 [← ماژول M01](../README.md) | [صفحهٔ مسیر Excel](../../../tracks/excel.md)
 
 **پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md).
@@ -128,19 +130,19 @@ C2: =INDEX(crp_wide!$B$2:$D$9, INT((ROW()-2)/3)+1, MOD(ROW()-2,3)+1)     (crp)
 
 همهٔ فرمول‌ها در برگهٔ `solutions` فایل [`M01_excel_solutions.xlsx`](M01_excel_solutions.xlsx) آمده‌اند.
 
-[پاسخ 1](../solutions/excel-practice.md#answer-1)
+[پاسخ 1](../solutions/excel-P01.md)
 
-[پاسخ 2](../solutions/excel-practice.md#answer-2)
+[پاسخ 2](../solutions/excel-P02.md)
 
-[پاسخ 3](../solutions/excel-practice.md#answer-3)
+[پاسخ 3](../solutions/excel-P03.md)
 
-[پاسخ 4](../solutions/excel-practice.md#answer-4)
+[پاسخ 4](../solutions/excel-P04.md)
 
-[پاسخ 5](../solutions/excel-practice.md#answer-5)
+[پاسخ 5](../solutions/excel-P05.md)
 
-[پاسخ 6](../solutions/excel-practice.md#answer-6)
+[پاسخ 6](../solutions/excel-P06.md)
 
-[پاسخ 7](../solutions/excel-practice.md#answer-7)
+[پاسخ 7](../solutions/excel-P07.md)
 
 ---
 

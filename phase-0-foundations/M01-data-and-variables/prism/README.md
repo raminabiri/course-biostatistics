@@ -1,5 +1,7 @@
 # M01 در GraphPad Prism — جدول‌های داده، نوع متغیر، دادهٔ گمشده و ساختار تکراری
 
+> **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
+
 [← ماژول M01](../README.md) | [صفحهٔ مسیر Prism](../../../tracks/prism.md)
 
 **پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md)، به‌ویژه بخش ۶ درس ۱.۳.
@@ -95,19 +97,19 @@ Prism برای اندازه‌گیری تکراری **قالب بلند لازم
 
 ### حل تمرین‌ها
 
-[پاسخ 1](../solutions/prism-practice.md#answer-1)
+[پاسخ 1](../solutions/prism-P01.md)
 
-[پاسخ 2](../solutions/prism-practice.md#answer-2)
+[پاسخ 2](../solutions/prism-P02.md)
 
-[پاسخ 3](../solutions/prism-practice.md#answer-3)
+[پاسخ 3](../solutions/prism-P03.md)
 
-[پاسخ 4](../solutions/prism-practice.md#answer-4)
+[پاسخ 4](../solutions/prism-P04.md)
 
-[پاسخ 5](../solutions/prism-practice.md#answer-5)
+[پاسخ 5](../solutions/prism-P05.md)
 
-[پاسخ 6](../solutions/prism-practice.md#answer-6)
+[پاسخ 6](../solutions/prism-P06.md)
 
-[پاسخ 7](../solutions/prism-practice.md#answer-7)
+[پاسخ 7](../solutions/prism-P07.md)
 
 ---
 

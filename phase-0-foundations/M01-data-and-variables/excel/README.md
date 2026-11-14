@@ -22,7 +22,7 @@ Excel فقط **عدد** و **متن** می‌شناسد. نه برچسب مقد�
 | کد گمشده | Missing | `AVERAGEIF`/`COUNTIFS` با شرط `"<>-99"`، یا جایگزینی ‎-99 با خانهٔ خالی |
 | جلوگیری از کد نامعتبر | — | **Data Validation** |
 
-این یعنی در Excel باید منضبط‌تر باشید. Broman و Woo (2018) قواعد کار درست با صفحه‌گسترده را توضیح داده‌اند (منبع ۸).
+این یعنی در Excel باید منضبط‌تر باشید. Broman و Woo (2018) روش‌ها کار درست با صفحه‌گسترده را توضیح داده‌اند (منبع ۸).
 
 ---
 
@@ -32,7 +32,7 @@ Excel فقط **عدد** و **متن** می‌شناسد. نه برچسب مقد�
 
 **روش مطمئن:** `Data > From Text/CSV` ← فایل `data/M01_uti.csv` ← در پیش‌نمایش، **File Origin: 65001: Unicode (UTF-8)** و **Delimiter: Comma** ← **Load**.
 
-> چرا نه دوبار کلیک روی فایل؟ در ویندوزی که تنظیمات منطقه‌ای آن فارسی است، Excel ممکن است ویرگول را جداکننده نشناسد یا اعشار را اشتباه بخواند. روش `From Text/CSV` این مشکل را ندارد.
+> چرا نه دوبار کلیک روی فایل؟ در ویندوزی که تنظیمات منطقه‌ای آن فارسی است، Excel بسته به تنظیم منطقه‌ای، گاهی ویرگول را جداکننده نمی‌شناسد یا اعشار را نادرست می‌خواند. روش `From Text/CSV` این مشکل را ندارد.
 
 **شمارش سطر و ستون با فرمول:**
 ```
@@ -53,11 +53,11 @@ Excel فقط **عدد** و **متن** می‌شناسد. نه برچسب مقد�
    ```
    و آن را تا سطر ۳۱ پایین بکشید. همین کار را برای `ward`، `severity` و `cipro_res` انجام دهید.
 
-`FALSE` در آخر یعنی «فقط تطابق دقیق»؛ هرگز آن را جا نیندازید. در Microsoft 365 می‌توانید به‌جای VLOOKUP از `XLOOKUP` هم استفاده کنید.
+`FALSE` در آخر یعنی «فقط تطابق دقیق»؛ هرگز آن را جا نیندازید. در Microsoft 365 می‌توانید به‌جای VLOOKUP `XLOOKUP` را هم به کار ببرید.
 
 **Data Validation (جلوگیری از ورود کد غلط):** ستون `ward` (`D2:D31`) را انتخاب کنید ← `Data > Data Validation` ← Allow: **List** ← Source: `1,2,3` ← OK. حالا اگر کسی `4` تایپ کند، Excel خطا می‌دهد. این همان کنترل کیفیت هنگام ورود داده است (M04).
 
-**سطح اندازه‌گیری:** در برگهٔ `codebook` ستون `measure` را برای هر متغیر بنویسید (Nominal، Ordinal، Scale). Excel از آن استفاده نمی‌کند، ولی شما و همکارانتان استفاده می‌کنید.
+**سطح اندازه‌گیری:** در برگهٔ `codebook` ستون `measure` را برای هر متغیر بنویسید (Nominal، Ordinal، Scale). Excel نوع آماری را بر پایهٔ آن اجرا نمی‌کند، ولی برای شما و همکارانتان راهنمای خواندن داده است.
 
 ### گام ۳ — کد گمشده (درس ۱.۴)
 
@@ -117,7 +117,7 @@ C2: =INDEX(crp_wide!$B$2:$D$9, INT((ROW()-2)/3)+1, MOD(ROW()-2,3)+1)     (crp)
 | شماره | تمرین |
 |---|---|
 | ع۱ | `M01_uti.csv` را وارد کنید. داده چند سطر و چند ستون دارد؟ (با فرمول) |
-| ع۲ | برگهٔ `labels` را بسازید و ستون‌های برچسب `sex_label`، `ward_label`، `severity_label` و `cipro_res_label` را با VLOOKUP اضافه کنید. برای `ward` قاعدهٔ Data Validation بگذارید. |
+| ع۲ | برگهٔ `labels` را بسازید و ستون‌های برچسب `sex_label`، `ward_label`، `severity_label` و `cipro_res_label` را با VLOOKUP اضافه کنید. برای `ward` روش Data Validation بگذارید. |
 | ع۳ | میانگین CRP را با و بدون ‎-99 حساب کنید. CRP و WBC هر کدام چند مقدار معتبر دارند؟ |
 | ع۴ | میانگین کد `ward` را حساب کنید و توضیح دهید چرا بی‌معناست. جدول فراوانی `ward` و `organism` را با COUNTIF **و** با PivotTable بسازید. |
 | ع۵ | چند بیمار **زن** به سیپروفلوکساسین **مقاوم** بودند؟ (COUNTIFS و PivotTable) |
@@ -128,114 +128,28 @@ C2: =INDEX(crp_wide!$B$2:$D$9, INT((ROW()-2)/3)+1, MOD(ROW()-2,3)+1)     (crp)
 
 همهٔ فرمول‌ها در برگهٔ `solutions` فایل [`M01_excel_solutions.xlsx`](M01_excel_solutions.xlsx) آمده‌اند.
 
-<details>
-<summary><b>حل ع۱</b></summary>
+[پاسخ 1](../solutions/excel-practice.md#answer-1)
 
-```
-=ROWS(uti!A2:A31)     → 30
-=COUNTA(uti!A1:L1)    → 12
-```
-**جواب: ۳۰ سطر، ۱۲ ستون.** راه سریع دیگر: ستون A را انتخاب کنید؛ نوار وضعیت پایین Excel «Count: 31» نشان می‌دهد (۳۰ داده + ۱ سرستون).
+[پاسخ 2](../solutions/excel-practice.md#answer-2)
 
-</details>
+[پاسخ 3](../solutions/excel-practice.md#answer-3)
 
-<details>
-<summary><b>حل ع۲</b></summary>
+[پاسخ 4](../solutions/excel-practice.md#answer-4)
 
-برگهٔ `labels` (ستون‌های D و E ستون کلید و برچسب‌اند):
+[پاسخ 5](../solutions/excel-practice.md#answer-5)
 
-| variable | code | label | key | label |
-|---|---|---|---|---|
-| sex | 1 | Female | `=A2&"\|"&B2` ← sex\|1 | Female |
-| sex | 2 | Male | sex\|2 | Male |
-| ward | 1 | Internal | ward\|1 | Internal |
-| ... | | | | |
+[پاسخ 6](../solutions/excel-practice.md#answer-6)
 
-ستون‌های برچسب در برگهٔ `uti`:
-```
-M2: =VLOOKUP("sex"&"|"&C2,       labels!$D$2:$E$11, 2, FALSE)
-N2: =VLOOKUP("ward"&"|"&D2,      labels!$D$2:$E$11, 2, FALSE)
-O2: =VLOOKUP("severity"&"|"&J2,  labels!$D$2:$E$11, 2, FALSE)
-P2: =VLOOKUP("cipro_res"&"|"&L2, labels!$D$2:$E$11, 2, FALSE)
-```
-**کنترل:** سطر بیمار ۱ ← Female، Surgery، Mild، Susceptible. سطر بیمار ۶ ← Male، Internal، Moderate، Resistant.
-اگر جایی `#N/A` دیدید، یعنی کدی در داده هست که در برگهٔ برچسب نیست؛ این خودش یک کنترل کیفیت است!
-
-</details>
-
-<details>
-<summary><b>حل ع۳</b></summary>
-
-| محاسبه | فرمول | جواب |
-|---|---|---|
-| میانگین با ‎-99 | `=AVERAGE(G2:G31)` | **35.10** ✘ |
-| میانگین بدون ‎-99 | `=AVERAGEIF(G2:G31,"<>-99")` | **44.68** ✔ |
-| CRP معتبر | `=COUNTIFS(G2:G31,"<>-99",G2:G31,"<>")` | **28** |
-| WBC معتبر | `=COUNT(H2:H31)` | **29** |
-
-نکته: `AVERAGE` و `COUNT` خانهٔ خالی را خودشان کنار می‌گذارند، ولی ‎-99 را نه.
-
-</details>
-
-<details>
-<summary><b>حل ع۴</b></summary>
-
-`=AVERAGE(D2:D31)` ← **1.8**؛ بی‌معنا، چون 1، 2، 3 برچسب‌اند (درس ۱.۲).
-
-| ward | فرمول | فراوانی |
-|---|---|---|
-| Internal | `=COUNTIF(D2:D31,1)` | 12 |
-| Surgery | `=COUNTIF(D2:D31,2)` | 12 |
-| ICU | `=COUNTIF(D2:D31,3)` | 6 |
-
-| organism | فرمول | فراوانی |
-|---|---|---|
-| E. coli | `=COUNTIF(E2:E31,"E. coli")` | 17 |
-| Klebsiella | `=COUNTIF(E2:E31,"Klebsiella")` | 9 |
-| Proteus | `=COUNTIF(E2:E31,"Proteus")` | 4 |
-
-PivotTable همین اعداد را می‌دهد. درصد: در PivotTable، `Value Field Settings > Show Values As > % of Grand Total` ← 40٪، 40٪، 20٪.
-
-</details>
-
-<details>
-<summary><b>حل ع۵</b></summary>
-
-```
-=COUNTIFS(C2:C31,1, L2:L31,1)    → 7   (زن، مقاوم)
-=COUNTIFS(C2:C31,1, L2:L31,0)    → 13  (زن، حساس)
-=COUNTIFS(C2:C31,2, L2:L31,1)    → 4   (مرد، مقاوم)
-=COUNTIFS(C2:C31,2, L2:L31,0)    → 6   (مرد، حساس)
-```
-**جواب: ۷.** جمع چهار خانه = ۳۰ (کنترل).
-
-</details>
-
-<details>
-<summary><b>حل ع۶</b></summary>
-
-Power Query: `Unpivot Other Columns` روی همهٔ ستون‌ها به‌جز `id` (گام ۶). یا روش فرمولی برگهٔ `crp_long`.
-**جواب: ۲۴ سطر.** سه سطر اول: (1, 0, 94.8)، (1, 3, 46.2)، (1, 7, 12.1)؛ سطر آخر: (8, 7, 6.9).
-
-</details>
-
-<details>
-<summary><b>حل ع۷</b></summary>
-
-- **xlsx:** همهٔ برگه‌ها، فرمول‌ها، Data Validation و PivotTable ها می‌مانند.
-- **CSV:** فقط برگهٔ فعال و فقط **مقادیر** می‌ماند؛ برگه‌های `labels` و `codebook`، فرمول‌ها (به عدد ثابت تبدیل می‌شوند)، Data Validation و قالب‌بندی از دست می‌روند.
-- **نتیجه:** فایل کاری را xlsx نگه دارید؛ CSV فقط برای **انتقال** داده به نرم‌افزار دیگر است.
-
-</details>
+[پاسخ 7](../solutions/excel-practice.md#answer-7)
 
 ---
 
-## خطاهای رایج در Excel
+## خطاهای جاری در Excel
 
 | مشکل | علت | راه‌حل |
 |---|---|---|
-| همهٔ داده‌ها در ستون A آمدند | جداکنندهٔ فهرست ویندوز ویرگول نیست | از `Data > From Text/CSV` استفاده کنید |
-| اعداد اعشاری به تاریخ تبدیل شدند (مثلاً 3.4 ← 3-Apr) | تنظیمات منطقه‌ای | در Power Query نوع ستون را Decimal Number کنید؛ یا ستون را قبل از وارد کردن Text کنید |
+| همهٔ داده‌ها در ستون A آمدند | جداکنندهٔ فهرست ویندوز ویرگول نیست | از `Data > From Text/CSV` به کار ببرید |
+| اعداد اعشاری به تاریخ تبدیل شدند (برای نمونه 3.4 ← 3-Apr) | تنظیمات منطقه‌ای | در Power Query نوع ستون را Decimal Number کنید؛ یا ستون را قبل از وارد کردن Text کنید |
 | `#N/A` در VLOOKUP | کد در جدول برچسب نیست، یا آخرین آرگومان FALSE نیست | برگهٔ برچسب را کامل کنید |
-| کد ژن یا شناسه به عدد/تاریخ تبدیل شد (مثلاً `MARCH1`، `SEPT2`) | تبدیل خودکار Excel | ستون را پیش از ورود Text کنید؛ این مشکل در داده‌های ژنتیک بسیار رایج است |
+| کد ژن یا شناسه به عدد/تاریخ تبدیل شد (برای نمونه `MARCH1`، `SEPT2`) | تبدیل خودکار Excel | ستون را پیش از ورود Text کنید؛ این مشکل در داده‌های ژنتیک بسیار جاری است |
 | میانگین غلط | کد گمشده حساب شده | `AVERAGEIF(...,"<>-99")` یا جایگزینی با خانهٔ خالی |

@@ -28,7 +28,7 @@
 
 ### گام ۱ — جدول Multiple variables: دیدن کل مجموعه‌داده (درس ۱.۱)
 
-جدول **Multiple variables** تنها جدول Prism است که شبیه جدول SPSS/R/Python است (هر سطر یک مشاهده، هر ستون یک متغیر).
+جدول **Multiple variables** تنها جدول Prism است که شبیه جدول SPSS/R/Python است (هر سطر یک رکورد، هر ستون یک متغیر).
 
 1. Prism را باز کنید. در پنجرهٔ **Welcome** بخش **New table & graph** ← **Multiple variables** ← گزینهٔ **Enter or import data into a new table** ← **Create**.
 2. فایل `data/M01_uti.csv` را در Excel باز کنید، همه را انتخاب (Ctrl+A) و کپی (Ctrl+C) کنید.
@@ -95,112 +95,27 @@ Prism برای اندازه‌گیری تکراری **قالب بلند لازم
 
 ### حل تمرین‌ها
 
-<details>
-<summary><b>حل ع۱</b></summary>
+[پاسخ 1](../solutions/prism-practice.md#answer-1)
 
-مراحل گام ۱. **جواب: ۳۰ سطر و ۱۲ ستون.** شمارهٔ سطرها در ستون خاکستری سمت چپ جدول دیده می‌شود.
+[پاسخ 2](../solutions/prism-practice.md#answer-2)
 
-</details>
+[پاسخ 3](../solutions/prism-practice.md#answer-3)
 
-<details>
-<summary><b>حل ع۲</b></summary>
+[پاسخ 4](../solutions/prism-practice.md#answer-4)
 
-**بخش اول — جای هر متغیر در Prism:**
+[پاسخ 5](../solutions/prism-practice.md#answer-5)
 
-| متغیر | نوع (درس ۱.۲) | جای معمول در Prism |
-|---|---|---|
-| sex، ward، organism، cipro_res | کیفی اسمی | عنوان ستون یا سطر (گروه)؛ در جدول Contingency، سطر/ستون |
-| severity | کیفی ترتیبی | عنوان ستون/سطر **به ترتیب** Mild، Moderate، Severe |
-| pain | ترتیبی (عددی) | مقدار داخل خانه، یا گروه |
-| age، temp، crp، wbc، los | کمّی | مقدار داخل خانه؛ یا X در جدول XY |
-| id | شناسه | Row title |
+[پاسخ 6](../solutions/prism-practice.md#answer-6)
 
-**بخش دوم — جدول CRP بر اساس بخش** (گام ۲): پس از مرتب‌سازی بر اساس `ward`:
-
-| ستون | تعداد مقدار |
-|---|---|
-| Internal | 12 |
-| Surgery | 12 (شامل دو مقدار ‎-99 بیماران ۷ و ۱۹) |
-| ICU | 6 |
-
-این همان جدول فراوانی `ward` است: ۱۲، ۱۲، ۶. توجه کنید دو ‎-99 در ستون Surgery هستند؛ پیش از هر تحلیلی باید Exclude شوند.
-
-</details>
-
-<details>
-<summary><b>حل ع۳</b></summary>
-
-1. New Data Table ← Column ← یک ستون با عنوان `CRP`، ۳۰ مقدار.
-2. Analyze ← Column analyses ← Descriptive statistics:
-   **Number of values = 30، Mean = 35.10** (Minimum = ‎-99 ← علامت خطر).
-3. به جدول برگردید، دو خانهٔ ‎-99 (سطرهای ۷ و ۱۹) را انتخاب و **Exclude** کنید.
-4. به صفحهٔ نتایج برگردید؛ خودکار به‌روز شده است:
-   **Number of values = 28، Mean = 44.68**.
-5. برای `wbc`: ۳۰ سطر بچسبانید (سطر ۱۲ خالی است) ← **Number of values = 29**.
-
-</details>
-
-<details>
-<summary><b>حل ع۴</b></summary>
-
-1. یک جدول Column با ستون `ward_code` (۳۰ کد) ← Descriptive statistics ← **Mean = 1.800**. Prism نمی‌داند این‌ها کدند؛ ۱٫۸ هیچ بخش واقعی‌ای نیست (درس ۱.۲، دام ۱).
-2. Analyze ← Column analyses ← **Frequency distribution** ← Bin width = **1** (و مرکز اولین بین = 1) ← Tabulate: **Number of values**:
-
-| Bin center | Frequency |
-|---|---|
-| 1 (Internal) | 12 |
-| 2 (Surgery) | 12 |
-| 3 (ICU) | 6 |
-
-3. **organism** متنی است و Frequency distribution فقط عدد می‌پذیرد. راه ساده در Prism: داده را در Excel بر اساس `organism` مرتب کنید و `age` هر گروه را در یک جدول Column با سه ستون (E. coli، Klebsiella، Proteus) بچسبانید (سن گمشده ندارد). در Descriptive statistics، Number of values هر ستون:
-   **E. coli = 17، Klebsiella = 9، Proteus = 4**.
-   (یا مستقیم در Excel با `COUNTIF`. این یکی از محدودیت‌های Prism برای کار با دادهٔ کیفی خام است.)
-
-</details>
-
-<details>
-<summary><b>حل ع۵</b></summary>
-
-جدول Contingency **شمارش** می‌خواهد، نه دادهٔ خام. پس:
-
-1. در Excel با PivotTable (Rows = sex، Columns = cipro_res، Values = Count of id) یا مرتب‌سازی، شمارش‌ها را پیدا کنید.
-2. Prism: New Data Table ← **Contingency** ← Create.
-3. Row titles: Female، Male | Column titles: Susceptible، Resistant | خانه‌ها:
-
-| | Susceptible | Resistant |
-|---|---|---|
-| Female | 13 | **7** |
-| Male | 6 | 4 |
-
-**جواب: ۷ بیمار زن مقاوم بودند.** همین جدول در M35 با کای‌دو و آزمون دقیق فیشر تحلیل می‌شود.
-
-</details>
-
-<details>
-<summary><b>حل ع۶</b></summary>
-
-مراحل گام ۵. **۸ سطر (بیمار) × ۳ ستون (روز) = ۲۴ مقدار.** سطر اول: Row title = 1؛ مقادیر 94.8، 46.2، 12.1.
-
-**چرا قالب بلند لازم نیست؟** در Prism «جفت بودن» با **قرار گرفتن در یک سطر** نشان داده می‌شود. همین ساختار برای ANOVA تکراری (M22) و نمودار «before–after» کافی است. ۲۴ مقدار همان ۲۴ سطر قالب بلند در SPSS/R/Python است. اگر به قالب بلند نیاز دارید (مثلاً برای مدل آمیخته در R)، تبدیل را در نرم‌افزار دیگری انجام دهید.
-
-روش جایگزین: جدول **XY** با X = 0، 3، 7 و هر بیمار یک زیرستون Y (Subcolumn). برای رسم منحنی هر بیمار مفید است.
-
-</details>
-
-<details>
-<summary><b>حل ع۷</b></summary>
-
-`File > Save As` ← `M01.prism`. پس از باز کردن دوباره، همهٔ جدول‌ها، عنوان‌ها، خانه‌های Exclude شده (آبی، کج) و نتایج تحلیل‌ها سر جایشان هستند. **بله، می‌مانند.** اگر داده را به CSV صادر کنید، اطلاعات Exclude از دست می‌رود.
-
-</details>
+[پاسخ 7](../solutions/prism-practice.md#answer-7)
 
 ---
 
-## خطاهای رایج در Prism
+## خطاهای جاری در Prism
 
 | مشکل | علت | راه‌حل |
 |---|---|---|
 | تحلیل مورد نظر در فهرست Analyze نیست | نوع جدول برای آن تحلیل مناسب نیست | جدول درست را انتخاب کنید (درس ۱.۳ بخش ۶) |
 | ‎-99 در میانگین حساب شد | Prism کد گمشده نمی‌شناسد | پاک یا Exclude کنید |
 | همهٔ ستون در یک خانه چسبید | جداکنندهٔ CSV درست تشخیص داده نشد | ابتدا در Excel باز و از آنجا کپی کنید |
-| ۳ آزمایش × ۴ چاهک به‌عنوان n = 12 وارد شد | تکرار فنی به‌جای تکرار زیستی (درس ۱.۱) | میانگین چاهک‌های هر آزمایش را وارد کنید یا از جدول Nested استفاده کنید |
+| ۳ آزمایش × ۴ چاهک به‌عنوان n = 12 وارد شد | تکرار فنی به‌جای تکرار زیستی (درس ۱.۱) | میانگین چاهک‌های هر آزمایش را وارد کنید یا از جدول Nested به کار ببرید |

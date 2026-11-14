@@ -8,7 +8,7 @@
       "title": "Entering Data in SPSS: Variable View and Data View Explained",
       "url": "https://www.youtube.com/watch?v=1f8b9TjRS7g",
       "level": "مقدماتی",
-      "viewing_scope": "فقط ساخت ستون‌ها و نوشتن سطرهای داده را دنبال کنید. پس از دیدن جدول ساخته‌شده به تمرین برگردید؛ تحلیل آماری در این گام نداریم.",
+      "viewing_scope": "فقط ساخت ستون‌ها و نوشتن سطرهای داده برای این گام کافی است. پس از دیدن جدول ساخته‌شده این گام به پایان می‌رسد؛ تحلیل آماری در این گام نداریم.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -26,7 +26,7 @@
       "title": "GraphPad — How to Use Column Data Tables in Prism",
       "url": "https://www.youtube.com/watch?v=bIpDmvuw0Fk",
       "level": "مقدماتی",
-      "viewing_scope": "فقط ساخت جدول Column، عنوان ستون و ورود عددهای خام را ببینید. نمودار، میانگین گروه و آزمون را به گام‌های بعد بسپارید.",
+      "viewing_scope": "فقط ساخت جدول Column، عنوان ستون و ورود عددهای خام موضوع این انتخاب است. نمودار، میانگین گروه و آزمون را به گام‌های بعد بسپارید.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -35,7 +35,7 @@
       "title": "MarinStatsLectures — Import Data from Excel to R: CSV and TXT",
       "url": "https://www.youtube.com/watch?v=qPk0YEKhqB8",
       "level": "مقدماتی",
-      "viewing_scope": "تنها ذخیرهٔ CSV و خواندن آن با read.csv و file.choose را دنبال کنید. بخش فایل TXT و read.table برای این درس لازم نیست. ظاهر RStudio در فیلم قدیمی‌تر است.",
+      "viewing_scope": "تنها ذخیرهٔ CSV و خواندن آن با read.csv و file.choose برای این گام کافی است. بخش فایل TXT و read.table برای این درس لازم نیست. ظاهر RStudio در فیلم قدیمی‌تر است.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -44,7 +44,7 @@
       "title": "Corey Schafer — Pandas Part 1: Installation and Loading Data",
       "url": "https://www.youtube.com/watch?v=ZyhVh-qRZPA",
       "level": "مقدماتی، پس از آشنایی نخست با Python",
-      "viewing_scope": "تنها خواندن CSV و دیدن سطرها و اندازهٔ جدول را دنبال کنید. محیط فیلم Jupyter است؛ فرمان read_csv در فایل Python ما هم همان کار را می‌کند. ساخت محیط و نصب‌های دیگر را دنبال نکنید؛ روش آغاز در متن همین دوره آمده است.",
+      "viewing_scope": "تنها خواندن CSV و دیدن سطرها و اندازهٔ جدول برای این گام کافی است. محیط فیلم Jupyter است؛ فرمان read_csv در فایل Python ما هم همان کار را می‌کند. ساخت محیط و نصب‌های دیگر را دنبال نکنید؛ روش آغاز در متن همین دوره آمده است.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -62,7 +62,7 @@
       "title": "Kevin Stratvert — How to Create a Drop-Down List in Excel",
       "url": "https://www.youtube.com/watch?v=CaD4-5UAK0I",
       "level": "مقدماتی",
-      "viewing_scope": "فقط ساخت یک فهرست ساده با Data Validation را دنبال کنید. فهرست وابسته، جست‌وجویی یا خودکار لازم نیست. این فهرست جلوی برخی خطاهای ورود را می‌گیرد؛ مقیاس آماری را تعریف نمی‌کند.",
+      "viewing_scope": "فقط ساخت یک فهرست ساده با Data Validation برای این گام کافی است. فهرست وابسته، جست‌وجویی یا خودکار لازم نیست. این فهرست جلوی برخی خطاهای ورود را می‌گیرد؛ مقیاس آماری را تعریف نمی‌کند.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -71,7 +71,7 @@
       "title": "GraphPad — How to Use Column Data Tables in Prism",
       "url": "https://www.youtube.com/watch?v=bIpDmvuw0Fk",
       "level": "مقدماتی",
-      "viewing_scope": "این بار فقط جای نام گروه در عنوان ستون و جای عدد سنجیده‌شده در خانه‌ها را ببینید. Prism گزینهٔ factor یا Measure برای تعریف مقیاس ندارد؛ بخش تحلیل و نمودار را دنبال نکنید.",
+      "viewing_scope": "این بار فقط جای نام گروه در عنوان ستون و جای عدد سنجیده‌شده در خانه‌ها موضوع این انتخاب است. Prism گزینهٔ factor یا Measure برای تعریف مقیاس ندارد؛ بخش تحلیل و نمودار را دنبال نکنید.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -89,7 +89,7 @@
       "title": "How to Create Categories in Pandas",
       "url": "https://www.youtube.com/watch?v=yjCtRmc4D7Q",
       "level": "متوسط، پس از راهنمای آغاز Python",
-      "viewing_scope": "فقط ساخت category و ordered categories را دنبال کنید. pd.cut، دسته‌بندی بازه‌ای و بخش Category Analysis بیرون از کار این درس‌اند.",
+      "viewing_scope": "فقط ساخت category و ordered categories برای این گام کافی است. pd.cut، دسته‌بندی بازه‌ای و بخش Category Analysis بیرون از کار این درس‌اند.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -98,7 +98,7 @@
       "title": "Reshaping Data Using SPSS",
       "url": "https://www.youtube.com/watch?v=_v7AflrenrQ",
       "level": "متوسط",
-      "viewing_scope": "فقط تبدیل جدول پهن به بلند با Restructure و نگه‌داشتن شناسه را دنبال کنید. در پایان شمار فردها و سطرها را بررسی کنید؛ تحلیل دادهٔ تکراری هنوز موضوع این درس نیست.",
+      "viewing_scope": "فقط تبدیل جدول پهن به بلند با Restructure و نگه‌داشتن شناسه برای این گام کافی است. در پایان شمار فردها و سطرها را بررسی کنید؛ تحلیل دادهٔ تکراری هنوز موضوع این درس نیست.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -107,7 +107,7 @@
       "title": "Leila Gharani — Convert Columns to Rows in Excel",
       "url": "https://www.youtube.com/watch?v=JMrfbv2h7p8",
       "level": "متوسط",
-      "viewing_scope": "تنها ساخت Table و Unpivot در Power Query. نیازی به PivotTable، مدل داده یا گزارش‌سازی ندارید؛ پس از دیدن جدول بلند به تمرین برگردید.",
+      "viewing_scope": "تنها ساخت Table و Unpivot در Power Query. نیازی به PivotTable، مدل داده یا گزارش‌سازی ندارید؛ پس از دیدن جدول بلند این گام به پایان می‌رسد.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -116,7 +116,7 @@
       "title": "GraphPad — How to Use XY Data Tables in Prism",
       "url": "https://www.youtube.com/watch?v=dMbchkMYj1k",
       "level": "متوسط",
-      "viewing_scope": "فقط جای روز در X و مقدار سنجیده‌شده در Y را ببینید. تنظیم نمودار و تحلیل را دنبال نکنید. جدول XY نمایش دادهٔ زمانی است؛ جای جدول بلند پژوهش را نمی‌گیرد.",
+      "viewing_scope": "فقط جای روز در X و مقدار سنجیده‌شده در Y موضوع این انتخاب است. تنظیم نمودار و تحلیل را دنبال نکنید. جدول XY نمایش دادهٔ زمانی است؛ جای جدول بلند پژوهش را نمی‌گیرد.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -134,7 +134,7 @@
       "title": "Rob Mulla — Melt & Pivot Data with Pandas",
       "url": "https://www.youtube.com/watch?v=GXluB4yDlCY",
       "level": "متوسط",
-      "viewing_scope": "فیلم کوتاهِ تبدیل پهن و بلند با melt و pivot. تنها شناسه، نام ستون روز و مقدار را دنبال کنید؛ نیازی به تحلیل آماری ندارید. اگر سرعت زیاد است، پخش را آهسته کنید و جدول را با دست بنویسید.",
+      "viewing_scope": "فیلم کوتاهِ تبدیل پهن و بلند با melt و pivot. تنها شناسه، نام ستون روز و مقدار برای این گام کافی است؛ نیازی به تحلیل آماری ندارید. اگر سرعت زیاد است، پخش را آهسته کنید و جدول را با دست بنویسید.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -161,7 +161,7 @@
       "title": "GraphPad — How to Use XY Data Tables in Prism",
       "url": "https://www.youtube.com/watch?v=dMbchkMYj1k",
       "level": "مقدماتی، پس از درس چیدمان جدول",
-      "viewing_scope": "فقط بخش Adjust for Missing Values را ببینید: خانهٔ خالی را با صفر یکی نگیرید. نمونهٔ فیلم XY است؛ در جدول Column این درس هم گمشده را خالی نگه می‌داریم. نمودار و تحلیل بخش‌های بعد را دنبال نکنید.",
+      "viewing_scope": "فقط بخش Adjust for Missing Values موضوع این انتخاب است: خانهٔ خالی را با صفر یکی نگیرید. نمونهٔ فیلم XY است؛ در جدول Column این درس هم گمشده را خالی نگه می‌داریم. نمودار و تحلیل بخش‌های بعد را دنبال نکنید.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -170,7 +170,7 @@
       "title": "Statistics Globe — Handling NA in R",
       "url": "https://www.youtube.com/watch?v=q8eR2suCyGk",
       "level": "مقدماتی، پس از راهنمای آغاز R",
-      "viewing_scope": "فقط is.na، شمارش با sum و معنای na.rm=TRUE را دنبال کنید. بخش na.omit و حذف سراسری سطرها برای این گام لازم نیست؛ کنارگذاشتن مقدار در یک محاسبه، درمان گمشدگی نیست.",
+      "viewing_scope": "فقط is.na، شمارش با sum و معنای na.rm=TRUE برای این گام کافی است. بخش na.omit و حذف سراسری سطرها برای این گام لازم نیست؛ کنارگذاشتن مقدار در یک محاسبه، درمان گمشدگی نیست.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     },
     {
@@ -179,9 +179,10 @@
       "title": "Corey Schafer — Pandas Part 9: Cleaning Data",
       "url": "https://www.youtube.com/watch?v=KdmPHEnPJPs",
       "level": "متوسط، پس از خواندن جدول در Python",
-      "viewing_scope": "تنها شناخت NaN، isna و تبدیل کد گمشده را ببینید. dropna، fillna و تبدیل‌های دیگر را دنبال نکنید؛ در این درس قرار نیست دادهٔ گمشده را حدس بزنیم یا همهٔ سطرهای ناقص را پاک کنیم.",
+      "viewing_scope": "تنها شناخت NaN، isna و تبدیل کد گمشده موضوع این انتخاب است. dropna، fillna و تبدیل‌های دیگر را دنبال نکنید؛ در این درس قرار نیست دادهٔ گمشده را حدس بزنیم یا همهٔ سطرهای ناقص را پاک کنیم.",
       "verification": "title-and-description-or-creator-page; not fully watched"
     }
   ],
-  "note": "فیلم‌ها برای دامنهٔ نوشته‌شده گزینش شده‌اند؛ زمان پایان تنها با فهرست بخش‌های منتشرشده ثبت شده است. پخش کامل فیلم‌ها انجام نشده است."
+  "note": "فیلم‌ها برای دامنهٔ نوشته‌شده گزینش شده‌اند؛ زمان پایان تنها با فهرست بخش‌های منتشرشده ثبت شده است. پخش کامل فیلم‌ها انجام نشده است.",
+  "editorial_reviewed_on": "2026-11-15"
 }

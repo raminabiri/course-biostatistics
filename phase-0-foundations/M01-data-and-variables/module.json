@@ -861,5 +861,11 @@
       "answer": "solutions/M01-L4-E30.md"
     }
   ],
-  "entry": "START.md"
+  "entry": "START.md",
+  "pedagogy": {
+    "entry_scenario": "سه نفر در درمانگاه",
+    "code_progression": "یک مقدار، فهرست، جدول، خواندن نتیجه",
+    "introductory_exercises": "پنج تمرین سادهٔ هر درس بر پایهٔ همان متن",
+    "editorial_reviewed_on": "2026-11-15"
+  }
 }

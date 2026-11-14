@@ -120,6 +120,13 @@ View(downloaded)  # دیدن جدول در پنجره
 
 خطا در این گام بخشی از یادگیری است. فرمان را خط‌به‌خط بخوانید؛ فرمان نصب بسته یا کدهای بلندتر ماژول اکنون لازم نیست.
 
+## فیلم همین گام
+
+[MarinStatsLectures — Import Data from Excel to R: CSV and TXT](https://www.youtube.com/watch?v=qPk0YEKhqB8)
+
+**سطح:** مقدماتی. **دامنهٔ دیدن:** تنها ذخیرهٔ CSV و خواندن آن با read.csv و file.choose را دنبال کنید. بخش فایل TXT و read.table برای این درس لازم نیست. ظاهر RStudio در فیلم قدیمی‌تر است.
+
+
 ---
 
 [درس پیش: انتخاب نرم‌افزار](../START.md) | [درس بعد: داده چیست؟](../lessons/L1-data-observation-variable.md)

@@ -1,0 +1,187 @@
+{
+  "module": "M01",
+  "reviewed_on": "2026-11-14",
+  "videos": [
+    {
+      "lesson": "M01-L1",
+      "software": "SPSS",
+      "title": "Entering Data in SPSS: Variable View and Data View Explained",
+      "url": "https://www.youtube.com/watch?v=1f8b9TjRS7g",
+      "level": "مقدماتی",
+      "viewing_scope": "فقط ساخت ستون‌ها و نوشتن سطرهای داده را دنبال کنید. پس از دیدن جدول ساخته‌شده به تمرین برگردید؛ تحلیل آماری در این گام نداریم.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L1",
+      "software": "Excel",
+      "title": "Kevin Stratvert — Excel Tutorial for Beginners",
+      "url": "https://www.youtube.com/watch?v=LgXzzu68j7M&t=90s",
+      "level": "مقدماتی",
+      "viewing_scope": "از ۱:۳۰ تا ۳:۴۱: شناخت خانه، سطر و ستون و ورود داده. بخش‌های فرمول، نمودار و PivotTable برای این درس لازم نیستند.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L1",
+      "software": "GraphPad Prism",
+      "title": "GraphPad — How to Use Column Data Tables in Prism",
+      "url": "https://www.youtube.com/watch?v=bIpDmvuw0Fk",
+      "level": "مقدماتی",
+      "viewing_scope": "فقط ساخت جدول Column، عنوان ستون و ورود عددهای خام را ببینید. نمودار، میانگین گروه و آزمون را به گام‌های بعد بسپارید.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L1",
+      "software": "R",
+      "title": "MarinStatsLectures — Import Data from Excel to R: CSV and TXT",
+      "url": "https://www.youtube.com/watch?v=qPk0YEKhqB8",
+      "level": "مقدماتی",
+      "viewing_scope": "تنها ذخیرهٔ CSV و خواندن آن با read.csv و file.choose را دنبال کنید. بخش فایل TXT و read.table برای این درس لازم نیست. ظاهر RStudio در فیلم قدیمی‌تر است.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L1",
+      "software": "Python",
+      "title": "Corey Schafer — Pandas Part 1: Installation and Loading Data",
+      "url": "https://www.youtube.com/watch?v=ZyhVh-qRZPA",
+      "level": "مقدماتی، پس از آشنایی نخست با Python",
+      "viewing_scope": "تنها خواندن CSV و دیدن سطرها و اندازهٔ جدول را دنبال کنید. محیط فیلم Jupyter است؛ فرمان read_csv در فایل Python ما هم همان کار را می‌کند. ساخت محیط و نصب‌های دیگر را دنبال نکنید؛ روش آغاز در متن همین دوره آمده است.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L2",
+      "software": "SPSS",
+      "title": "Todd Grande — Levels of Measurement in SPSS",
+      "url": "https://www.youtube.com/watch?v=7wL1roXDcUc",
+      "level": "مقدماتی",
+      "viewing_scope": "تنها گزینش Nominal، Ordinal و Scale برای ستون‌ها. هدف، شناخت معنای گزینهٔ Measure است؛ آزمون آماری نداریم.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L2",
+      "software": "Excel",
+      "title": "Kevin Stratvert — How to Create a Drop-Down List in Excel",
+      "url": "https://www.youtube.com/watch?v=CaD4-5UAK0I",
+      "level": "مقدماتی",
+      "viewing_scope": "فقط ساخت یک فهرست ساده با Data Validation را دنبال کنید. فهرست وابسته، جست‌وجویی یا خودکار لازم نیست. این فهرست جلوی برخی خطاهای ورود را می‌گیرد؛ مقیاس آماری را تعریف نمی‌کند.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L2",
+      "software": "GraphPad Prism",
+      "title": "GraphPad — How to Use Column Data Tables in Prism",
+      "url": "https://www.youtube.com/watch?v=bIpDmvuw0Fk",
+      "level": "مقدماتی",
+      "viewing_scope": "این بار فقط جای نام گروه در عنوان ستون و جای عدد سنجیده‌شده در خانه‌ها را ببینید. Prism گزینهٔ factor یا Measure برای تعریف مقیاس ندارد؛ بخش تحلیل و نمودار را دنبال نکنید.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L2",
+      "software": "R",
+      "title": "Roger Peng — Data Types: Factors",
+      "url": "https://www.youtube.com/watch?v=NuY6jY4qE7I",
+      "level": "متوسط، پس از شناخت نوع داده",
+      "viewing_scope": "فقط ساخت factor، دیدن levels و چیدن ترتیب رده‌ها. اشاره‌های مربوط به مدل‌سازی برای این درس لازم نیستند؛ ordered در کد همین درس توضیح داده شده است.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L2",
+      "software": "Python",
+      "title": "How to Create Categories in Pandas",
+      "url": "https://www.youtube.com/watch?v=yjCtRmc4D7Q",
+      "level": "متوسط، پس از راهنمای آغاز Python",
+      "viewing_scope": "فقط ساخت category و ordered categories را دنبال کنید. pd.cut، دسته‌بندی بازه‌ای و بخش Category Analysis بیرون از کار این درس‌اند.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L3",
+      "software": "SPSS",
+      "title": "Reshaping Data Using SPSS",
+      "url": "https://www.youtube.com/watch?v=_v7AflrenrQ",
+      "level": "متوسط",
+      "viewing_scope": "فقط تبدیل جدول پهن به بلند با Restructure و نگه‌داشتن شناسه را دنبال کنید. در پایان شمار فردها و سطرها را بررسی کنید؛ تحلیل دادهٔ تکراری هنوز موضوع این درس نیست.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L3",
+      "software": "Excel",
+      "title": "Leila Gharani — Convert Columns to Rows in Excel",
+      "url": "https://www.youtube.com/watch?v=JMrfbv2h7p8",
+      "level": "متوسط",
+      "viewing_scope": "تنها ساخت Table و Unpivot در Power Query. نیازی به PivotTable، مدل داده یا گزارش‌سازی ندارید؛ پس از دیدن جدول بلند به تمرین برگردید.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L3",
+      "software": "GraphPad Prism",
+      "title": "GraphPad — How to Use XY Data Tables in Prism",
+      "url": "https://www.youtube.com/watch?v=dMbchkMYj1k",
+      "level": "متوسط",
+      "viewing_scope": "فقط جای روز در X و مقدار سنجیده‌شده در Y را ببینید. تنظیم نمودار و تحلیل را دنبال نکنید. جدول XY نمایش دادهٔ زمانی است؛ جای جدول بلند پژوهش را نمی‌گیرد.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L3",
+      "software": "R",
+      "title": "Statistics Globe — Reshape Data Frame from Wide to Long Format",
+      "url": "https://www.youtube.com/watch?v=eLCKL7BNIAk",
+      "level": "متوسط؛ دیدن ساختار جدول",
+      "viewing_scope": "فقط جدول آغازین و جدول بلندِ نمونهٔ نخست را برای شناخت جابه‌جایی سطر و ستون ببینید. کد فیلم از melt و بستهٔ افزوده کمک می‌گیرد؛ کد این درس با reshape در R پایه است. برای تمرین، همان کد درس را اجرا کنید؛ نصب بسته و نمونهٔ gather لازم نیست.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L3",
+      "software": "Python",
+      "title": "Rob Mulla — Melt & Pivot Data with Pandas",
+      "url": "https://www.youtube.com/watch?v=GXluB4yDlCY",
+      "level": "متوسط",
+      "viewing_scope": "فیلم کوتاهِ تبدیل پهن و بلند با melt و pivot. تنها شناسه، نام ستون روز و مقدار را دنبال کنید؛ نیازی به تحلیل آماری ندارید. اگر سرعت زیاد است، پخش را آهسته کنید و جدول را با دست بنویسید.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L4",
+      "software": "SPSS",
+      "title": "Statistics Made Simple — Missing Values in SPSS",
+      "url": "https://www.youtube.com/watch?v=kb1G5htKZDQ&t=99s",
+      "level": "مقدماتی",
+      "viewing_scope": "از ۱:۳۹ تا ۷:۳۰ برای شناخت گمشدهٔ سیستمی و تعریف‌شده. بخش‌های حذف سطر و تحلیل را دنبال نکنید؛ هدف این درس ثبت و شناخت خانهٔ خالی است.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L4",
+      "software": "Excel",
+      "title": "How to Count Blank Cells in Excel with COUNTBLANK",
+      "url": "https://www.youtube.com/watch?v=xZeWEavoPro",
+      "level": "مقدماتی",
+      "viewing_scope": "تنها شمارش خانه‌های خالی با COUNTBLANK. جایگزین‌کردن خانهٔ خالی با صفر یا برآورد مقدار گمشده جزو این گام نیست. تفاوت خانهٔ خالی و فرمول دارای رشتهٔ خالی در متن درس آمده است.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L4",
+      "software": "GraphPad Prism",
+      "title": "GraphPad — How to Use XY Data Tables in Prism",
+      "url": "https://www.youtube.com/watch?v=dMbchkMYj1k",
+      "level": "مقدماتی، پس از درس چیدمان جدول",
+      "viewing_scope": "فقط بخش Adjust for Missing Values را ببینید: خانهٔ خالی را با صفر یکی نگیرید. نمونهٔ فیلم XY است؛ در جدول Column این درس هم گمشده را خالی نگه می‌داریم. نمودار و تحلیل بخش‌های بعد را دنبال نکنید.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L4",
+      "software": "R",
+      "title": "Statistics Globe — Handling NA in R",
+      "url": "https://www.youtube.com/watch?v=q8eR2suCyGk",
+      "level": "مقدماتی، پس از راهنمای آغاز R",
+      "viewing_scope": "فقط is.na، شمارش با sum و معنای na.rm=TRUE را دنبال کنید. بخش na.omit و حذف سراسری سطرها برای این گام لازم نیست؛ کنارگذاشتن مقدار در یک محاسبه، درمان گمشدگی نیست.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    },
+    {
+      "lesson": "M01-L4",
+      "software": "Python",
+      "title": "Corey Schafer — Pandas Part 9: Cleaning Data",
+      "url": "https://www.youtube.com/watch?v=KdmPHEnPJPs",
+      "level": "متوسط، پس از خواندن جدول در Python",
+      "viewing_scope": "تنها شناخت NaN، isna و تبدیل کد گمشده را ببینید. dropna، fillna و تبدیل‌های دیگر را دنبال نکنید؛ در این درس قرار نیست دادهٔ گمشده را حدس بزنیم یا همهٔ سطرهای ناقص را پاک کنیم.",
+      "verification": "title-and-description-or-creator-page; not fully watched"
+    }
+  ],
+  "note": "فیلم‌ها برای دامنهٔ نوشته‌شده گزینش شده‌اند؛ زمان پایان تنها با فهرست بخش‌های منتشرشده ثبت شده است. پخش کامل فیلم‌ها انجام نشده است."
+}

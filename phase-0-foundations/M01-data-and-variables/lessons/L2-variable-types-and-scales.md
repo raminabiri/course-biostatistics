@@ -142,7 +142,7 @@
 
 ## کار در نرم‌افزار خود
 
-تنها بخش نرم‌افزار خود را باز کنید. این گام پس از خواندن بخش مقدماتی است؛ کدهای R و Python کنار خود توضیح کوتاه دارند.
+تنها بخش نرم‌افزار خود را باز کنید. فیلم همان کار نیز درون همین بخش آمده است؛ دیدن همهٔ فیلم‌ها لازم نیست. این گام پس از خواندن بخش مقدماتی است؛ کدهای R و Python کنار خود توضیح کوتاه دارند.
 
 <details>
 <summary>SPSS</summary>
@@ -159,6 +159,10 @@ FREQUENCIES VARIABLES=ward severity.
 
 تغییر Measure مقدارها را دگرگون نمی‌کند و جلوی همهٔ تحلیل‌های نامناسب را نمی‌گیرد.
 
+**فیلم اجرای همین گام — مقدماتی:** [Todd Grande — Levels of Measurement in SPSS](https://www.youtube.com/watch?v=7wL1roXDcUc)
+
+**دامنهٔ دیدن:** تنها گزینش Nominal، Ordinal و Scale برای ستون‌ها. هدف، شناخت معنای گزینهٔ Measure است؛ آزمون آماری نداریم.
+
 </details>
 
 <details>
@@ -173,12 +177,20 @@ FREQUENCIES VARIABLES=ward severity.
 
 عدد نخست ۱۲ است. کد ۳ شدت شدید است و نباید به معنی سه برابر شدت خفیف خوانده شود. `Format Cells > Number` تنها نمایش عدد را تغییر می‌دهد؛ مقیاس آماری را تعیین نمی‌کند.
 
+**فیلم اجرای همین گام — مقدماتی:** [Kevin Stratvert — How to Create a Drop-Down List in Excel](https://www.youtube.com/watch?v=CaD4-5UAK0I)
+
+**دامنهٔ دیدن:** فقط ساخت یک فهرست ساده با Data Validation را دنبال کنید. فهرست وابسته، جست‌وجویی یا خودکار لازم نیست. این فهرست جلوی برخی خطاهای ورود را می‌گیرد؛ مقیاس آماری را تعریف نمی‌کند.
+
 </details>
 
 <details>
 <summary>GraphPad Prism</summary>
 
 رده‌های شدت را به صورت عنوان گروه ثبت کنید؛ برای هر گروه ستون CRP جدا بسازید، به شرط نگه‌داشتن پیوند با شناسهٔ اصلی. ترتیب Mild، Moderate، Severe را خودتان نگه دارید. Prism فرهنگ متغیر و نوع ترتیبی مشابه factor در R ندارد؛ کدهای ۱ تا ۳ را برای میانگین شدت وارد تحلیل نکنید. فایل اصلی با همهٔ ستون‌ها در Excel یا CSV بماند.
+
+**فیلم اجرای همین گام — مقدماتی:** [GraphPad — How to Use Column Data Tables in Prism](https://www.youtube.com/watch?v=bIpDmvuw0Fk)
+
+**دامنهٔ دیدن:** این بار فقط جای نام گروه در عنوان ستون و جای عدد سنجیده‌شده در خانه‌ها را ببینید. Prism گزینهٔ factor یا Measure برای تعریف مقیاس ندارد؛ بخش تحلیل و نمودار را دنبال نکنید.
 
 </details>
 
@@ -197,6 +209,10 @@ is.ordered(d$severity)
 
 `levels` کد و ترتیب را روشن می‌کند؛ کدی بیرون فهرست به NA تبدیل می‌شود، پس پیش و پس از تبدیل شمار رده‌ها را کنترل کنید.
 
+**فیلم اجرای همین گام — متوسط، پس از شناخت نوع داده:** [Roger Peng — Data Types: Factors](https://www.youtube.com/watch?v=NuY6jY4qE7I)
+
+**دامنهٔ دیدن:** فقط ساخت factor، دیدن levels و چیدن ترتیب رده‌ها. اشاره‌های مربوط به مدل‌سازی برای این درس لازم نیستند؛ ordered در کد همین درس توضیح داده شده است.
+
 </details>
 
 <details>
@@ -210,6 +226,10 @@ print(d["ward"].value_counts(sort=False, dropna=False))  # شمار هر رده
 ```
 
 `ordered=True` ترتیب را ثبت می‌کند. این کد فقط نمونهٔ کوچک را پوشش می‌دهد؛ در بانک نیز دامنهٔ کدها را پیش از تبدیل بسنجید. متن‌شدن ستون معادل تعریف نوع ترتیبی نیست.
+
+**فیلم اجرای همین گام — متوسط، پس از راهنمای آغاز Python:** [How to Create Categories in Pandas](https://www.youtube.com/watch?v=yjCtRmc4D7Q)
+
+**دامنهٔ دیدن:** فقط ساخت category و ordered categories را دنبال کنید. pd.cut، دسته‌بندی بازه‌ای و بخش Category Analysis بیرون از کار این درس‌اند.
 
 </details>
 

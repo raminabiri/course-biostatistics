@@ -14,7 +14,7 @@
 ۱. `File > Import Data > CSV Data` را باز کنید و `data/M01_uti.csv` را برگزینید. اگر مسیر منو در نسخهٔ شما فرق دارد، از پنجرهٔ Open Data و نوع فایل CSV وارد شوید.
 ۲. سطر نخست را نام ستون‌ها و جداکننده را comma بگذارید. در پیش‌نمایش، هر بیمار باید یک سطر باشد.
 ۳. در `Data View` شمار سطرها و در `Variable View` شمار متغیرها را ببینید: ۳۰ سطر و ۱۲ ستون.
-۴. برای اجرای تکرارپذیر، [Syntax کامل](spss/M01_walkthrough.sps) را باز کنید، خط `CD` را به پوشهٔ data روی رایانهٔ خود تغییر دهید و `Run > All` را بزنید. خروجی‌های SAV در همان پوشه ساخته می‌شوند.
+۴. برای اجرای تکرارپذیر، [Syntax کامل](spss/M01_walkthrough.sps) را باز کنید، خط `CD` را به پوشهٔ data روی کامپیوترٔ خود تغییر دهید و `Run > All` را بزنید. خروجی‌های SAV در همان پوشه ساخته می‌شوند.
 
 ```spss
 DISPLAY DICTIONARY.
@@ -45,10 +45,10 @@ Prism را برای خواندن مقدارهای یک کمیت و رسم نمو
 از پوشهٔ `r/` اجرا کنید:
 
 ```r
-d <- read.csv("../data/M01_uti.csv")
-dim(d)                    # 30 12
-length(unique(d$id))      # 30
-anyDuplicated(d$id)       # 0: no duplicate ID
+d <- read.csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+dim(d)  # شمار سطر و ستون
+length(unique(d$id))  # شمار یا فهرست شناسه‌های یکتا
+anyDuplicated(d$id)  # بررسی کلید تکراری
 ```
 
 `dim` دو عدد سطر و ستون را می‌دهد. `unique` شناسه‌های بی‌تکرار را نگه می‌دارد. یکتایی شناسه شرط لازم ساختار این جدول است و استقلال بیماران را ثابت نمی‌کند.
@@ -58,11 +58,11 @@ anyDuplicated(d$id)       # 0: no duplicate ID
 از پوشهٔ `python/` اجرا کنید:
 
 ```python
-import pandas as pd
-d = pd.read_csv("../data/M01_uti.csv")
-print(d.shape)                 # (30, 12)
-print(d["id"].nunique())        # 30
-print(d["id"].duplicated().sum()) # 0
+import pandas as pd  # آماده‌کردن ابزار لازم
+d = pd.read_csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+print(d.shape)  # شمار سطر و ستون
+print(d["id"].nunique())  # شمار یا فهرست شناسه‌های یکتا
+print(d["id"].duplicated().sum())  # بررسی کلید تکراری
 ```
 
 `shape` اندازهٔ جدول است؛ `nunique` خانه‌های خالی را در شمار شناسه‌های یکتا نمی‌آورد. خالی‌بودن شناسه را جدا با `isna` بررسی کنید.
@@ -102,11 +102,11 @@ FREQUENCIES VARIABLES=ward severity.
 ### R
 
 ```r
-d$ward <- factor(d$ward, levels=c(1,2,3),
-                 labels=c("Internal","Surgery","ICU"))
-d$severity <- factor(d$severity, levels=c(1,2,3),
-                     labels=c("Mild","Moderate","Severe"), ordered=TRUE)
-table(d$ward, useNA="ifany")
+d$ward <- factor(d$ward, levels=c(1,2,3),  # تعریف رده‌های داده
+                 labels=c("Internal","Surgery","ICU"))  # نام نمایشی رده‌ها
+d$severity <- factor(d$severity, levels=c(1,2,3),  # تعریف رده‌های داده
+                     labels=c("Mild","Moderate","Severe"), ordered=TRUE)  # نام نمایشی رده‌ها
+table(d$ward, useNA="ifany")  # شمار هر رده
 levels(d$severity)
 is.ordered(d$severity)
 ```
@@ -116,10 +116,10 @@ is.ordered(d$severity)
 ### Python
 
 ```python
-d["ward"] = pd.Categorical(d["ward"], categories=[1, 2, 3])
-d["severity"] = pd.Categorical(d["severity"], categories=[1, 2, 3], ordered=True)
-print(d["severity"].cat.ordered)  # True
-print(d["ward"].value_counts(sort=False, dropna=False))
+d["ward"] = pd.Categorical(d["ward"], categories=[1, 2, 3])  # تعریف رده‌های داده
+d["severity"] = pd.Categorical(d["severity"], categories=[1, 2, 3], ordered=True)  # تعریف رده‌های داده
+print(d["severity"].cat.ordered)  # نمایش نتیجه در خروجی
+print(d["ward"].value_counts(sort=False, dropna=False))  # شمار هر رده
 ```
 
 `ordered=True` ترتیب را ثبت می‌کند. این کد فقط نمونهٔ کوچک را پوشش می‌دهد؛ در بانک نیز دامنهٔ کدها را پیش از تبدیل بسنجید. متن‌شدن ستون معادل تعریف نوع ترتیبی نیست.
@@ -157,11 +157,11 @@ Power Query در تبدیل، خانه‌های null را کنار می‌گذا
 ### R
 
 ```r
-w <- read.csv("../data/M01_crp_wide.csv")
-l <- reshape(w, direction="long", varying=c("crp_d0","crp_d3","crp_d7"),
+w <- read.csv("../data/M01_crp_wide.csv")  # خواندن فایل و ساخت جدول
+l <- reshape(w, direction="long", varying=c("crp_d0","crp_d3","crp_d7"),  # تبدیل جدول پهن به بلند
              v.names="crp", timevar="day", times=c(0,3,7), idvar="id")
-l <- l[order(l$id, l$day), ]
-stopifnot(nrow(l)==24, !anyDuplicated(l[c("id","day")]))
+l <- l[order(l$id, l$day), ]  # نگه‌داشتن مقدار با یک نام
+stopifnot(nrow(l)==24, !anyDuplicated(l[c("id","day")]))  # بررسی شرط درستی داده
 ```
 
 `idvar` فرد و `times` زمان واقعی را معرفی می‌کند. پیش از تبدیل، id در جدول پهن باید یکتا باشد.
@@ -169,12 +169,12 @@ stopifnot(nrow(l)==24, !anyDuplicated(l[c("id","day")]))
 ### Python
 
 ```python
-w = pd.read_csv("../data/M01_crp_wide.csv")
-l = w.melt(id_vars="id", var_name="day", value_name="crp")
-l["day"] = l["day"].str.replace("crp_d", "", regex=False).astype(int)
-assert l.shape == (24, 3)
-assert not l.duplicated(["id", "day"]).any()
-back = l.pivot(index="id", columns="day", values="crp")
+w = pd.read_csv("../data/M01_crp_wide.csv")  # خواندن فایل و ساخت جدول
+l = w.melt(id_vars="id", var_name="day", value_name="crp")  # تبدیل جدول پهن به بلند
+l["day"] = l["day"].str.replace("crp_d", "", regex=False).astype(int)  # برداشتن پیشوند و ساخت روز عددی
+assert l.shape == (24, 3)  # بررسی شرط درستی داده
+assert not l.duplicated(["id", "day"]).any()  # بررسی شرط درستی داده
+back = l.pivot(index="id", columns="day", values="crp")  # بازگرداندن روزها به ستون
 ```
 
 `melt` خانه‌های خالی را هم نگه می‌دارد. `pivot` برای کلید تکراری خطا می‌دهد؛ آن را با میانگین‌گیری بی‌دلیل پنهان نکنید.
@@ -209,16 +209,16 @@ CRP دارای ۲ گمشده و ۲۸ مقدار معتبر، WBC دارای ۱ �
 
 ### GraphPad Prism
 
-برای گمشده خانه را خالی بگذارید؛ صفر یا ‎-99 را به‌جای آن وارد نکنید. ستون CRP پاک‌شده را وارد جدول Column کنید؛ در `Analyze > Column statistics` شمار مقدارها و میانگین را ببینید. شمار مقدارها باید ۲۸ باشد. [راهنمای رسمی گمشده در Prism](https://www.graphpad.com/guides/prism/latest/user-guide/missing_values.htm) همین رفتار خانهٔ خالی را توضیح می‌دهد. شمارش گمشده را با ۳۰ فرد فایل مادر بسنجید؛ نمودار به‌تنهایی شمار افراد کنارگذاشته‌شده را نشان نمی‌دهد.
+برای گمشده خانه را خالی بگذارید؛ صفر یا ‎-99 را به‌جای آن وارد نکنید. ستون CRP پاک‌شده را وارد جدول Column کنید؛ در `Analyze > Column statistics` شمار مقدارها و میانگین را ببینید. شمار مقدارها باید ۲۸ باشد. راهنمای رسمی گمشده در Prism همین رفتار خانهٔ خالی را توضیح می‌دهد. شمارش گمشده را با ۳۰ فرد فایل مادر بسنجید؛ نمودار به‌تنهایی شمار افراد کنارگذاشته‌شده را نشان نمی‌دهد.
 
 ### R
 
 ```r
-d <- read.csv("../data/M01_uti.csv")
-raw_mean <- mean(d$crp)
-d$crp[d$crp == -99] <- NA
-c(raw_mean=raw_mean, valid=sum(!is.na(d$crp)), missing=sum(is.na(d$crp)),
-  clean_mean=mean(d$crp, na.rm=TRUE))
+d <- read.csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+raw_mean <- mean(d$crp)  # به‌دست‌آوردن میانگین
+d$crp[d$crp == -99] <- NA  # نگه‌داشتن مقدار با یک نام
+c(raw_mean=raw_mean, valid=sum(!is.na(d$crp)), missing=sum(is.na(d$crp)),  # شناخت خانه‌های گمشده
+  clean_mean=mean(d$crp, na.rm=TRUE))  # به‌دست‌آوردن میانگین
 ```
 
 میانگین خام ۳۵٫۱ و میانگین پاک‌شده ۴۴٫۶۷۸۵۷ است. `na.rm=TRUE` خانهٔ گمشده را از محاسبه کنار می‌گذارد؛ این گزینه راه درمان سوگیری گمشدگی نیست.
@@ -226,10 +226,10 @@ c(raw_mean=raw_mean, valid=sum(!is.na(d$crp)), missing=sum(is.na(d$crp)),
 ### Python
 
 ```python
-d = pd.read_csv("../data/M01_uti.csv")
-raw_mean = d["crp"].mean()
-d["crp"] = d["crp"].mask(d["crp"].eq(-99))
-print(raw_mean, d["crp"].count(), d["crp"].isna().sum(), d["crp"].mean())
+d = pd.read_csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+raw_mean = d["crp"].mean()  # به‌دست‌آوردن میانگین
+d["crp"] = d["crp"].mask(d["crp"].eq(-99))  # تبدیل کد ویژه به گمشده
+print(raw_mean, d["crp"].count(), d["crp"].isna().sum(), d["crp"].mean())  # شناخت خانه‌های گمشده
 ```
 
 میانگین در pandas به‌طور پیش‌فرض گمشده‌ها را کنار می‌گذارد؛ شمار معتبر و گمشده را خودتان بنویسید. نوع نشانهٔ گمشده با نوع ستون فرق دارد؛ NA، NaN و NaT همه در یک نقش و نوع نیستند.

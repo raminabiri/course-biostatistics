@@ -3,9 +3,9 @@
 [بازگشت به تمرین‌ها](../python/README.md)
 
 ```python
-print(uti["ward"].cat.codes.add(1).mean())   # کدهای 0،1،2 ← 1،2،3
-print(uti["ward"].value_counts(sort=False))
-print(uti["organism"].value_counts(sort=False))
+print(uti["ward"].cat.codes.add(1).mean())  # به‌دست‌آوردن میانگین
+print(uti["ward"].value_counts(sort=False))  # شمار هر رده
+print(uti["organism"].value_counts(sort=False))  # شمار هر رده
 ```
 ```
 1.8

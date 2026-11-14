@@ -2,12 +2,12 @@
 
 > **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
 
-[← ماژول M01](../README.md) | [صفحهٔ مسیر Excel](../../../tracks/excel.md)
+← ماژول M01 | صفحهٔ مسیر Excel
 
-**پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md).
+**پیش‌نیاز:** درس‌های نظری ۱.۱ تا ۱.۴.
 **فایل‌ها:**
-- [`M01_excel_practice.xlsx`](M01_excel_practice.xlsx): داده‌ها + برگهٔ `answers` برای نوشتن جواب‌های شما
-- [`M01_excel_solutions.xlsx`](M01_excel_solutions.xlsx): همهٔ جواب‌ها با **فرمول‌های واقعی** (همهٔ فرمول‌ها با LibreOffice محاسبه و با جواب‌های R و Python مقایسه شده‌اند)
+- `M01_excel_practice.xlsx`: داده‌ها + برگهٔ `answers` برای نوشتن جواب‌های شما
+- `M01_excel_solutions.xlsx`: همهٔ جواب‌ها با **فرمول‌های واقعی** (همهٔ فرمول‌ها با LibreOffice محاسبه و با جواب‌های R و Python مقایسه شده‌اند)
 
 **نسخه:** Excel برای Microsoft 365 یا Excel 2021. فرمول‌های این ماژول در Excel 2016 و LibreOffice Calc هم کار می‌کنند. Power Query (گام ۶) در Excel 2016 به بعد ویندوز و Microsoft 365 مک وجود دارد.
 
@@ -128,7 +128,7 @@ C2: =INDEX(crp_wide!$B$2:$D$9, INT((ROW()-2)/3)+1, MOD(ROW()-2,3)+1)     (crp)
 
 ### حل تمرین‌ها
 
-همهٔ فرمول‌ها در برگهٔ `solutions` فایل [`M01_excel_solutions.xlsx`](M01_excel_solutions.xlsx) آمده‌اند.
+همهٔ فرمول‌ها در برگهٔ `solutions` فایل `M01_excel_solutions.xlsx` آمده‌اند.
 
 [پاسخ 1](../solutions/excel-P01.md)
 

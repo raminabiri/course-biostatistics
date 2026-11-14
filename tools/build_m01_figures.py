@@ -45,4 +45,46 @@ def build():
         parts += [text(25,535,'SCHEMATIC ONLY - menu positions vary by version.',16,fill='#50677f'),'</g></svg>']
         (OUT/f'{filename}.svg').write_text(''.join(parts),encoding='utf-8')
 
-if __name__ == '__main__': build()
+
+
+def render_png():
+    """Render the SVG source with local librsvg/cairo for Markdown readers."""
+    import ctypes as C
+    from ctypes.util import find_library
+    rsvg = C.CDLL(find_library('rsvg-2'))
+    cairo = C.CDLL('/lib/x86_64-linux-gnu/libcairo.so.2')
+    gobject = C.CDLL(find_library('gobject-2.0'))
+    rsvg.rsvg_handle_new_from_file.argtypes = [C.c_char_p, C.c_void_p]
+    rsvg.rsvg_handle_new_from_file.restype = C.c_void_p
+    rsvg.rsvg_handle_render_cairo.argtypes = [C.c_void_p, C.c_void_p]
+    rsvg.rsvg_handle_render_cairo.restype = C.c_int
+    cairo.cairo_image_surface_create.argtypes = [C.c_int, C.c_int, C.c_int]
+    cairo.cairo_image_surface_create.restype = C.c_void_p
+    cairo.cairo_create.argtypes = [C.c_void_p]
+    cairo.cairo_create.restype = C.c_void_p
+    cairo.cairo_scale.argtypes = [C.c_void_p, C.c_double, C.c_double]
+    cairo.cairo_surface_write_to_png.argtypes = [C.c_void_p, C.c_char_p]
+    cairo.cairo_surface_write_to_png.restype = C.c_int
+    cairo.cairo_destroy.argtypes = [C.c_void_p]
+    cairo.cairo_surface_destroy.argtypes = [C.c_void_p]
+    gobject.g_object_unref.argtypes = [C.c_void_p]
+    for svg in OUT.glob('*.svg'):
+        handle = rsvg.rsvg_handle_new_from_file(str(svg).encode(), None)
+        if not handle: raise RuntimeError(f'Cannot load {svg}')
+        surface = cairo.cairo_image_surface_create(0, 2000, 1120)
+        context = cairo.cairo_create(surface)
+        try:
+            cairo.cairo_scale(context, 2.0, 2.0)
+            if not rsvg.rsvg_handle_render_cairo(handle, context):
+                raise RuntimeError(f'Cannot render {svg}')
+            if cairo.cairo_surface_write_to_png(surface, str(svg.with_suffix('.png')).encode()) != 0:
+                raise RuntimeError(f'Cannot save {svg}')
+        finally:
+            cairo.cairo_destroy(context)
+            cairo.cairo_surface_destroy(surface)
+            gobject.g_object_unref(handle)
+
+
+if __name__ == '__main__':
+    build()
+    render_png()

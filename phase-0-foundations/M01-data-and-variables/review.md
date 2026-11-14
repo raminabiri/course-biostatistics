@@ -65,3 +65,8 @@
 ---
 
 **ماژول بعدی:** M02 — ریاضیات پیش‌نیاز (در دست تهیه). نقشهٔ کامل: [SYLLABUS.md](../../SYLLABUS.md)
+
+
+---
+
+[درس پیش: خانهٔ خالی و خطای سنجش](lessons/L4-missing-data-and-measurement-error.md) | [درس بعد: ماژول M02](../M02-math-prerequisites/README.md)

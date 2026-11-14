@@ -3,8 +3,8 @@
 [بازگشت به تمرین‌ها](../python/README.md)
 
 ```python
-uti.to_pickle("M01_uti_labeled.pkl")
-print(pd.read_pickle("M01_uti_labeled.pkl").dtypes)
+uti.to_pickle("M01_uti_labeled.pkl")  # ذخیرهٔ جدول همراه نوع ستون
+print(pd.read_pickle("M01_uti_labeled.pkl").dtypes)  # دیدن نوع ستون‌ها
 ```
 همهٔ ستون‌های `category` و `crp` با نوع `Float64` سر جایشان هستند. **بله، مانده‌اند.**
 

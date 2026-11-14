@@ -2,10 +2,10 @@
 
 > **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
 
-[← ماژول M01](../README.md) | [صفحهٔ مسیر Python](../../../tracks/python.md)
+← ماژول M01 | صفحهٔ مسیر Python
 
-**پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md) و نصب Python + pandas ([صفحهٔ مسیر](../../../tracks/python.md)).
-**فایل‌ها:** [`M01_walkthrough.py`](M01_walkthrough.py) (آموزش گام‌به‌گام) و [`M01_solutions.py`](M01_solutions.py) (حل تمرین‌ها). هر دو با Python 3 و pandas 2.3 اجرا و خروجی‌ها کنترل شده‌اند. در این گام روی pandas 2.3.3 اجرا شده‌اند؛ سازگاری با نسخه‌های دیگر باید در همان محیط سنجیده شود.
+**پیش‌نیاز:** درس‌های نظری ۱.۱ تا ۱.۴ و نصب Python + pandas (صفحهٔ مسیر).
+**فایل‌ها:** `M01_walkthrough.py` (آموزش گام‌به‌گام) و `M01_solutions.py` (حل تمرین‌ها). هر دو با Python 3 و pandas 2.3 اجرا و خروجی‌ها کنترل شده‌اند. در این گام روی pandas 2.3.3 اجرا شده‌اند؛ سازگاری با نسخه‌های دیگر باید در همان محیط سنجیده شود.
 **اجرا:** از داخل پوشهٔ `python/` (چون مسیر داده `../data/` است): `python M01_walkthrough.py`، یا سلول‌به‌سلول در VS Code (هر `# %%` یک سلول).
 
 ---
@@ -13,11 +13,11 @@
 ## مقدمهٔ خیلی کوتاه Python/pandas برای تازه‌کارها
 
 ```python
-x = 5                     # مقدار 5 را در x بگذار
-v = [3, 7, 2]             # فهرست
-import pandas as pd       # بارگذاری کتابخانه با نام کوتاه pd
+x = 5  # نگه‌داشتن مقدار با یک نام
+v = [3, 7, 2]  # نگه‌داشتن مقدار با یک نام
+import pandas as pd  # آماده‌کردن ابزار لازم
 d["age"]                  # ستون age از جدول (DataFrame) به نام d
-d["age"].mean()           # «متد»: تابعی که به یک شیء چسبیده است
+d["age"].mean()  # به‌دست‌آوردن میانگین
 ```
 
 در pandas یک **DataFrame** همان جدول دادهٔ مرتب است: هر ستون یک متغیر، هر سطر یک رکورد.
@@ -29,9 +29,9 @@ d["age"].mean()           # «متد»: تابعی که به یک شیء چسب�
 ### گام ۱ — خواندن داده (درس ۱.۱)
 
 ```python
-uti = pd.read_csv("../data/M01_uti.csv")
-print(uti.shape)    # (30, 12)
-print(uti.dtypes)
+uti = pd.read_csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+print(uti.shape)  # شمار سطر و ستون
+print(uti.dtypes)  # دیدن نوع ستون‌ها
 ```
 
 `dtypes` نشان می‌دهد pandas هر ستون را چه دیده است: `sex` و `ward` ← `int64` (عدد!)، `organism` ← `object` (متن؛ در pandas 3 به‌صورت `str` نمایش داده می‌شود)، `crp` ← `float64` با ‎-99 به‌عنوان یک عدد واقعی.
@@ -45,12 +45,12 @@ print(uti.dtypes)
 | کمّی | `float64` / `int64` — همان‌طور بماند |
 
 ```python
-uti["ward"] = pd.Categorical(
-    uti["ward"].map({1: "Internal", 2: "Surgery", 3: "ICU"}),
-    categories=["Internal", "Surgery", "ICU"])
-uti["severity"] = pd.Categorical(
-    uti["severity"].map({1: "Mild", 2: "Moderate", 3: "Severe"}),
-    categories=["Mild", "Moderate", "Severe"], ordered=True)
+uti["ward"] = pd.Categorical(  # تعریف رده‌های داده
+    uti["ward"].map({1: "Internal", 2: "Surgery", 3: "ICU"}),  # پیوند کد با نام رده
+    categories=["Internal", "Surgery", "ICU"])  # تعیین رده‌ها و ترتیب آن‌ها
+uti["severity"] = pd.Categorical(  # تعریف رده‌های داده
+    uti["severity"].map({1: "Mild", 2: "Moderate", 3: "Severe"}),  # پیوند کد با نام رده
+    categories=["Mild", "Moderate", "Severe"], ordered=True)  # تعیین رده‌ها و ترتیب آن‌ها
 ```
 
 - `.map({کد: برچسب})` همان **برچسب مقدار** SPSS است.
@@ -60,9 +60,9 @@ uti["severity"] = pd.Categorical(
 ### گام ۳ — کد گمشده ← `NA` (درس ۱.۴)
 
 ```python
-print(uti["crp"].describe())                  # min = -99 ← علامت خطر
-uti["crp"] = uti["crp"].replace(-99, pd.NA).astype("Float64")
-print(uti.isna().sum())                       # تعداد گمشده در هر ستون
+print(uti["crp"].describe())  # نمایش نتیجه در خروجی
+uti["crp"] = uti["crp"].replace(-99, pd.NA).astype("Float64")  # تبدیل کد ویژه به گمشده
+print(uti.isna().sum())  # شناخت خانه‌های گمشده
 ```
 
 - خانهٔ خالی `wbc` را `read_csv` خودش `NaN` کرده است.
@@ -72,9 +72,9 @@ print(uti.isna().sum())                       # تعداد گمشده در هر 
 ### گام ۴ — کد عددی ≠ عدد
 
 ```python
-raw = pd.read_csv("../data/M01_uti.csv")
-print(raw["ward"].mean())                         # 1.8 ← بی‌معنا
-print(uti["ward"].value_counts(sort=False))       # خلاصهٔ درست
+raw = pd.read_csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+print(raw["ward"].mean())  # به‌دست‌آوردن میانگین
+print(uti["ward"].value_counts(sort=False))  # شمار هر رده
 ```
 
 پس از تبدیل به `category`، `uti["ward"].mean()` خطا می‌دهد: pandas از شما در برابر این اشتباه محافظت می‌کند.
@@ -82,10 +82,10 @@ print(uti["ward"].value_counts(sort=False))       # خلاصهٔ درست
 ### گام ۵ — پهن به بلند با `melt` (درس ۱.۳)
 
 ```python
-wide = pd.read_csv("../data/M01_crp_wide.csv")
-long = wide.melt(id_vars="id", var_name="day", value_name="crp")
-long["day"] = long["day"].str.replace("crp_d", "").astype(int)
-print(long.shape)   # (24, 3)
+wide = pd.read_csv("../data/M01_crp_wide.csv")  # خواندن فایل و ساخت جدول
+long = wide.melt(id_vars="id", var_name="day", value_name="crp")  # تبدیل جدول پهن به بلند
+long["day"] = long["day"].str.replace("crp_d", "").astype(int)  # برداشتن پیشوند و ساخت روز عددی
+print(long.shape)  # شمار سطر و ستون
 ```
 
 `id_vars`: ستونی که ثابت می‌ماند؛ بقیهٔ ستون‌ها زیر هم می‌روند. نام ستون‌ها (`crp_d0`، ...) در ستون `day` قرار می‌گیرد و با `str.replace` به عدد روز تبدیل می‌شود. (عکس آن: `long.pivot(index="id", columns="day", values="crp")`.)
@@ -93,8 +93,8 @@ print(long.shape)   # (24, 3)
 ### گام ۶ — ذخیره با نگه‌داشتن نوع ستون‌ها
 
 ```python
-uti.to_pickle("M01_uti_labeled.pkl")
-uti = pd.read_pickle("M01_uti_labeled.pkl")
+uti.to_pickle("M01_uti_labeled.pkl")  # ذخیرهٔ جدول همراه نوع ستون
+uti = pd.read_pickle("M01_uti_labeled.pkl")  # بازخوانی جدول ذخیره‌شده
 ```
 
 `to_csv` همهٔ category ها را به متن تبدیل می‌کند و ترتیب `severity` از دست می‌رود؛ pickle همه‌چیز را نگه می‌دارد. (برای اشتراک‌گذاری بین زبان‌ها، قالب Parquet با کتابخانهٔ `pyarrow` هم مناسب است.)
@@ -117,7 +117,7 @@ uti = pd.read_pickle("M01_uti_labeled.pkl")
 
 ### حل تمرین‌ها
 
-کد کامل: [`M01_solutions.py`](M01_solutions.py)
+کد کامل: `M01_solutions.py`
 
 [پاسخ 1](../solutions/python-P01.md)
 

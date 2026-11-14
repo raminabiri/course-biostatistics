@@ -3,7 +3,7 @@
 [بازگشت به تمرین‌ها](../python/README.md)
 
 ```python
-print(pd.crosstab(uti["sex"], uti["cipro_res"]))
+print(pd.crosstab(uti["sex"], uti["cipro_res"]))  # نمایش نتیجه در خروجی
 ```
 ```
 cipro_res  Resistant  Susceptible

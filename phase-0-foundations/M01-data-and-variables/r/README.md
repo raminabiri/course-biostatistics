@@ -2,20 +2,20 @@
 
 > **اگر از صفر آغاز می‌کنید، [نخستین جدول را اینجا بسازید](START.md).** این صفحه برای کارهای پس از آشنایی نخست است.
 
-[← ماژول M01](../README.md) | [صفحهٔ مسیر R](../../../tracks/r.md)
+← ماژول M01 | صفحهٔ مسیر R
 
-**پیش‌نیاز:** درس‌های نظری [۱.۱ تا ۱.۴](../README.md) و نصب R + RStudio ([صفحهٔ مسیر](../../../tracks/r.md)).
-**فایل‌ها:** [`M01_walkthrough.R`](M01_walkthrough.R) (آموزش گام‌به‌گام) و [`M01_solutions.R`](M01_solutions.R) (حل تمرین‌ها). هر دو با R 4.6 اجرا و خروجی‌ها کنترل شده‌اند. فقط R پایه لازم است.
+**پیش‌نیاز:** درس‌های نظری ۱.۱ تا ۱.۴ و نصب R + RStudio (صفحهٔ مسیر).
+**فایل‌ها:** `M01_walkthrough.R` (آموزش گام‌به‌گام) و `M01_solutions.R` (حل تمرین‌ها). هر دو با R 4.6 اجرا و خروجی‌ها کنترل شده‌اند. فقط R پایه لازم است.
 
 ---
 
 ## مقدمهٔ خیلی کوتاه R برای تازه‌کارها
 
 ```r
-x <- 5              # «<-» یعنی مقدار 5 را در x بگذار
+x <- 5  # نگه‌داشتن مقدار با یک نام
 x * 2               # 10
-v <- c(3, 7, 2)     # c() چند مقدار را کنار هم می‌گذارد (بردار)
-mean(v)             # تابع: نام(ورودی)
+v <- c(3, 7, 2)  # نگه‌داشتن مقدار با یک نام
+mean(v)  # به‌دست‌آوردن میانگین
 d$age               # ستون age از جدول (data frame) به نام d
 ?mean               # راهنمای هر تابع
 ```
@@ -29,9 +29,9 @@ d$age               # ستون age از جدول (data frame) به نام d
 ### گام ۱ — خواندن داده (درس ۱.۱)
 
 ```r
-uti <- read.csv("../data/M01_uti.csv")
-dim(uti)        # [1] 30 12
-str(uti)
+uti <- read.csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+dim(uti)  # شمار سطر و ستون
+str(uti)  # دیدن نوع ستون‌ها
 ```
 
 `str()` نشان می‌دهد R هر ستون را چه دیده است:
@@ -53,11 +53,11 @@ R فکر می‌کند `sex` یک عدد صحیح (`int`) است و ‎-99 یک 
 | کمّی | `numeric` (اعشاری) یا `integer` (صحیح) — همان‌طور بماند |
 
 ```r
-uti$ward <- factor(uti$ward, levels = c(1, 2, 3),
-                   labels = c("Internal", "Surgery", "ICU"))
-uti$severity <- factor(uti$severity, levels = c(1, 2, 3),
-                       labels = c("Mild", "Moderate", "Severe"),
-                       ordered = TRUE)
+uti$ward <- factor(uti$ward, levels = c(1, 2, 3),  # تعریف رده‌های داده
+                   labels = c("Internal", "Surgery", "ICU"))  # نگه‌داشتن مقدار با یک نام
+uti$severity <- factor(uti$severity, levels = c(1, 2, 3),  # تعریف رده‌های داده
+                       labels = c("Mild", "Moderate", "Severe"),  # نگه‌داشتن مقدار با یک نام
+                       ordered = TRUE)  # نگه‌داشتن مقدار با یک نام
 ```
 
 - `levels`: کدهای موجود در داده؛ `labels`: نام هر کد (همان **برچسب مقدار** SPSS).
@@ -67,8 +67,8 @@ uti$severity <- factor(uti$severity, levels = c(1, 2, 3),
 
 ```r
 summary(uti$crp)               # Min = -99 ← علامت خطر
-uti$crp[uti$crp == -99] <- NA  # «هر جا crp برابر -99 است، NA بگذار»
-colSums(is.na(uti))            # تعداد NA در هر ستون
+uti$crp[uti$crp == -99] <- NA  # نگه‌داشتن مقدار با یک نام
+colSums(is.na(uti))  # شناخت خانه‌های گمشده
 ```
 
 خانهٔ خالی `wbc` را `read.csv` خودش `NA` کرده است. بیشتر توابع R با دیدن `NA` جواب `NA` می‌دهند تا شما آگاهانه تصمیم بگیرید: `mean(uti$crp)` ← `NA`، ولی `mean(uti$crp, na.rm = TRUE)` ← 44.68.
@@ -76,9 +76,9 @@ colSums(is.na(uti))            # تعداد NA در هر ستون
 ### گام ۴ — کد عددی ≠ عدد
 
 ```r
-raw <- read.csv("../data/M01_uti.csv")
-mean(raw$ward)     # [1] 1.8   ← بی‌معنا
-table(uti$ward)    # خلاصهٔ درست
+raw <- read.csv("../data/M01_uti.csv")  # خواندن فایل و ساخت جدول
+mean(raw$ward)  # به‌دست‌آوردن میانگین
+table(uti$ward)  # شمار هر رده
 ```
 
 پس از تبدیل به factor، دستور `mean(uti$ward)` هشدار می‌دهد و `NA` برمی‌گرداند: R از شما در برابر این اشتباه محافظت می‌کند.
@@ -86,12 +86,12 @@ table(uti$ward)    # خلاصهٔ درست
 ### گام ۵ — پهن به بلند (درس ۱.۳)
 
 ```r
-wide <- read.csv("../data/M01_crp_wide.csv")
-long <- reshape(wide, direction = "long",
-                varying = c("crp_d0", "crp_d3", "crp_d7"),
+wide <- read.csv("../data/M01_crp_wide.csv")  # خواندن فایل و ساخت جدول
+long <- reshape(wide, direction = "long",  # تبدیل جدول پهن به بلند
+                varying = c("crp_d0", "crp_d3", "crp_d7"),  # نگه‌داشتن مقدار با یک نام
                 v.names = "crp", timevar = "day", times = c(0, 3, 7),
-                idvar = "id")
-dim(long)   # [1] 24  3
+                idvar = "id")  # نگه‌داشتن مقدار با یک نام
+dim(long)  # شمار سطر و ستون
 ```
 
 `varying`: ستون‌هایی که باید زیر هم بروند؛ `v.names`: نام ستون مقدار؛ `timevar`/`times`: نام و مقادیر ستون زمان؛ `idvar`: شناسهٔ واحد. روش کوتاه‌تر با بستهٔ `tidyr` در فایل حل آمده است.
@@ -99,8 +99,8 @@ dim(long)   # [1] 24  3
 ### گام ۶ — ذخیره با حفظ factor ها
 
 ```r
-saveRDS(uti, "M01_uti_labeled.rds")
-uti <- readRDS("M01_uti_labeled.rds")
+saveRDS(uti, "M01_uti_labeled.rds")  # ذخیرهٔ جدول همراه نوع ستون
+uti <- readRDS("M01_uti_labeled.rds")  # بازخوانی جدول ذخیره‌شده
 ```
 
 `write.csv` همهٔ factor ها را به متن تبدیل می‌کند و ترتیب `severity` از دست می‌رود؛ فایل `.rds` همه‌چیز را نگه می‌دارد (معادل `.sav` در SPSS).
@@ -123,7 +123,7 @@ uti <- readRDS("M01_uti_labeled.rds")
 
 ### حل تمرین‌ها
 
-کد کامل: [`M01_solutions.R`](M01_solutions.R)
+کد کامل: `M01_solutions.R`
 
 [پاسخ 1](../solutions/r-P01.md)
 

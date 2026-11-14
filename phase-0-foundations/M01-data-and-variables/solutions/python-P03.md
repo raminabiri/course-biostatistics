@@ -3,11 +3,11 @@
 [بازگشت به تمرین‌ها](../python/README.md)
 
 ```python
-print(round(uti["crp"].mean(), 2))                     # پیش از تبدیل
-uti["crp"] = uti["crp"].replace(-99, pd.NA).astype("Float64")
-print(uti["crp"].notna().sum())
-print(round(float(uti["crp"].mean()), 2))              # پس از تبدیل
-print(uti["wbc"].isna().sum())
+print(round(uti["crp"].mean(), 2))  # به‌دست‌آوردن میانگین
+uti["crp"] = uti["crp"].replace(-99, pd.NA).astype("Float64")  # تبدیل کد ویژه به گمشده
+print(uti["crp"].notna().sum())  # شناخت مقدارهای پر
+print(round(float(uti["crp"].mean()), 2))  # به‌دست‌آوردن میانگین
+print(uti["wbc"].isna().sum())  # شناخت خانه‌های گمشده
 ```
 ```
 35.1

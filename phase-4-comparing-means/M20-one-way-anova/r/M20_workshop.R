@@ -1,0 +1,13 @@
+d <- read.csv("data/practice.csv")
+d$group <- factor(d$group)
+fit <- aov(value ~ group,d)
+cat("L1:\n"); print(summary(fit))
+cat("L2:\n"); print(oneway.test(value~group,d))
+g <- split(d$value,d$group)
+n <- lengths(g); s2 <- sapply(g,var); m <- sapply(g,mean)
+v <- (1-n/sum(n))*s2
+bf <- sum(n*(m-weighted.mean(m,n))^2)/sum(v)
+df <- sum(v)^2/sum(v^2/(n-1))
+cat("Brown-Forsythe:",bf,pf(bf,2,df,lower.tail=FALSE),"\n")
+cat("L3 contrast:",m[3]-m[1],"\n"); print(TukeyHSD(fit))
+print(p.adjust(pairwise.t.test(d$value,d$group,p.adjust.method="none")$p.value,"holm"))

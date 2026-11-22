@@ -1,0 +1,5 @@
+a <- c(47,50,51,53,55,56,59,61)
+b <- c(45,46,48,49,50,52,54,57)
+w <- t.test(a,b,var.equal=FALSE)
+s <- t.test(a,b,var.equal=TRUE)
+cat("L1:",w$statistic,w$parameter,"\nL2:",s$statistic,s$p.value,"\nL3:",pt(w$statistic,w$parameter,lower.tail=FALSE),w$conf.int,"\n")

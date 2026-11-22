@@ -1,0 +1,13 @@
+d <- read.csv("data/practice.csv")
+block <- subset(d,design=="block")
+latin <- subset(d,design=="latin")
+cat("L1 block:\n"); print(anova(lm(value~factor(u)+factor(w),block)))
+cat("L1 Latin:\n"); print(anova(lm(value~factor(u)+factor(v)+factor(w),latin)))
+nested <- subset(d,design=="nested")
+a <- anova(lm(value~factor(u)/factor(v),nested))
+ff <- a[1,"Mean Sq"]/a[2,"Mean Sq"]
+vc <- (a[2,"Mean Sq"]-a[3,"Mean Sq"])/4
+cat("L2:",ff,pf(ff,1,4,lower.tail=FALSE),vc,"\n")
+cross <- subset(d,design=="cross")
+fit <- lm(value~factor(u)+period+w,cross)
+cat("L3:",coef(fit)["w"],anova(fit)["w","Pr(>F)"],"\n")

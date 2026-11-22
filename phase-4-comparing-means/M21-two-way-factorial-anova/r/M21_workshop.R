@@ -1,0 +1,5 @@
+d <- read.csv("data/practice.csv")
+small <- subset(d,c==0)
+cat("L1:\n"); print(anova(lm(value~factor(a)*factor(b),small)))
+cat("L2:",diff(tapply(subset(small,b==1)$value,subset(small,b==1)$a,mean)),"\n")
+cat("L3:\n"); print(anova(lm(value~factor(a)*factor(b)*factor(c),d)))

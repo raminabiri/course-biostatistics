@@ -1,19 +1,31 @@
+<div dir="rtl">
+
 # M09 — احتمال و قضیهٔ بیز
 
-از یک جدول ساختگی آزمون تشخیصی آغاز می‌کنیم و از روی همان جدول احتمال شرطی و ارزش اخباری را به دست می‌آوریم.
+با پنج برگهٔ آموزشی شروع کنید، سپس همان روش را روی **۱۱٬۰۰۰ رکورد ساختگی فردبه‌فرد** انجام دهید. در فایل تمرین، وضعیت مرجع و نتیجهٔ آزمون در هر سطر برای یک نفر ثبت شده است.
 
-۱. [فضای نمونه و شمارش رویداد](lessons/L1-events.md)  
-۲. [احتمال شرطی و استقلال](lessons/L2-conditional.md)  
-۳. [قضیهٔ بیز و آزمون تشخیصی](lessons/L3-bayes.md)
+| درس | کاری که انجام می‌دهید |
+|---|---|
+| [۹٫۱ — از شمار افراد به احتمال](lessons/L1-events.md) | از سطرهای فردی جدول چهارخانه بسازید و «و» را از «یا» جدا کنید. |
+| [۹٫۲ — احتمال شرطی](lessons/L2-conditional.md) | در یک خانه، فرق مخرج سطر و ستون را پیدا کنید. |
+| [۹٫۳ — قضیهٔ بیز](lessons/L3-bayes.md) | دو جمعیت را جدا بشمارید و نتیجهٔ بیز را با شمار واقعی فایل مقایسه کنید. |
 
-[دادهٔ تمرین](data/M09_screening.csv) · [تمرین‌ها](exercises/README.md) · [پاسخ‌ها](solutions/README.md) · [روش نرم‌افزاری](software.md)
+## درس‌های عملی پنج نرم‌افزار
 
-[منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
+در هر مسیر سه درس جدا هست. یکی را انتخاب کنید و از درس اول همان ستون جلو بروید.
 
-[کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
+| نرم‌افزار | جدول از دادهٔ خام | احتمال شرطی | قضیهٔ بیز |
+|---|---|---|---|
+| Excel | [۱](excel/L01.md) | [۲](excel/L02.md) | [۳](excel/L03.md) |
+| SPSS | [۱](spss/L01.md) | [۲](spss/L02.md) | [۳](spss/L03.md) |
+| GraphPad Prism | [۱](prism/L01.md) | [۲](prism/L02.md) | [۳](prism/L03.md) |
+| R | [۱](r/L01.md) | [۲](r/L02.md) | [۳](r/L03.md) |
+| Python | [۱](python/L01.md) | [۲](python/L02.md) | [۳](python/L03.md) |
 
-## خودآزمایی پایان ماژول
+[دانلود CSV فردبه‌فرد](data/M09_individuals.csv) · [راهنمای داده](data/README.md) · [تمرین روی فایل خام](exercises/individual-data.md) · [حل‌های تشریحی](solutions/individual-data.md) · [منابع نوشتاری و فیلم‌ها](references.md) · [اعتبارسنجی](VALIDATION.md)
 
-در [چهار سناریوی تازه](exercises/cases.md)، تغییر طرح نمونه‌گیری، شیوع و ویژگی را از هم جدا کنید و بعد [استدلال و محاسبهٔ حل‌ها](solutions/cases.md) را بخوانید.
+## تمرین و خودآزمایی
 
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[تمرین‌های درس ۱](exercises/L1.md) · [تمرین‌های درس ۲](exercises/L2.md) · [تمرین‌های درس ۳](exercises/L3.md) · [سناریوهای تغییر طرح و شیوع](exercises/cases.md)
+
+</div>

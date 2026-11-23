@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M09
 
 ## درس 9.1
@@ -50,3 +52,5 @@
 - فیلم. [جدول توافقی با pandas](https://www.youtube.com/watch?v=q1Koy2ngK8c)
 - دامنهٔ دیدن. متوسط. منظور از سطر و ستون را ببینید. فیلم از pandas است. اسکریپت کارگاه با csv خود Python اجرا می‌شود.
 - مرجع نوشتاری. [pandas، مستندات crosstab](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html)
+
+</div>

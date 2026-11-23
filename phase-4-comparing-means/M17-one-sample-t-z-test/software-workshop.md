@@ -2,6 +2,10 @@
 
 یکی از پنج مسیر را انتخاب کنید. همه با [هشت زمان انتظار](data/values.csv) کار می‌کنند. سطر اول فایل نام ستون `value` است و زمان‌ها به دقیقه‌اند. هدف ۵۰ دقیقه و σ معلوم در تمرین z برابر ۸ دقیقه است. اگر فایل را از GitHub باز کرده‌اید، فایل CSV و اسکریپت‌های مسیر انتخابی را دانلود کنید و پوشه‌بندی ماژول را نگه دارید. [آغاز دوره و راه‌اندازی نرم‌افزار](../../phase-0-foundations/M01-data-and-variables/START.md) · [فیلم و مرجع هر مسیر](references.md#software-media)
 
+**راهنمای خودآموز هر نرم‌افزار**
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
 <a id="lesson-1"></a>
 
 ## ۱. آزمون t تک‌نمونه‌ای

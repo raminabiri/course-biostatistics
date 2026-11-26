@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # پاسخ تمرین 4 — python
 
 [بازگشت به تمرین‌ها](../python/README.md)
@@ -23,3 +25,5 @@ Name: count, dtype: int64
 ۱٫۸ «بخش» واقعی‌ای نیست؛ کدها برچسب‌اند (درس ۱.۲). درصدها: `value_counts(normalize=True) * 100` ← 40، 40، 20.
 
 [بازگشت به تمرین‌ها](../python/README.md)
+
+</div>

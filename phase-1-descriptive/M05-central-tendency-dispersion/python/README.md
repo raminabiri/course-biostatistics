@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M05 در Python — آمار توصیفی پایه با pandas
 
 [← ماژول M05](../README.md) | [صفحهٔ مسیر Python](../../../tracks/python.md)
@@ -115,3 +117,12 @@ smk.median(), smk.mean()                              # 15, 16
 | SD با بقیه نمی‌خواند | `np.std` با ddof=0 | `ddof=1` یا `.std()` pandas |
 | `mode()` یک Series داد | ممکن است چند نما باشد | `.mode()[0]` یا `.tolist()` |
 | چارک‌ها با SPSS فرق دارد | روش متفاوت | `method="weibull"` (M06) |
+
+## درس‌های عملی جداگانه
+
+- [1 — مرکز داده](L01.md)
+- [2 — پراکندگی](L02.md)
+- [3 — SD در برابر SE](L03.md)
+- [4 — انتخاب خلاصه و گزارش](L04.md)
+
+</div>

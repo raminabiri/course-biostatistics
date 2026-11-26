@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع ماژول M03 — جامعه، نمونه و طرح مطالعه
 
 [← ماژول M03](README.md)
@@ -38,3 +40,5 @@
 | ف۷ | Crash Course Statistics #8 — *Correlation Doesn't Equal Causation* — [YouTube](https://www.youtube.com/watch?v=GtV-VYdNt_g) | انگلیسی | درس ۳.۵ |
 
 > **دربارهٔ فیلم‌های فارسی آپارات:** وجود و عنوان آن‌ها بررسی شده، ولی محتوای کاملشان را نتوانستم ببینم. پیش از معرفی به دانشجو یک بار تماشا کنید.
+
+</div>

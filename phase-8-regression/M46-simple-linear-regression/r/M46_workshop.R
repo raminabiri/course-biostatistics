@@ -1,0 +1,13 @@
+d <- read.csv("data/M46_practice.csv")
+stopifnot(nrow(d)==24,!anyDuplicated(d$id))
+d$group <- relevel(factor(d$group),ref="A")
+a <- subset(d,group=="A")
+m <- lm(score~minutes,data=a)
+print(summary(m)$coefficients)
+cat("L1:",residuals(m)[1],summary(m)$r.squared,"\n")
+new <- data.frame(minutes=15)
+print(predict(m,new,interval="confidence"))
+print(predict(m,new,interval="prediction"))
+interaction <- summary(lm(score~minutes*group,data=d))$coefficients["minutes:groupB",]
+print(interaction)
+stopifnot(abs(coef(m)[2]-1.212237762)<1e-8,abs(interaction[1]-.473776224)<1e-8)

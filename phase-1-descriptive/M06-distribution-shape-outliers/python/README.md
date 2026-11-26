@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M06 در Python — چارک، چولگی، مقادیر دور و تبدیل
 
 [← ماژول M06](../README.md) | [صفحهٔ مسیر Python](../../../tracks/python.md)
@@ -117,3 +119,12 @@ for name, x in [("all", s), ("without_168", s2)]:
 | چولگی ۱٫۳۹ به‌جای ۱٫۴۳ | `stats.skew` با bias=True | `.skew()` pandas یا `bias=False` |
 | z کمی بزرگ‌تر از SPSS | `stats.zscore` با ddof=0 | `stats.zscore(x, ddof=1)` |
 | `method=` خطا داد | numpy قدیمی (< 1.22) | به‌روزرسانی یا `interpolation="weibull"` در نسخه‌های قدیمی |
+
+## درس‌های عملی جداگانه
+
+- [1 — چارک و قرارداد محاسبه](L01.md)
+- [2 — دیدن چولگی و نقش مقدارهای دور](L02.md)
+- [3 — حصار و بررسی مقدار دور](L03.md)
+- [4 — تبدیل و برگشت](L04.md)
+
+</div>

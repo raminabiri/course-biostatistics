@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M06 در GraphPad Prism — Descriptive statistics، Identify outliers و Transform
 
 [← ماژول M06](../README.md) | [صفحهٔ مسیر Prism](../../../tracks/prism.md)
@@ -89,3 +91,12 @@ Descriptive statistics روی lactate با Advanced: Geometric mean **1.67**، G
 Descriptive statistics روی سدیم، یک بار با همه و یک بار با ۱۶۸ **Excluded**؛ اعداد جدول جواب‌ها. مزیت Prism: Exclude قابل‌برگشت است و تصمیم شما در جدول دیده می‌شود.
 
 </details>
+
+## درس‌های عملی جداگانه
+
+- [1 — چارک و قرارداد محاسبه](L01.md)
+- [2 — دیدن چولگی و نقش مقدارهای دور](L02.md)
+- [3 — حصار و بررسی مقدار دور](L03.md)
+- [4 — تبدیل و برگشت](L04.md)
+
+</div>

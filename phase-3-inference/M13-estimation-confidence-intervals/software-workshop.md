@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه گام‌به‌گام M13
 
 این کارگاه ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
@@ -92,3 +94,5 @@ A1=4، A2=4 و A3=3.2 را بگذارید. در A4 `=(A2+A3)^2/(A2^2/24+A3^2/19)
 ### Python
 
 اسکریپت سطر L3 معادلهٔ Welch را با scipy.stats.t اجرا می‌کند.
+
+</div>

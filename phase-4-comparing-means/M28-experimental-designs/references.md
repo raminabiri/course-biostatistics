@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M28
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,5 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+
+</div>

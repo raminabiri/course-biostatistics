@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # پاسخ تمرین 6 — python
 
 [بازگشت به تمرین‌ها](../python/README.md)
@@ -14,3 +16,5 @@ print(long.shape)  # شمار سطر و ستون
 **جواب: ۲۴ سطر** (۸ × ۳).
 
 [بازگشت به تمرین‌ها](../python/README.md)
+
+</div>

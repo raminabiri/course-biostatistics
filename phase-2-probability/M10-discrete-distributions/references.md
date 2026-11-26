@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M10
 
 ## درس 10.1
@@ -50,3 +52,5 @@
 - فیلم. [آشنایی با توزیع‌ها در SciPy](https://www.youtube.com/watch?v=fHKNgz6Ug3k)
 - دامنهٔ دیدن. متوسط. تفاوت pmf و cdf را ببینید. اسکریپت اصلی کارگاه این ماژول از math خود Python استفاده می‌کند.
 - مرجع نوشتاری. [SciPy، مستندات binom](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom.html)
+
+</div>

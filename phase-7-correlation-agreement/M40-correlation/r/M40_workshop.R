@@ -1,0 +1,13 @@
+d <- read.csv("data/M40_practice.csv")
+stopifnot(nrow(d)==60,!anyDuplicated(d$id),all(table(d$group)==30))
+a <- subset(d,group=="A"); b <- subset(d,group=="B")
+r1 <- with(a,cor(marker_x,marker_y)); r2 <- with(b,cor(marker_x,marker_y))
+two <- with(a,cor.test(marker_x,marker_y))
+right <- with(a,cor.test(marker_x,marker_y,alternative="greater"))
+cat("L1:",r1,two$p.value,right$p.value,"\n")
+cat("L2:",with(a,cor(marker_x,marker_y,method="spearman")),
+    with(a,cor(marker_x,marker_y,method="kendall")),"\n")
+print(cor(a[c("age","marker_x","marker_y")]))
+z <- (atanh(r1)-atanh(r2))/sqrt(1/(nrow(a)-3)+1/(nrow(b)-3))
+cat("L3:",r1,r2,z,2*pnorm(-abs(z)),"\n")
+stopifnot(abs(r1-.7855360872)<1e-9,abs(z-2.9092349744)<1e-9)

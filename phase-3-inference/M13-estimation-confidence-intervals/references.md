@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M13
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,5 @@
 - فیلم. [توزیع‌ها در SciPy](https://www.youtube.com/watch?v=fEgo16x7R9o)
 - دامنهٔ دیدن. متوسط. مفهوم ppf را مرور کنید. کد فاصله در کارگاه آمده است.
 - مرجع نوشتاری. [SciPy، فاصلهٔ نسبت](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats._result_classes.BinomTestResult.proportion_ci.html)
+
+</div>

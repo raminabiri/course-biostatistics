@@ -1,0 +1,12 @@
+d <- read.csv("data/M45_pvalues.csv")
+p <- d$p_raw
+d$bonferroni <- p.adjust(p,"bonferroni")
+d$sidak <- -expm1(length(p)*log1p(-p))
+d$holm <- p.adjust(p,"holm")
+d$hochberg <- p.adjust(p,"hochberg")
+d$BH <- p.adjust(p,"BH")
+d$BY <- p.adjust(p,"BY")
+print(d[order(d$p_raw),])
+count <- colSums(d[3:8]<=.05)
+print(count)
+stopifnot(all(count==c(1,1,2,4,4,1)))

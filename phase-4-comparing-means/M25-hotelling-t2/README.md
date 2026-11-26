@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M25 — T² هتلینگ برای یک، دو و دو نمونهٔ زوجی
 
 ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
@@ -9,3 +11,9 @@
 - [درس 25.3 — دادهٔ زوجی و بردار تفاوت](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
 
 [کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
+
+## درس‌های مستقل پنج نرم‌افزار
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
+</div>

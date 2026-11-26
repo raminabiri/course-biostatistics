@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M11 — توزیع‌های پیوسته و بررسی نرمال‌بودن
 
 ۱. [چگالی، نرمال و نمرهٔ z](lessons/L1-normal.md)  
@@ -11,3 +13,9 @@
 [دادهٔ ساختگی Q-Q](data/M11_measurements.csv). برای بازسازی شکل از پوشهٔ ماژول، `Rscript --vanilla r/M11_qq.R` را اجرا کنید.
 
 [کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
+
+## درس‌های مستقل پنج نرم‌افزار
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
+</div>

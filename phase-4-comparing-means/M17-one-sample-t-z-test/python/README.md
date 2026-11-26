@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M17 با Python | راهنمای خواندن کد و خروجی
 
 در VS Code از **File → Open Folder** پوشهٔ M17 را باز کنید و همان مفسر M01 را انتخاب کنید. در **Terminal → New Terminal** با `python -c "import scipy"` بررسی کنید SciPy نصب است. اگر دستور با ModuleNotFoundError ایستاد، `python -m pip install scipy` را در همان ترمینال اجرا کنید. اگر در M01 از python3 استفاده کرده‌اید، اینجا هم همان نام را بنویسید. [فایل Python](M17_workshop.py) را باز کنید و **Run Python File** را بزنید یا `python python/M17_workshop.py` را در ترمینال اجرا کنید.
@@ -20,3 +22,5 @@
 | `f"...{fit.pvalue:.6f}"` | مقدار P را در متن جای‌گذاری می‌کند و شش رقم اعشار نشان می‌دهد. شیوهٔ چاپ، عدد ذخیره‌شده را گرد نمی‌کند. |
 
 **کنترل خروجی.** L1 باید N=8، میانگین ۵۴ و t≈۲٫۴۱۲ داشته باشد. در L2، z≈۱٫۴۱۴ و P راست≈۰٫۰۷۸۶۵ است. در L3، `mean_ci` با `difference_ci` متفاوت است و فاصلهٔ دوم از هر کران اول ۵۰ کمتر است. اگر FileNotFoundError آمد، پوشهٔ data و نام فایل را بررسی کنید. اگر خواستید خروجی را نگه دارید، در ترمینال `python python/M17_workshop.py > M17_Python_output.txt` را بزنید. [بازگشت به کارگاه](../software-workshop.md)
+
+</div>

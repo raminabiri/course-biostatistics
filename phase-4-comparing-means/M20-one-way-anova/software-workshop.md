@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه گام‌به‌گام M20
 
 این کارگاه ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
@@ -87,3 +89,5 @@ ToolPak فقط مدل کلاسیک این تمرین را اجرا می‌کند
 ### Python
 
 اسکریپت Python را اجرا کنید. خط L3 را با عدد کنترل مقایسه کنید. این فایل به SciPy و NumPy متکی است.
+
+</div>

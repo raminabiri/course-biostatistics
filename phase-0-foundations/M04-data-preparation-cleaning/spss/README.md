@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M04 در SPSS — Identify Duplicates، Recode، Date Wizard، Merge و Aggregate
 
 [← ماژول M04](../README.md) | [صفحهٔ مسیر SPSS](../../../tracks/spss.md)
@@ -133,3 +135,12 @@ SELECT IF (MISSING(age) OR age >= 18).   → 39 (pid 3 خارج)
 | خطای «files are not in ascending order» | دیتاست‌ها مرتب نیستند | `Sort Cases` بر اساس کلید در هر دو |
 | تاریخ‌ها system-missing شدند | قالب ورودی اشتباه (مثلاً `DATE11` به‌جای `SDATE10`) | قالب `SDATE10` برای YYYY-MM-DD |
 | `Add Cases` متغیرها را جدا نگه داشت | نام یا نوع (عددی/متنی) متفاوت | پیش از الحاق یکسان کنید |
+
+## درس‌های جداگانه
+
+- [1 — آماده‌سازی فایل خام](L01.md)
+- [2 — پیداکردن خطاهای منطقی](L02.md)
+- [3 — بازکدگذاری و محاسبه](L03.md)
+- [4 — پیوند جدول‌ها و شمار سطر](L04.md)
+
+</div>

@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه گام‌به‌گام M16
 
 این کارگاه ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
@@ -111,3 +113,5 @@ CSV بلند را باز کنید. در Analyze → Compare Means → Independen
 ### Python
 
 سطر L4، ttest_ind را با equal_var=False اجرا می‌کند. خروجی شامل t، df و P است.
+
+</div>

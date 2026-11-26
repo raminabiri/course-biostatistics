@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M05 در GraphPad Prism — Descriptive statistics
 
 [← ماژول M05](../README.md) | [صفحهٔ مسیر Prism](../../../tracks/prism.md)
@@ -88,3 +90,12 @@ Descriptive statistics روی `hscrp` با Basics و Advanced: Mean **3.11**، M
 در Excel فقط مقادیر `cigs` > ۰ را جدا کنید (Filter) و در یک ستون جدید Prism بچسبانید ← Number of values **15**، Median **15**، Mean **16**. درصد: 15/48 = **31.3٪**.
 
 </details>
+
+## درس‌های عملی جداگانه
+
+- [1 — مرکز داده](L01.md)
+- [2 — پراکندگی](L02.md)
+- [3 — SD در برابر SE](L03.md)
+- [4 — انتخاب خلاصه و گزارش](L04.md)
+
+</div>

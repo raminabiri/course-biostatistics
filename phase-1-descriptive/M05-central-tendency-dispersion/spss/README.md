@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M05 در SPSS — Frequencies، Descriptives، Means و Explore
 
 [← ماژول M05](../README.md) | [صفحهٔ مسیر SPSS](../../../tracks/spss.md)
@@ -105,3 +107,12 @@ Syntax کامل: [`M05_solutions.sps`](M05_solutions.sps). روش منویی:
 | میانه در Descriptives نیست | این پنجره میانه ندارد | Frequencies یا Explore |
 | Frequencies جدول بسیار بلندی داد | جدول فراوانی برای متغیر کمّی | تیک Display frequency tables را بردارید |
 | پس از Select Cases همهٔ تحلیل‌ها روی زیرمجموعه است | فیلتر فعال مانده | Select Cases ← All cases |
+
+## درس‌های عملی جداگانه
+
+- [1 — مرکز داده](L01.md)
+- [2 — پراکندگی](L02.md)
+- [3 — SD در برابر SE](L03.md)
+- [4 — انتخاب خلاصه و گزارش](L04.md)
+
+</div>

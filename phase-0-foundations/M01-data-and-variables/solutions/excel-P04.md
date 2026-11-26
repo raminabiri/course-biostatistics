@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # پاسخ تمرین 4 — excel
 
 [بازگشت به تمرین‌ها](../excel/README.md)
@@ -19,3 +21,5 @@
 PivotTable همین اعداد را می‌دهد. درصد: در PivotTable، `Value Field Settings > Show Values As > % of Grand Total` ← 40٪، 40٪، 20٪.
 
 [بازگشت به تمرین‌ها](../excel/README.md)
+
+</div>

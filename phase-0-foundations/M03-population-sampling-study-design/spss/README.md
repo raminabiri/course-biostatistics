@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M03 در SPSS — انتخاب نمونه، Rank Cases و تصادفی‌سازی
 
 [← ماژول M03](../README.md) | [صفحهٔ مسیر SPSS](../../../tracks/spss.md)
@@ -133,3 +135,13 @@ Syntax کامل: [`M03_solutions.sps`](M03_solutions.sps). روش منویی:
 | Select Cases داده را پاک کرد | گزینهٔ **Delete unselected cases** انتخاب شده | همیشه **Filter out unselected cases** |
 | نمونهٔ تصادفی هر بار فرق می‌کند | بذر تعیین نشده | `Transform > Random Number Generators > Set Starting Point > Fixed Value` |
 | Rank Cases رتبهٔ ۶۰۰ را به کوچک‌ترین داد | گزینهٔ Largest value انتخاب شده | Assign Rank 1 to: **Smallest value** |
+
+## درس‌های جداگانه
+
+- [1 — جامعه، چارچوب و مخرج](L01.md)
+- [2 — انتخاب نمونهٔ تصادفی](L02.md)
+- [3 — خطای نمونه‌گیری و سوگیری](L03.md)
+- [4 — طرح مطالعه و حدود نتیجه](L04.md)
+- [5 — تخصیص تصادفی و تفسیر علّی](L05.md)
+
+</div>

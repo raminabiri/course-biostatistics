@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # راهنمای پاسخ‌های prism
 
 [بازگشت به تمرین‌ها](../prism/README.md)
@@ -9,3 +11,5 @@
 - [پاسخ 5](prism-P05.md)
 - [پاسخ 6](prism-P06.md)
 - [پاسخ 7](prism-P07.md)
+
+</div>

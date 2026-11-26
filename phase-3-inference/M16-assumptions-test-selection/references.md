@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M16
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -57,3 +59,5 @@
 - فیلم. [Shapiro–Wilk در Python](https://www.youtube.com/watch?v=e0lum-6vuw4)
 - دامنهٔ دیدن. متوسط. خواندن آماره و P را ببینید. دادهٔ کارگاه را در اسکریپت همراه اجرا کنید.
 - مرجع نوشتاری. [SciPy، مستندات shapiro](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html)
+
+</div>

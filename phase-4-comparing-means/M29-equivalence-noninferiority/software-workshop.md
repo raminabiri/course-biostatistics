@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه گام‌به‌گام M29
 
 این کارگاه ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
@@ -85,3 +87,5 @@ A1=.4، A2=.6، A3=38، A4=-2 و A5=2. `=1-T.DIST((A1-A4)/A2,A3,TRUE)` و `=T.DI
 ### Python
 
 اسکریپت Python را اجرا کنید. خط L3 را با عدد کنترل مقایسه کنید. این فایل به SciPy و NumPy متکی است.
+
+</div>

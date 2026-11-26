@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M05 در Excel — توابع آماری و Descriptive Statistics
 
 [← ماژول M05](../README.md) | [صفحهٔ مسیر Excel](../../../tracks/excel.md)
@@ -133,3 +135,12 @@ SD: فرمول SUMPRODUCT بالا                  → 9.28
 | چارک با SPSS فرق دارد | `QUARTILE` (INC) | `QUARTILE.EXC` |
 | `#NAME?` در نسخهٔ قدیمی | توابع .S/.EXC از Excel 2010 به بعد | نسخهٔ قدیمی: `STDEV`، `QUARTILE` |
 | جدول Data Analysis به‌روز نشد | خروجی ToolPak ایستاست | دوباره اجرا کنید یا از فرمول استفاده کنید |
+
+## درس‌های عملی جداگانه
+
+- [1 — مرکز داده](L01.md)
+- [2 — پراکندگی](L02.md)
+- [3 — SD در برابر SE](L03.md)
+- [4 — انتخاب خلاصه و گزارش](L04.md)
+
+</div>

@@ -1,0 +1,17 @@
+d <- read.csv("data/M37_transition.csv")
+tab <- with(d, table(before,after))
+up <- sum(tab[1:2,3])
+down <- sum(tab[3,1:2])
+exact <- binom.test(up,up+down,.5)$p.value
+bowker <- mcnemar.test(tab)
+v <- -(tab+t(tab))
+diag(v) <- rowSums(tab)+colSums(tab)-2*diag(tab)
+delta <- (rowSums(tab)-colSums(tab))[1:2]
+sm <- drop(crossprod(delta,solve(v[1:2,1:2],delta)))
+x <- as.matrix(read.csv("data/M37_repeated.csv")[c("t0","t1","t2")])
+k <- ncol(x); total <- sum(x)
+q <- (k-1)*(k*sum(colSums(x)^2)-total^2)/(k*total-sum(rowSums(x)^2))
+cat("L1:",up,down,exact,"\n")
+cat("L2:",bowker$statistic,bowker$p.value,sm,pchisq(sm,2,lower.tail=FALSE),"\n")
+cat("L3:",colSums(x),q,pchisq(q,2,lower.tail=FALSE),"\n")
+stopifnot(nrow(d)==80, !anyDuplicated(d$id), nrow(x)==50, abs(q-14/3)<1e-12)

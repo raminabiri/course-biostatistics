@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M12
 
 ## درس 12.1
@@ -50,3 +52,5 @@
 - فیلم. [DataCamp، شبیه‌سازی قضیهٔ حد مرکزی در Python](https://www.youtube.com/watch?v=LQG7cMvGs3A)
 - دامنهٔ دیدن. متوسط. شکل آرایه و گرفتن میانگین در هر نمونه را دنبال کنید. نرخ و بذر تولید داده در کارگاه فرق دارند.
 - مرجع نوشتاری. [NumPy، تولید انتظار نمایی](https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.exponential.html)
+
+</div>

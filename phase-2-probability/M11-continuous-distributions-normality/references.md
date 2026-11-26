@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M11
 
 ## درس 11.1
@@ -50,3 +52,5 @@
 - فیلم. [توزیع‌های احتمال با SciPy](https://www.youtube.com/watch?v=fEgo16x7R9o)
 - دامنهٔ دیدن. متوسط. نقش توابع توزیع SciPy را مرور کنید. رسم Q-Q در کارگاه و مرجع نوشتاری آمده است.
 - مرجع نوشتاری. [SciPy، مستندات probplot](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.probplot.html)
+
+</div>

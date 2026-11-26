@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M20
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,5 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f_oneway.html)
+
+</div>

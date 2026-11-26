@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M23
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,10 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+
+## مستندات همین طرح
+
+- [IBM، مدل اندازه‌گیری تکراری و تعامل عامل‌های درون‌فردی و بین‌فردی](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=measures-glm-repeated-model)
+- [GraphPad، چیدمان اندازه‌گیری تکراری برای یک یا دو عامل](https://www.graphpad.com/guides/prism/latest/statistics/repeated_measures.htm)
+
+</div>

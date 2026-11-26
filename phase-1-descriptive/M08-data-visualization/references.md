@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M08
 
 ## درس 8.1
@@ -50,3 +52,5 @@
 - فیلم. [Microsoft Learn، رسم با Matplotlib](https://learn.microsoft.com/en-us/shows/machine-learning-for-beginners/how-to-visualize-data-with-matplotlib-machine-learning-for-beginners)
 - دامنهٔ دیدن. مقدماتی. ساخت شکل و انتخاب محورها را ببینید. در تمرین، پروندهٔ دادهٔ M08 را به کار ببرید.
 - مرجع نوشتاری. [Matplotlib، نمونه‌های انواع نمودار](https://matplotlib.org/stable/plot_types/index.html)
+
+</div>

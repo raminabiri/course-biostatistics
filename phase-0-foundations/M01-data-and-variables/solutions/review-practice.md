@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # راهنمای پاسخ‌های review
 
 [بازگشت به تمرین‌ها](../review.md)
@@ -8,3 +10,5 @@
 - [پاسخ 4](review-P04.md)
 - [پاسخ 5](review-P05.md)
 - [پاسخ 6](review-P06.md)
+
+</div>

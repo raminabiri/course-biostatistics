@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # پاسخ تمرین 2 — spss
 
 [بازگشت به تمرین‌ها](../spss/README.md)
@@ -17,3 +19,5 @@
 **کنترل:** `Utilities > Variables` یا دستور `DISPLAY DICTIONARY.` همهٔ تنظیمات را در خروجی نشان می‌دهد.
 
 [بازگشت به تمرین‌ها](../spss/README.md)
+
+</div>

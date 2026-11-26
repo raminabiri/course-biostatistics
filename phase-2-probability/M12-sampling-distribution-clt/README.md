@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M12 — توزیع نمونه‌گیری و قضیهٔ حد مرکزی
 
 ۱. [از یک نمونه به نمونه‌های تکراری](lessons/L1-sampling.md)  
@@ -9,3 +11,9 @@
 [منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
 
 [کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
+
+## درس‌های مستقل پنج نرم‌افزار
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
+</div>

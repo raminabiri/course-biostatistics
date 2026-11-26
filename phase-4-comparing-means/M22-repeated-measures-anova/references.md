@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M22
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,7 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+
+[فیلم رسمی GraphPad برای تحلیل یک‌طرفه با اندازه‌گیری تکراری](https://www.youtube.com/watch?v=THFFf8Le3Yg) — پس از شناخت جدول پهن، بخش تنظیم matching، خواندن نتیجه و مقایسهٔ زمان‌ها را ببینید.
+
+</div>

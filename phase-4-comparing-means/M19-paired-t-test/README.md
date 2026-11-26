@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M19 — آزمون t زوجی
 
 ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
@@ -9,3 +11,9 @@
 - [درس 19.3 — جهت، فاصله و گزارش](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
 
 [کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
+
+## درس‌های مستقل پنج نرم‌افزار
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
+</div>

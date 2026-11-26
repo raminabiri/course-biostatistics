@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M24
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,10 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+
+## مستندات اجرای تعدیل
+
+- [GraphPad، جدول Multiple Variables برای رگرسیون چندمتغیره](https://www.graphpad.com/guides/prism/latest/user-guide/multiple-variable-tables.htm)
+- [GraphPad، مقایسهٔ شیب و عرض از مبدأ](https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_comparingslopesandintercepts.htm)
+
+</div>

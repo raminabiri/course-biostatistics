@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M17 با GraphPad Prism | از جدول Column تا Results
 
 این تمرین با [هشت زمان انتظار](../data/values.csv) انجام می‌شود. پروژه را با **File → New Project** بسازید. گام آزمون t در جدول Column است و گام تبدیل z در جدول XY جدا. در طرح تمرین هر عدد یک نفر است.
@@ -22,3 +24,5 @@
 برای همین داده، t مثبت است. در Prism 11 با تبدیل `Y=TDIST(Y,7)` روی t≈۲٫۴۱۲۰۹۱، مساحت سمت راست حدود ۰٫۰۲۳۳۱۵ است. مکمل آن سمت چپ است. اگر سؤال دوطرفه باشد، P آزمون اصلی Column را از Results بردارید. قبل از گزارش [نمونهٔ کامل گزارش درس](../lessons/L3.md) را یک‌بار با خروجی خودتان تطبیق دهید.
 
 [مرجع رسمی آزمون تک‌نمونه‌ای Prism](https://www.graphpad.com/guides/prism/latest/statistics/stat_how_to_one-sample_t_test_and_w.htm) · [بازگشت به کارگاه](../software-workshop.md)
+
+</div>

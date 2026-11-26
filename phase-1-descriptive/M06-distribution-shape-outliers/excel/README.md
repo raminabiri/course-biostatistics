@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M06 در Excel — QUARTILE، SKEW، KURT، TRIMMEAN و LOG10
 
 [← ماژول M06](../README.md) | [صفحهٔ مسیر Excel](../../../tracks/excel.md)
@@ -119,3 +121,12 @@ los:   حصار 13؛ =COUNTIF(E2:E61,">13")                                     
 | `TRIMMEAN` با R فرق دارد | نسبت کل در Excel، نسبت هر طرف در R | R `trim = 0.05` ↔ Excel `0.1` |
 | `#NUM!` در `QUARTILE.EXC` | n خیلی کوچک برای آن صدک | n بیشتر یا `QUARTILE.INC` |
 | نمودار جعبه‌ای با حساب دستی نمی‌خواند | گزینهٔ Quartile calculation در Format Data Series | Exclusive median را انتخاب کنید |
+
+## درس‌های عملی جداگانه
+
+- [1 — چارک و قرارداد محاسبه](L01.md)
+- [2 — دیدن چولگی و نقش مقدارهای دور](L02.md)
+- [3 — حصار و بررسی مقدار دور](L03.md)
+- [4 — تبدیل و برگشت](L04.md)
+
+</div>

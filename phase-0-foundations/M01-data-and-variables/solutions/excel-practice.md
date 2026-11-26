@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # راهنمای پاسخ‌های excel
 
 [بازگشت به تمرین‌ها](../excel/README.md)
@@ -9,3 +11,5 @@
 - [پاسخ 5](excel-P05.md)
 - [پاسخ 6](excel-P06.md)
 - [پاسخ 7](excel-P07.md)
+
+</div>

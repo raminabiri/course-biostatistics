@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه قدم‌به‌قدم M11
 
 این راهنما ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. مسیر نرم‌افزاری خودتان را دنبال کنید.
@@ -44,3 +46,5 @@
 ۳. **درس ۱۱.۳.** در XY، از فایل آمادهٔ [جفت‌های Q-Q](data/M11_qq_pairs.csv) ستون normal_quantile را در X و value را در Y بگذارید. نمودار نقطه‌ای رسم کنید. برای صدک t در Prism 11 در پروژه یک جدول XY جدا بسازید، Y را ۰٫۰۵ بگذارید و در Transform از `Y=TINV(Y,9)` کمک بگیرید. چون TINV ورودی دوطرفه می‌گیرد، ۰٫۰۵ یعنی ۰٫۰۲۵ در هر دنباله. جواب مثبت حدود ۲٫۲۶۲ است.
 
 [مرجع توابع Prism 11](https://www.graphpad.com/guides/prism/latest/user-guide/available_functions_transforms.htm)
+
+</div>

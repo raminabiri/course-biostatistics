@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M21
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -27,19 +29,21 @@
 
 - فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
 - دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis)
 
 ### SPSS
 
 - فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
 - دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/code/repeated-measures-anova-in-spss/)
+- مرجع نوشتاری. [راهنمای SPSS](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=features-glm-univariate-analysis)
 
 ### Prism
 
 - فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
 - دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
 - مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
+
+- مرجع چیدمان درس ۲۱٫۳. [GraphPad، ورود داده برای تحلیل سه‌طرفه](https://www.graphpad.com/guides/prism/latest/statistics/stat_howto_3wayanova.htm)
 
 ### R
 
@@ -52,3 +56,5 @@
 - فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
 - مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+
+</div>

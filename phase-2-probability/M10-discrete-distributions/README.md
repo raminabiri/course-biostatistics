@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # M10 — توزیع‌های گسسته
 
 از سه پرسش شمارشی آغاز می‌کنیم. چند پاسخ مثبت داریم؟ برای رسیدن به شمار مشخصی از نتیجه‌ها چند بار باید تلاش کنیم؟ از یک جعبهٔ محدود چه چیزی بیرون می‌آید؟
@@ -11,3 +13,9 @@
 [منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
 
 [کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
+
+## درس‌های مستقل پنج نرم‌افزار
+
+[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+
+</div>

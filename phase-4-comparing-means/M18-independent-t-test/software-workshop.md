@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # کارگاه گام‌به‌گام M18
 
 این کارگاه ادامهٔ [شروع M01](../../phase-0-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
@@ -88,3 +90,5 @@
 ### Python
 
 اسکریپت Python را اجرا کنید و خط L3 را بخوانید. آرگومان alternative جهت را تعیین می‌کند.
+
+</div>

@@ -1,0 +1,5 @@
+group,age_band,population,events,standard_population,reference_risk
+A,young,100,5,600,0.05
+A,older,100,25,400,0.25
+B,young,50,2,600,0.05
+B,older,150,30,400,0.25

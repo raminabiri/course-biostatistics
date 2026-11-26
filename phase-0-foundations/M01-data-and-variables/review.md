@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # جمع‌بندی و آزمون پایانی ماژول M01
 
 [← ماژول M01](README.md)
@@ -70,3 +72,5 @@
 ---
 
 [درس پیش: خانهٔ خالی و خطای سنجش](lessons/L4-missing-data-and-measurement-error.md) | [درس بعد: ماژول M02](../M02-math-prerequisites/README.md)
+
+</div>

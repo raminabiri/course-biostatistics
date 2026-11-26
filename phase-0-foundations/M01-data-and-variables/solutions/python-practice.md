@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # راهنمای پاسخ‌های python
 
 [بازگشت به تمرین‌ها](../python/README.md)
@@ -9,3 +11,5 @@
 - [پاسخ 5](python-P05.md)
 - [پاسخ 6](python-P06.md)
 - [پاسخ 7](python-P07.md)
+
+</div>

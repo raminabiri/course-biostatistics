@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # پاسخ تمرین 6 — review
 
 [بازگشت به تمرین‌ها](../review.md)
@@ -18,3 +20,5 @@
 | پ۹ | `COMPUTE long_stay = los > 7.` سپس `FREQUENCIES long_stay.` | Frequency distribution روی los یا مرتب‌سازی | `sum(uti$los > 7)` | `(uti["los"] > 7).sum()` | `=COUNTIF(K2:K31,">7")` |
 
 [بازگشت به تمرین‌ها](../review.md)
+
+</div>

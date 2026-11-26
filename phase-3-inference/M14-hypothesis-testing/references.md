@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # منابع M14
 
 عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
@@ -52,3 +54,5 @@
 - فیلم. [PyData، آزمون فرضیه با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
 - دامنهٔ دیدن. متوسط. تفاوت آماره و نتیجهٔ آزمون را دنبال کنید. کارگاه با t.sf کار می‌کند.
 - مرجع نوشتاری. [SciPy، توزیع t](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.t.html)
+
+</div>

@@ -23,7 +23,7 @@
 
 **[درس یکپارچهٔ M02 ←](lessons/README.md)**
 
-[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع و خواندنی‌ها](references.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع و خواندنی‌ها](references.md)
 
 برای تمرین بیشتر، توضیحات تفصیلی و مثال‌های پیشین دربارهٔ [درصد](lessons/L1-numbers-percent-ratio.md)، [سیگما](lessons/L2-notation-sigma.md)، [لگاریتم](lessons/L3-powers-roots-logs.md)، [روند](lessons/L4-functions-lines-growth.md) و [ماتریس](lessons/L5-tables-as-matrices.md) در دسترس‌اند.
 

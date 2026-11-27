@@ -1,0 +1,5 @@
+d <- c(2,-1,3)
+x <- c(2,3,4,5,20)
+v <- c(mean(d),sd(d)/sqrt(length(d)),6^2/2^2,mean(x),mean(x[x!=20]))
+stopifnot(max(abs(v-c(1.3333333333333333,1.2018504251546631,9,6.8,3.5)))<1e-6)
+print(v)

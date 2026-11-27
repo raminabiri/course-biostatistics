@@ -479,7 +479,7 @@ pid  n_tests  mean_ldl
 
 <a id="practice"></a>
 
-## سه تمرین اصلی و پنج مسیر نرم‌افزاری
+## ۳۰ تمرین و مسئله و پنج مسیر نرم‌افزاری
 
 [تمرین‌ها](../exercises/module.md) · [پاسخ تشریحی](../solutions/module.md)
 

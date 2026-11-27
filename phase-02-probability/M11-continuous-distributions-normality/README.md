@@ -4,7 +4,7 @@
 
 **[درس یکپارچه ←](lessons/README.md)**
 
-[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
 متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 

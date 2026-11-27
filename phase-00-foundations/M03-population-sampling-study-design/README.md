@@ -21,7 +21,7 @@
 
 **[درس یکپارچهٔ M03 ←](lessons/README.md)**
 
-[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [مراجع و فیلم‌های مفهومی](references.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [مراجع و فیلم‌های مفهومی](references.md)
 
 برای مثال‌ها و تمرین‌های تکمیلی به بخش‌های پیشینِ [جامعه و نمونه](lessons/L1-population-sample.md)، [نمونه‌گیری](lessons/L2-sampling-methods.md)، [سوگیری](lessons/L3-error-and-bias.md)، [طرح‌های مطالعه](lessons/L4-study-designs.md) و [علیت و تصادفی‌سازی](lessons/L5-causation-randomization.md) سر بزنید.
 

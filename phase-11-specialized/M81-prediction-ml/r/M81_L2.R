@@ -1,0 +1,10 @@
+d<-read.csv("data/M81_L2.csv")
+train<-subset(d,center=="A")
+test<-subset(d,center=="B")
+fit<-glm(event~age+visits,family=binomial(),data=train)
+p<-predict(fit,newdata=test,type="response")
+base<-mean(train$event)
+stopifnot(length(p)==60,mean(p)<mean(test$event))
+print(c(train_rate=base,test_rate=mean(test$event),predicted=mean(p),
+        baseline_brier=mean((base-test$event)^2),model_brier=mean((p-test$event)^2)))
+write.csv(data.frame(id=test$id,event=test$event,predicted=p),"predictions_R.csv",row.names=FALSE)

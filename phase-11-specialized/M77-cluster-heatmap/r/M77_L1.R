@@ -1,0 +1,7 @@
+d<-read.csv("data/M77_L1.csv")
+x<-as.matrix(d[c("x","y")])
+tree<-hclust(dist(x),method="complete")
+fit<-kmeans(x,centers=x[c(1,3),],algorithm="Lloyd")
+stopifnot(abs(tail(tree$height,1)-sqrt(164))<1e-10,fit$tot.withinss==4)
+print(tree$height)
+print(fit$centers)

@@ -1,0 +1,7 @@
+d<-read.csv("data/M81_L1.csv")
+score<-mean((d$p-d$y)^2)
+diffs<-outer(d$p[d$y==1],d$p[d$y==0],"-")
+auc<-mean((diffs>0)+.5*(diffs==0))
+stopifnot(abs(score-.325)<1e-12,auc==.75)
+print(c(Brier=score,AUC=auc))
+print(aggregate(cbind(p,y)~I(p>=.5),d,mean))

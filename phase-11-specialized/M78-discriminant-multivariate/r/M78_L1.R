@@ -1,0 +1,7 @@
+d<-read.csv("data/M78_L1.csv")
+means<-tapply(d$score,d$group,mean)
+boundary<-mean(means)
+t<-matrix(c(30,10,10,30),2)
+inertia<-unname(chisq.test(t,correct=FALSE)$statistic)/sum(t)
+stopifnot(boundary==4,inertia==.25)
+print(c(boundary=boundary,canonical=abs(cor(1:3,c(2,4,6))),inertia=inertia))

@@ -1,0 +1,8 @@
+d<-read.csv("data/P04.csv")
+cdata<-as.matrix(read.csv("data/composition.csv")[-1])
+d$q<-p.adjust(d$p,"BH")
+selected<-with(d,gene[q<=.05 & abs(log2fc)>=1])
+dist<-sum(abs(cdata[1,]-cdata[2,]))/sum(cdata)
+stopifnot(identical(selected,c("G01","G02")),dist==.25)
+print(d)
+print(dist)

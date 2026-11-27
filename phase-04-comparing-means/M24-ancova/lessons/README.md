@@ -58,6 +58,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M23-two-way-rm-mixed-anova/lessons/README.md) · [درس بعد](../../M25-hotelling-t2/lessons/L1.md)
+[درس پیش](../../M23-two-way-rm-mixed-anova/lessons/README.md) · [درس بعد](../../M25-hotelling-t2/lessons/README.md)
 
 </div>

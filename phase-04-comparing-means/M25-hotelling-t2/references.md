@@ -27,32 +27,29 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=ptuXFqIRwQA). متوسط. پس از شناخت ماتریس کوواریانس، از ۱۷:۳۰ آزمون بردار میانگین با دو سنجه و کوواریانس نامعلوم را ببینید.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/functions/minverse-function).
 
 ### SPSS
 
-- فیلم. [نمونهٔ تحلیل چندمتغیره در SPSS](https://www.youtube.com/watch?v=UTi6NqV_9Qs)
-- دامنهٔ دیدن. متوسط. تعیین دو پیامد و خواندن Multivariate Tests را ببینید.
-- مرجع نوشتاری. [UCLA، خروجی MANOVA](https://stats.oarc.ucla.edu/spss/output/one-waymanova/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=UTi6NqV_9Qs). متوسط. فیلم نمونهٔ یک عامل دو سطحی در MANOVA را نشان می‌دهد. برای مسیر MATRIX و دو طرح دیگر از کد کارگاه کمک بگیرید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=command-matrix-functions-matrix-end-matrix).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/series/graphing-in-prism)
+- [فیلم آموزشی](https://www.graphpad.com/series/popular-prism-graphs). مقدماتی. بخش Learn About Scatter Plots in Prism را ببینید. نمودار به بازبینی جفت‌ها و هم‌حرکتی دو سنجه کمک می‌کند.
+- [مرجع نوشتاری](https://graphpad.com/guides/prism/latest/user-guide/using_which_table_should_i_use_to_cr.htm).
+- [قابلیت‌های تحلیل چندمتغیرهٔ Prism](https://www.graphpad.com/support/faq/do-any-graphpad-programs-perform-multivariate-statistical-tests/). برای آزمون هتلینگ از مسیر محاسباتی کارگاه کمک بگیرید.
 
 ### R
 
-- فیلم. [آزمون T² هتلینگ در RStudio](https://www.youtube.com/watch?v=ovjV1oKZeR4)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/summary.manova.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=mkT3SaxoBJk). متوسط. پس از شناخت آرایهٔ دو ستون، اجرای آزمون T² در R را دنبال کنید. کد این ماژول فرمول و سه طرح را مستقیم نشان می‌دهد.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/base/html/solve.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=oDsTbTU6xTk). متوسط. فیلم حل دستگاه با np.linalg.solve را نشان می‌دهد. در کارگاه S همان ماتریس کوواریانس و d بردار تفاضل است.
+- [مرجع نوشتاری](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html).
+- [نمونهٔ دانشگاهی تعاملی همراه کد Python](https://trung-tinnguyen.github.io/courses/aos/hotelling-t2-demo.html). برای مقایسهٔ تصمیم آزمون مشترک با آزمون‌های جداگانه.
 
 </div>

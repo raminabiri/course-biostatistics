@@ -1,6 +1,14 @@
+from pathlib import Path
+import csv
+
 import numpy as np
 from scipy import stats
-groups = [np.array(x, dtype=float) for x in ([48,50,51,52,53],[51,52,55,56,57],[54,58,59,62,65])]
+path = Path(__file__).resolve().parents[1] / "data" / "practice.csv"
+values = {}
+with path.open(newline="", encoding="utf-8") as stream:
+    for row in csv.DictReader(stream):
+        values.setdefault(row["group"], []).append(float(row["value"]))
+groups = [np.asarray(values[key]) for key in ("A", "B", "C")]
 print("L1:",stats.f_oneway(*groups))
 n = np.array([len(x) for x in groups])
 means = np.array([x.mean() for x in groups])

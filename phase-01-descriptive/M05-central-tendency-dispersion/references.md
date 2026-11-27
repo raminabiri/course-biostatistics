@@ -20,7 +20,7 @@
 |---|---|---|
 | ۴ | Altman DG, Bland JM. Standard deviations and standard errors. *BMJ*. 2005;331(7521):903. doi:[10.1136/bmj.331.7521.903](https://doi.org/10.1136/bmj.331.7521.903) | درس ۵.۳: یادداشت یک‌صفحه‌ای و بسیار روشن |
 | ۵ | Cumming G, Fidler F, Vaux DL. Error bars in experimental biology. *J Cell Biol*. 2007;177(1):7–11. doi:[10.1083/jcb.200611141](https://doi.org/10.1083/jcb.200611141) 🔓 ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2064100/)) | درس ۵.۳: هشت قاعده برای میله‌های خطا؛ **برای پژوهشگران آزمایشگاهی واجب است** |
-| ۶ | Lang TA, Altman DG. Basic statistical reporting for articles published in biomedical journals: the "Statistical Analyses and Methods in the Published Literature" or the SAMPL guidelines. In: *Science Editors' Handbook*. European Association of Science Editors; 2013. ([EQUATOR Network](https://www.equator-network.org/2013/03/20/basic-statistical-reporting-for-articles-published-in-biomedical-journals-the-statistical-analyses-and-methods-in-the-published-literature-or-the-sampl-guidelines/)) 🔓 | درس ۵.۴: قواعد گزارش آمار توصیفی در مقاله |
+| ۶ | Lang TA, Altman DG. Basic statistical reporting for articles published in biomedical journals: the "Statistical Analyses and Methods in the Published Literature" or the SAMPL guidelines. In: *Science Editors' Handbook*. European Association of Science Editors; 2013. ([EQUATOR Network](https://equator-network.org/reporting-guidelines/sampl/)) 🔓 | درس ۵.۴: قواعد گزارش آمار توصیفی در مقاله |
 
 ## فیلم‌ها
 

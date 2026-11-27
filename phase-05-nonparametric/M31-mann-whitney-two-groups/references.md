@@ -35,7 +35,7 @@
 
 - فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
 - دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/output/mann-whitney-u-test/)
+- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/seminars/notes/analyzing-data/)
 
 ### Prism
 

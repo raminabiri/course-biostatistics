@@ -1,0 +1,7 @@
+grid <- function(n) expand.grid(rep(list(c(0,4)),n))
+two <- rowMeans(grid(2))
+four <- rowMeans(grid(4))
+pop_sd <- function(x) sqrt(mean((x-mean(x))^2))
+stopifnot(all(two==c(0,2,2,4)),abs(pop_sd(two)-sqrt(2))<1e-12,pop_sd(four)==1,mean(four==2)==.375)
+print(table(two)/length(two))
+print(c(SE2=pop_sd(two),SE4=pop_sd(four),prob_at_2=mean(four==2)))

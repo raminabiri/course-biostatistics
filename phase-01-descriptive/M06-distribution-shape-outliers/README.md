@@ -19,33 +19,13 @@
 5. تبدیل لگاریتمی را انجام دهید، نتیجه را برگردانید و درست تفسیر کنید.
 6. همهٔ این‌ها را در SPSS، Prism، R، Python یا Excel اجرا کنید.
 
-## ترتیب مطالعه
+**[درس یکپارچه ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۶.۱](lessons/L1-percentiles-quartiles.md) | صدک، چارک و خلاصهٔ پنج‌عددی (و چرا نرم‌افزارها فرق دارند) | ۳ مثال حل‌شده + ۱۱ تمرین + حل |
-| [۶.۲](lessons/L2-skewness-kurtosis.md) | چولگی و کشیدگی | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
-| [۶.۳](lessons/L3-outliers.md) | مقادیر دور: شناسایی و برخورد؛ میانگین پیراسته | ۴ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۶.۴](lessons/L4-transformations.md) | تبدیل داده: لگاریتم، جذر و برگرداندن | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | `M06_solutions.sps` |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — |
-| R | [r/README.md](r/README.md) | `M06_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M06_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | `M06_excel_practice.xlsx`، `M06_excel_solutions.xlsx` |
-
-در هر مسیر **هفت تمرین عملی یکسان (ع۱ تا ع۷)**.
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): آزمون پایانی با حل کامل
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+[صدک و چارک](lessons/L1-percentiles-quartiles.md) · [چولگی و کشیدگی](lessons/L2-skewness-kurtosis.md) · [داده‌های دور](lessons/L3-outliers.md) · [تبدیل داده](lessons/L4-transformations.md)
 
 ## دادهٔ ماژول
 

@@ -4,18 +4,12 @@
 
 از سه پرسش شمارشی آغاز می‌کنیم. چند پاسخ مثبت داریم؟ برای رسیدن به شمار مشخصی از نتیجه‌ها چند بار باید تلاش کنیم؟ از یک جعبهٔ محدود چه چیزی بیرون می‌آید؟
 
-۱. [برنولی و دوجمله‌ای](lessons/L1-binomial.md)  
-۲. [پواسون و دوجمله‌ای منفی](lessons/L2-counts.md)  
-۳. [فوق‌هندسی و انتخاب مدل](lessons/L3-hypergeometric.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-[تمرین‌ها](exercises/README.md) · [پاسخ‌ها](solutions/README.md) · [روش نرم‌افزاری](software.md)
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-[منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-[کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
-
-## درس‌های مستقل پنج نرم‌افزار
-
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[برنولی و دوجمله‌ای](lessons/L1-binomial.md) · [پواسون و دوجمله‌ای منفی](lessons/L2-counts.md) · [فوق‌هندسی و انتخاب مدل](lessons/L3-hypergeometric.md)
 
 </div>

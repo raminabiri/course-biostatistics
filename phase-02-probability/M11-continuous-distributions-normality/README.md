@@ -2,20 +2,12 @@
 
 # M11 — توزیع‌های پیوسته و بررسی نرمال‌بودن
 
-۱. [چگالی، نرمال و نمرهٔ z](lessons/L1-normal.md)  
-۲. [لگ‌نرمال و نمایی](lessons/L2-positive.md)  
-۳. [توزیع‌های t، کای‌دو، F و نمودار Q-Q](lessons/L3-reference.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-[تمرین‌ها](exercises/README.md) · [پاسخ‌ها](solutions/README.md) · [روش نرم‌افزاری](software.md)
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-[منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-[دادهٔ ساختگی Q-Q](data/M11_measurements.csv). برای بازسازی شکل از پوشهٔ ماژول، `Rscript --vanilla r/M11_qq.R` را اجرا کنید.
-
-[کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
-
-## درس‌های مستقل پنج نرم‌افزار
-
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[چگالی، نرمال و نمرهٔ استاندارد](lessons/L1-normal.md) · [سنجهٔ مثبت و توزیع نمایی](lessons/L2-positive.md) · [توزیع مرجع و نمودار Q–Q](lessons/L3-reference.md)
 
 </div>

@@ -18,32 +18,13 @@
 4. داده‌های کیفی را درست گزارش کنید: مخرج‌های کوچک، پرسش‌های چندپاسخی و ادغام طبقه‌ها.
 5. همهٔ این‌ها را در SPSS، Prism، R، Python یا Excel انجام دهید.
 
-## ترتیب مطالعه
+**[درس یکپارچه ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۷.۱](lessons/L1-frequency-tables.md) | جدول فراوانی: تعداد، درصد، درصد معتبر، درصد تجمعی | ۳ مثال حل‌شده + ۱۱ تمرین + حل |
-| [۷.۲](lessons/L2-contingency-tables.md) | جدول توافقی: درصد سطری، ستونی و کل | ۳ مثال حل‌شده + ۱۱ تمرین + حل |
-| [۷.۳](lessons/L3-comparing-reporting.md) | مقایسه و گزارش نسبت‌ها | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | راهنمای منویی |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — |
-| R | [r/README.md](r/README.md) | `M07_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M07_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | CSV پیمایش و روش کار |
-
-در هر مسیر [هفت تمرین عملی یکسان (ع۱ تا ع۷)](practice.md).
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): پاسخ‌های عددی و پرسش مرور
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+[فراوانی و سهم یک متغیر](lessons/L1-frequency-tables.md) · [جدول دو متغیر و مخرج درصد](lessons/L2-contingency-tables.md) · [مقایسه و گزارش](lessons/L3-comparing-reporting.md)
 
 ## دادهٔ ماژول
 

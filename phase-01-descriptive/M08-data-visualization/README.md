@@ -4,16 +4,12 @@
 
 در یک پیگیری ساختگی فشار خون، نخست شکل توزیع را می‌بینیم، سپس افراد و گروه‌ها را مقایسه می‌کنیم و سرانجام نمودارها را کنار جدول ویژگی‌های آغاز مطالعه می‌خوانیم.
 
-۱. [توزیع یک متغیر](lessons/L1-distributions.md)  
-۲. [مقایسهٔ گروه‌ها و نمایش رابطه](lessons/L2-groups-and-relationships.md)  
-۳. [پیگیری زمانی و جدول ۱](lessons/L3-followup-and-table-one.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-[داده](data/M08_followup.csv) · [کدبوک](data/codebook.md) · [تمرین‌ها](exercises/README.md) · [پاسخ‌ها](solutions/README.md) · [روش بازسازی شکل‌ها با R](r/README.md)
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [Python](python/README.md)
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-[منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
-
-[کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
+[توزیع فشار آغازین](lessons/L1-distributions.md) · [مقایسهٔ دو گروه و نمایش رابطه](lessons/L2-groups-and-relationships.md) · [فشار در پیگیری و جدول آغاز مطالعه](lessons/L3-followup-and-table-one.md)
 
 </div>

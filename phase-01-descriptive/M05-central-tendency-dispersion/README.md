@@ -18,33 +18,13 @@
 4. برای هر متغیر خلاصهٔ مناسب را انتخاب و مطابق استانداردهای مقالات گزارش کنید، کلی و به تفکیک گروه.
 5. همهٔ این‌ها را در SPSS، Prism، R، Python یا Excel انجام دهید.
 
-## ترتیب مطالعه
+**[درس یکپارچه ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۵.۱](lessons/L1-central-tendency.md) | شاخص‌های مرکزی: میانگین، میانه، نما | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۵.۲](lessons/L2-dispersion.md) | شاخص‌های پراکندگی: دامنه، واریانس، SD، IQR، CV | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۵.۳](lessons/L3-sd-vs-sem.md) | انحراف معیار در برابر خطای استاندارد | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
-| [۵.۴](lessons/L4-choosing-and-reporting.md) | انتخاب شاخص مناسب و گزارش در مقاله | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | `M05_solutions.sps` |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — |
-| R | [r/README.md](r/README.md) | `M05_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M05_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | `M05_excel_practice.xlsx`، `M05_excel_solutions.xlsx` |
-
-در هر مسیر **هفت تمرین عملی یکسان (ع۱ تا ع۷)** با جواب عددی یکسان.
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): آزمون پایانی با حل کامل
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+[مرکز داده](lessons/L1-central-tendency.md) · [اندازهٔ پراکندگی](lessons/L2-dispersion.md) · [پراکندگی افراد و خطای استاندارد](lessons/L3-sd-vs-sem.md) · [انتخاب سنجه و نوشتن گزارش](lessons/L4-choosing-and-reporting.md)
 
 ## دادهٔ ماژول
 

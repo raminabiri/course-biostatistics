@@ -38,6 +38,6 @@
 
 ---
 
-[درس پیش: خانهٔ دوره](../../README.md) | [درس بعد: داده چیست؟](lessons/L1-data-observation-variable.md)
+[درس پیش: خانهٔ دوره](../../README.md) | [درس یکپارچهٔ M01](lessons/README.md)
 
 </div>

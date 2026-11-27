@@ -18,33 +18,13 @@
 4. فایل‌ها را ادغام (Merge)، الحاق (Append) و تجمیع (Aggregate) کنید.
 5. همهٔ این‌ها را در SPSS، R، Python یا Excel انجام دهید (Prism در این ماژول نقش محدودی دارد).
 
-## ترتیب مطالعه
+**[درس یکپارچه ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۴.۱](lessons/L1-workflow.md) | گردش کار داده و اصول پاک‌سازی | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
-| [۴.۲](lessons/L2-detecting-errors.md) | تشخیص خطا: تکرار، بازه، ناسازگاری، پرت | ۴ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۴.۳](lessons/L3-recode-compute.md) | بازکدگذاری، متغیر محاسباتی و تاریخ | ۴ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۴.۴](lessons/L4-merge-append-aggregate.md) | ادغام، الحاق، تجمیع و فیلتر | ۴ مثال حل‌شده + ۱۰ تمرین + حل |
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | `M04_solutions.sps` |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — (پاک‌سازی در Excel؛ کنترل کیفیت در Prism) |
-| R | [r/README.md](r/README.md) | `M04_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M04_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | `M04_excel_practice.xlsx`، `M04_excel_solutions.xlsx` |
-
-در هر مسیر **هفت تمرین عملی یکسان (ع۱ تا ع۷)** با جواب عددی یکسان. پیش از شروع، **پروتکل پاک‌سازی** را در [کدبوک](data/codebook.md) بخوانید.
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): آزمون پایانی با حل کامل
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+[گردش کار و کدبوک](lessons/L1-workflow.md) · [کشف خطا و سوگیریِ پاک‌سازی](lessons/L2-detecting-errors.md) · [بازکدگذاری و متغیر مشتق‌شده](lessons/L3-recode-compute.md) · [پیوند، الحاق و تجمیع](lessons/L4-merge-append-aggregate.md)
 
 ## داده‌های ماژول
 

@@ -1,0 +1,7 @@
+<div dir="rtl">
+
+# وارسی نسخهٔ یکپارچهٔ M10
+
+چهار احتمال در R، Python، PSPP و LibreOffice Calc به مقدارهای مرجع رسیدند. نمایش در Prism و منابع از روی مستندات و منابع پیشین ماژول بررسی شدند. اجرای مستقیم Microsoft Excel، IBM SPSS و GraphPad Prism در دسترس نبود.
+
+</div>

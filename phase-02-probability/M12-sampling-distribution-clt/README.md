@@ -2,18 +2,12 @@
 
 # M12 — توزیع نمونه‌گیری و قضیهٔ حد مرکزی
 
-۱. [از یک نمونه به نمونه‌های تکراری](lessons/L1-sampling.md)  
-۲. [خطای استاندارد](lessons/L2-standard-error.md)  
-۳. [قانون اعداد بزرگ و قضیهٔ حد مرکزی](lessons/L3-clt.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-[تمرین‌ها](exercises/README.md) · [پاسخ‌ها](solutions/README.md) · [شبیه‌سازی و روش نرم‌افزاری](software.md)
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-[منابع نوشتاری و فیلم‌ها](references.md) · [۳۰ تمرین درس 1](exercises/L1.md) · [۳۰ تمرین درس 2](exercises/L2.md) · [۳۰ تمرین درس 3](exercises/L3.md)
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-[کارگاه قدم‌به‌قدم پنج نرم‌افزار](software-workshop.md)
-
-## درس‌های مستقل پنج نرم‌افزار
-
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [GraphPad Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[توزیع حاصل از نمونه‌های تکراری](lessons/L1-sampling.md) · [انحراف معیار و خطای استاندارد](lessons/L2-standard-error.md) · [قانون اعداد بزرگ و قضیهٔ حد مرکزی](lessons/L3-clt.md)
 
 </div>

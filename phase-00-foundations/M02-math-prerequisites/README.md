@@ -21,36 +21,11 @@
 5. با مفهوم ماتریس به‌عنوان «جدول عددی» آشنا شوید.
 6. همهٔ این محاسبات را در SPSS، Prism، R، Python یا Excel انجام دهید.
 
-## ترتیب مطالعه
+**[درس یکپارچهٔ M02 ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع و خواندنی‌ها](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۲.۱](lessons/L1-numbers-percent-ratio.md) | اعداد در پزشکی: درصد، نسبت، نرخ، گردکردن و نماد علمی | ۴ مثال حل‌شده + ۱۴ تمرین + حل |
-| [۲.۲](lessons/L2-notation-sigma.md) | خواندن فرمول: اندیس، Σ و میانگین | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۲.۳](lessons/L3-powers-roots-logs.md) | توان، ریشه و لگاریتم | ۴ مثال حل‌شده + ۱۵ تمرین + حل |
-| [۲.۴](lessons/L4-functions-lines-growth.md) | تابع، خط، رشد و کاهش نمایی، محور لگاریتمی | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۲.۵](lessons/L5-tables-as-matrices.md) | جدول به‌عنوان ماتریس (مقدماتی) | ۲ مثال حل‌شده + ۶ تمرین + حل |
-
-تمرین‌ها در سه سطح (پایه، متوسط، پیشرفته) از ساده به دشوار مرتب شده‌اند. همهٔ تمرین‌های درس‌ها **با ماشین‌حساب** حل‌شدنی‌اند.
-
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | `M02_solutions.sps` |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — |
-| R | [r/README.md](r/README.md) | `M02_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M02_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | `M02_excel_practice.xlsx`، `M02_excel_solutions.xlsx` |
-
-در هر مسیر **هفت تمرین عملی یکسان (ع۱ تا ع۷)** با جواب عددی یکسان وجود دارد.
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): آزمون پایانی با حل کامل
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+برای تمرین بیشتر، توضیحات تفصیلی و مثال‌های پیشین دربارهٔ [درصد](lessons/L1-numbers-percent-ratio.md)، [سیگما](lessons/L2-notation-sigma.md)، [لگاریتم](lessons/L3-powers-roots-logs.md)، [روند](lessons/L4-functions-lines-growth.md) و [ماتریس](lessons/L5-tables-as-matrices.md) در دسترس‌اند.
 
 ## داده‌های ماژول
 

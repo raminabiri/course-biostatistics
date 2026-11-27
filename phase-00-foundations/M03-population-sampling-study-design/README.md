@@ -19,36 +19,11 @@
 5. چهار توضیح جایگزین برای یک ارتباط (شانس، سوگیری، مخدوش‌گری، علیت معکوس) را بررسی کنید.
 6. نمونه‌گیری تصادفی و تخصیص تصادفی بلوکی را در SPSS، Prism، R، Python یا Excel انجام دهید.
 
-## ترتیب مطالعه
+**[درس یکپارچهٔ M03 ←](lessons/README.md)**
 
-### ۱) درس‌های نظری
+[سه تمرین اصلی](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [مراجع و فیلم‌های مفهومی](references.md)
 
-| درس | عنوان | محتوا |
-|---|---|---|
-| [۳.۱](lessons/L1-population-sample.md) | جامعه، نمونه، پارامتر و آماره | ۳ مثال حل‌شده + ۱۰ تمرین + حل |
-| [۳.۲](lessons/L2-sampling-methods.md) | روش‌های نمونه‌گیری | ۴ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۳.۳](lessons/L3-error-and-bias.md) | خطای نمونه‌گیری، سوگیری و روایی | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-| [۳.۴](lessons/L4-study-designs.md) | طرح‌های مطالعه | ۴ مثال حل‌شده + ۱۴ تمرین + حل |
-| [۳.۵](lessons/L5-causation-randomization.md) | همبستگی و علیت، مخدوش‌گری، تصادفی‌سازی و کورسازی | ۳ مثال حل‌شده + ۱۲ تمرین + حل |
-
-تمرین‌ها در سه سطح (پایه، متوسط، پیشرفته) از ساده به دشوار مرتب شده‌اند.
-
-### ۲) مسیر نرم‌افزاری
-
-| مسیر | راهنما | فایل‌ها |
-|---|---|---|
-| SPSS | [spss/README.md](spss/README.md) | `M03_solutions.sps` |
-| GraphPad Prism | [prism/README.md](prism/README.md) | — |
-| R | [r/README.md](r/README.md) | `M03_solutions.R` |
-| Python | [python/README.md](python/README.md) | `M03_solutions.py` |
-| Excel | [excel/README.md](excel/README.md) | `M03_excel_practice.xlsx`، `M03_excel_solutions.xlsx` |
-
-در هر مسیر **هفت تمرین عملی یکسان (ع۱ تا ع۷)** با جواب عددی یکسان. مسیرهای R و Python یک تمرین اضافه (ع۸: شبیه‌سازی) هم دارند.
-
-### ۳) جمع‌بندی و منابع
-
-- [review.md](review.md): آزمون پایانی با حل کامل
-- [references.md](references.md): کتاب‌ها، مقاله‌ها و فیلم‌ها
+برای مثال‌ها و تمرین‌های تکمیلی به بخش‌های پیشینِ [جامعه و نمونه](lessons/L1-population-sample.md)، [نمونه‌گیری](lessons/L2-sampling-methods.md)، [سوگیری](lessons/L3-error-and-bias.md)، [طرح‌های مطالعه](lessons/L4-study-designs.md) و [علیت و تصادفی‌سازی](lessons/L5-causation-randomization.md) سر بزنید.
 
 ## داده‌های ماژول
 

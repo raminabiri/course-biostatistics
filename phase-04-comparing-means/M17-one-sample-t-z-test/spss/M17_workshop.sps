@@ -22,7 +22,6 @@ DATASET COPY M17Summary.
 DATASET ACTIVATE M17Summary.
 AGGREGATE
  /OUTFILE=*
- /BREAK=
  /n_valid=N(value)
  /mean_value=MEAN(value)
  /sd_value=SD(value).

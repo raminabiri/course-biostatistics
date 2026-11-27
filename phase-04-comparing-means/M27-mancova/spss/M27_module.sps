@@ -1,0 +1,11 @@
+GET DATA /TYPE=TXT /FILE='data/practice.csv' /DELCASE=LINE /DELIMITERS=","
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2
+ /VARIABLES=a F1.0 b F1.0 replicate F2.0 baseline F8.2 y F8.2 z F8.2 y0 F8.2 z0 F8.2.
+COMPUTE x=baseline-25.
+TEMPORARY.
+SELECT IF b=0.
+GLM y z BY a WITH x /METHOD=SSTYPE(3)
+ /EMMEANS=TABLES(a) WITH(x=0) COMPARE(a)
+ /DESIGN=x a.
+GLM y z BY a b WITH x /METHOD=SSTYPE(3) /DESIGN=x a b a*b.
+GLM y z BY a b WITH x /METHOD=SSTYPE(3) /DESIGN=x a b a*b a*x.

@@ -27,32 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=tMRq1TaOv5s). متوسط. بعد از شناخت رگرسیون و شیب، بخش ANCOVA در Excel را ببینید. فیلم یک پاسخ را مدل می‌کند و کاربرگ حاضر دو ماتریس مانده را برای آزمون مشترک می‌سازد.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/functions/linest-function).
 
 ### SPSS
 
-- فیلم. [نمونهٔ تحلیل چندمتغیره در SPSS](https://www.youtube.com/watch?v=UTi6NqV_9Qs)
-- دامنهٔ دیدن. متوسط. تعیین دو پیامد و خواندن Multivariate Tests را ببینید.
-- مرجع نوشتاری. [UCLA، خروجی MANOVA](https://stats.oarc.ucla.edu/spss/output/one-waymanova/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=GrX7tW8nqbw). متوسط. در ویدئوی یک‌عاملی، تعیین دو پیامد، عامل و هم‌متغیر و خواندن آزمون چندمتغیره را ببینید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=statistics-glm-multivariate-analysis).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/series/graphing-in-prism)
+- [فیلم آموزشی](https://www.graphpad.com/series/data-analysis). متوسط. بخش Multiple linear regression را پس از شناخت خط پایه ببینید. این مسیر پیش‌بینی یک سنجه در هر مدل و نمودار را فراهم می‌کند.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_comparingslopesandintercepts.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/summary.manova.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=iEBBcckQL0I). متوسط. فیلم خواندن جدول MANOVA برای دو پاسخ را نشان می‌دهد. در این ماژول x در سمت راست مدل افزوده می‌شود.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/summary.manova.html).
 
 ### Python
 
-- فیلم. [MANOVA در Python با statsmodels](https://www.youtube.com/watch?v=1lRtG0px_J0)
-- دامنهٔ دیدن. متوسط. جدول آزمون چندمتغیره را در فیلم ببینید. اسکریپت جزوه همان آماره‌ها را با NumPy و SciPy بازسازی می‌کند.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=1lRtG0px_J0). متوسط. پس از آشنایی با آرایه، بخش ساخت مدل چندپاسخی را ببینید. در کد درس x و ستون‌های تعاملی با NumPy به مدل افزوده می‌شوند.
+- [مرجع نوشتاری](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html).
 
 </div>

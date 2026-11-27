@@ -67,6 +67,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامهٔ دوره](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M25-hotelling-t2/lessons/README.md) · [درس بعد](../../M27-mancova/lessons/L1.md)
+[درس پیش](../../M25-hotelling-t2/lessons/README.md) · [درس بعد](../../M27-mancova/lessons/README.md)
 
 </div>

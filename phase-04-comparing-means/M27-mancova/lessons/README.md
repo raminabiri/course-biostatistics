@@ -63,6 +63,6 @@ x=baseline−۲۵ را تعریف کنید. در x=0 هر دو گروه خط پ�
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M26-manova/lessons/README.md) · [درس بعد](../../M28-experimental-designs/lessons/L1.md)
+[درس پیش](../../M26-manova/lessons/README.md) · [درس بعد](../../M28-experimental-designs/lessons/README.md)
 
 </div>

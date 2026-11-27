@@ -1,4 +1,4 @@
-from scipy.stats import f
+from scipy.stats import f, t
 import numpy as np
 
 def nested_test(y, reduced, full):
@@ -39,3 +39,11 @@ base=np.column_stack([np.ones(y.size),codes(u),period])
 full=np.column_stack([base,w])
 coef=np.linalg.lstsq(full,y,rcond=None)[0]
 print("L3:",coef[-1],nested_test(y,base,full)[1])
+
+full_error = y - full @ coef
+df = len(y) - np.linalg.matrix_rank(full)
+variance = (full_error @ full_error) / df
+standard_error = np.sqrt(variance * np.linalg.inv(full.T @ full)[-1, -1])
+margin = t.ppf(.975, df) * standard_error
+print("L3: period effect", coef[-2])
+print("L3: treatment 95% CI", coef[-1] - margin, coef[-1] + margin)

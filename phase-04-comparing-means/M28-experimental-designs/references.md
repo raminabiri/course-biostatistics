@@ -27,32 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=XyKVsy2jPaE). مقدماتی. پس از شناخت بلوک و شیوه، ورود جدول ۵×۳ و خواندن ردیف Columns را ببینید.
+- [مرجع نوشتاری](https://support.microsoft.com/en-gb/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/library/spss-librarymanova-and-glm-2/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=d2DrsVQwdso). متوسط. در فیلم مربع لاتین، وارد کردن سطر، ستون و شیوه در مدل را دنبال کنید. بخش اثر تصادفی در مرجع IBM آمده است.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=mixed-examples).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
+- [فیلم آموزشی](https://www.graphpad.com/series/statistics-in-prism). متوسط. بخش معرفی جدول Nested را ببینید و تشخیص دهید کدام زیرستون به یک آزمایشگاه تعلق دارد.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_how-to-nested-anova.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=GtuEwOUVX5E). متوسط. بخش RCBD را برای تعریف عامل بلوک و شیوه ببینید. مسیر R درس همین مدل را با lm و anova می‌سازد.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=1NqgLWAiWYA). متوسط. ساخت مدل دو عاملی در Python را ببینید. برای بلوک کامل کارگاه از مدل جمع‌پذیر بدون تعامل کمک می‌گیریم.
+- [مرجع نوشتاری](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html).
 
 </div>

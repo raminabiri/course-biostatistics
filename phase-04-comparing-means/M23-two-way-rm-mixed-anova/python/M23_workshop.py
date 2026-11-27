@@ -1,26 +1,46 @@
+import csv
 from pathlib import Path
+
 import numpy as np
-from scipy.stats import f, ttest_rel, ttest_ind
-path=Path(__file__).resolve().parents[1]/"data/practice.csv"
-ids,g,tm,b,y=np.loadtxt(path,delimiter=",",skiprows=1,unpack=True)
-x=y[b==0].reshape(-1,3)
-z=y[b==1].reshape(-1,3)
-group=g[(b==0)&(tm==0)]
-def rm(y,g=None):
-    n,k=y.shape
-    g=np.zeros(n) if g is None else g
-    centered=y-y.mean(axis=1,keepdims=True)
-    lv, idx, w=np.unique(g,return_inverse=True,return_counts=True)
-    cells=np.array([centered[g==level].mean(axis=0) for level in lv])
-    ss_err=np.sum((centered-cells[idx])**2)
-    center=centered.mean(axis=0)
-    ss=n*np.sum(center**2) if lv.size==1 else np.sum(w*np.sum((cells-center)**2,axis=1))
-    df1=(k-1)*max(1,lv.size-1)
-    df2=(n-lv.size)*(k-1)
-    value=(ss/df1)/(ss_err/df2)
-    return value,f.sf(value,df1,df2)
-print("L1:",rm(z-x))
-change=x[:,2]-x[:,0]
-fit=ttest_ind(change[group==1],change[group==0],equal_var=True)
-print("L2:",fit.statistic,fit.pvalue)
-print("L3:",rm(x,group))
+from scipy.stats import f, ttest_ind
+
+path = Path(__file__).resolve().parents[1] / "data" / "wide.csv"
+with path.open(newline="", encoding="utf-8") as stream:
+    rows = list(csv.DictReader(stream))
+
+def matrix(condition):
+    columns = [f"t{time}c{condition}" for time in range(3)]
+    return np.array([[float(row[name]) for name in columns] for row in rows])
+
+if len({row["id"] for row in rows}) != len(rows):
+    raise ValueError("Each participant must have exactly one row.")
+
+zero = matrix(0)
+one = matrix(1)
+if not np.isfinite(zero).all() or not np.isfinite(one).all():
+    raise ValueError("The ANOVA workbook requires complete measurements.")
+group = np.array([int(row["group"]) for row in rows])
+
+def time_test(values, groups):
+    n, k = values.shape
+    centered = values - values.mean(axis=1, keepdims=True)
+    levels, indices, counts = np.unique(groups, return_inverse=True, return_counts=True)
+    profiles = np.array([centered[groups == level].mean(axis=0) for level in levels])
+    ss_error = np.sum((centered - profiles[indices]) ** 2)
+    overall = centered.mean(axis=0)
+    if levels.size == 1:
+        ss_effect = n * np.sum(overall ** 2)
+    else:
+        ss_effect = np.sum(counts * np.sum((profiles - overall) ** 2, axis=1))
+    df_effect = (k - 1) * max(1, levels.size - 1)
+    df_error = (n - levels.size) * (k - 1)
+    statistic = (ss_effect / df_effect) / (ss_error / df_error)
+    return statistic, df_effect, df_error, f.sf(statistic, df_effect, df_error)
+
+print("L1: F, degrees of freedom, P:", time_test(one - zero, np.zeros(len(rows))))
+change = zero[:, 2] - zero[:, 0]
+first, second = change[group == 1], change[group == 0]
+fit = ttest_ind(first, second, equal_var=True)
+print("L2: Difference, t, degrees of freedom, P:", first.mean() - second.mean(), fit.statistic, fit.df, fit.pvalue)
+print("L2: 95% CI:", fit.confidence_interval())
+print("L3: F, degrees of freedom, P:", time_test(zero, group))

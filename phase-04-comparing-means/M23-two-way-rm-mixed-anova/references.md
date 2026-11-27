@@ -27,37 +27,28 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=KCCkT4Jdz5A). مقدماتی. ابتدا جدول اختلاف‌های شرط را آماده کنید. در فیلم روش انتخاب بازه و خواندن Columns را برای آزمون روی همان جدول ببینید.
+- [مرجع نوشتاری](https://support.microsoft.com/en-gb/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis).
+- [فیلم آزمون t دو گروه جدا در Excel](https://www.youtube.com/watch?v=qLkBgFdnSU4). مقدماتی. ابتدا تغییر هر فرد را در دو ستون گروه جدا کنید و بخش Assuming Equal Variances را ببینید.
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/code/repeated-measures-anova-in-spss/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=Xa2Ebfnr22M). متوسط. پس از شناخت عامل درون‌فردی، مراحل تعریف زمان و عامل گروه و خواندن تعامل را ببینید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=reference-glm-repeated-measures).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-anova). متوسط. در صفحهٔ ناشر، Learn to Perform Repeated Measures Two-way ANOVA in Prism را برای چیدمان گروه‌ها و جفت‌کردن ببینید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/repeated_measures.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=wL0MVlusawY). متوسط. آموزش دانشگاه Liverpool ساخت مدل تکراری دوطرفه را نشان می‌دهد. نحو مدل و طبقهٔ خطای کد کارگاه را از متن زیر دنبال کنید.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
-
-## مستندات همین طرح
-
-- [IBM، مدل اندازه‌گیری تکراری و تعامل عامل‌های درون‌فردی و بین‌فردی](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=measures-glm-repeated-model)
-- [GraphPad، چیدمان اندازه‌گیری تکراری برای یک یا دو عامل](https://www.graphpad.com/guides/prism/latest/statistics/repeated_measures.htm)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=prOUtDXafpU). متوسط. پس از شناخت آرایه و جدول بلند، بخش تعامل گروه و زمان را ببینید. اسکریپت ما همان پرسش را با مرکزکردن و دنبالهٔ F بازتولید می‌کند.
+- [مرجع نوشتاری](https://pingouin-stats.org/generated/pingouin.mixed_anova.html).
 
 </div>

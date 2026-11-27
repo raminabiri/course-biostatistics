@@ -74,6 +74,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامهٔ دوره](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M21-two-way-factorial-anova/lessons/README.md) · [درس بعد](../../M23-two-way-rm-mixed-anova/lessons/L1.md)
+[درس پیش](../../M21-two-way-factorial-anova/lessons/README.md) · [درس بعد](../../M23-two-way-rm-mixed-anova/lessons/README.md)
 
 </div>

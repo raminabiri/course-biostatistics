@@ -61,6 +61,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M24-ancova/lessons/README.md) · [درس بعد](../../M26-manova/lessons/L1.md)
+[درس پیش](../../M24-ancova/lessons/README.md) · [درس بعد](../../M26-manova/lessons/README.md)
 
 </div>

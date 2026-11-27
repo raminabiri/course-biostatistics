@@ -22,7 +22,7 @@
 
 | شناسه | عنوان | پوشه |
 |---|---|---|
-| M01 | داده، متغیر و ساختار مجموعه‌داده | [spss/](../phase-0-foundations/M01-data-and-variables/spss/README.md) |
-| M02 | ریاضیات پیش‌نیاز | [spss/](../phase-0-foundations/M02-math-prerequisites/spss/README.md) |
-| M03 | جامعه، نمونه و طرح مطالعه | [spss/](../phase-0-foundations/M03-population-sampling-study-design/spss/README.md) |
-| M04 | آماده‌سازی و پاک‌سازی داده | [spss/](../phase-0-foundations/M04-data-preparation-cleaning/spss/README.md) |
+| M01 | داده، متغیر و ساختار مجموعه‌داده | [spss/](../phase-00-foundations/M01-data-and-variables/spss/README.md) |
+| M02 | ریاضیات پیش‌نیاز | [spss/](../phase-00-foundations/M02-math-prerequisites/spss/README.md) |
+| M03 | جامعه، نمونه و طرح مطالعه | [spss/](../phase-00-foundations/M03-population-sampling-study-design/spss/README.md) |
+| M04 | آماده‌سازی و پاک‌سازی داده | [spss/](../phase-00-foundations/M04-data-preparation-cleaning/spss/README.md) |

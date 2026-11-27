@@ -21,7 +21,7 @@ Prism برای روش‌های آزمایشگاهی و آزمون‌های را�
 
 | شناسه | عنوان | پوشه |
 |---|---|---|
-| M01 | داده، متغیر و ساختار مجموعه‌داده | [prism/](../phase-0-foundations/M01-data-and-variables/prism/README.md) |
-| M02 | ریاضیات پیش‌نیاز | [prism/](../phase-0-foundations/M02-math-prerequisites/prism/README.md) |
-| M03 | جامعه، نمونه و طرح مطالعه (پوشش بخشی؛ همراه با Excel) | [prism/](../phase-0-foundations/M03-population-sampling-study-design/prism/README.md) |
-| M04 | آماده‌سازی و پاک‌سازی داده (پوشش بخشی؛ همراه با Excel) | [prism/](../phase-0-foundations/M04-data-preparation-cleaning/prism/README.md) |
+| M01 | داده، متغیر و ساختار مجموعه‌داده | [prism/](../phase-00-foundations/M01-data-and-variables/prism/README.md) |
+| M02 | ریاضیات پیش‌نیاز | [prism/](../phase-00-foundations/M02-math-prerequisites/prism/README.md) |
+| M03 | جامعه، نمونه و طرح مطالعه (پوشش بخشی؛ همراه با Excel) | [prism/](../phase-00-foundations/M03-population-sampling-study-design/prism/README.md) |
+| M04 | آماده‌سازی و پاک‌سازی داده (پوشش بخشی؛ همراه با Excel) | [prism/](../phase-00-foundations/M04-data-preparation-cleaning/prism/README.md) |

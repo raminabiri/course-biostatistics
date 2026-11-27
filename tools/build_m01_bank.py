@@ -6,7 +6,7 @@ from openpyxl.styles import Font, PatternFill
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / 'phase-0-foundations/M01-data-and-variables/data'
+DATA = ROOT / 'phase-00-foundations/M01-data-and-variables/data'
 
 def build():
     # Small first-contact table shared by all five beginner guides.

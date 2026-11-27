@@ -20,7 +20,7 @@
 
 | شناسه | عنوان | پوشه |
 |---|---|---|
-| M01 | داده، متغیر و ساختار مجموعه‌داده | [r/](../phase-0-foundations/M01-data-and-variables/r/README.md) |
-| M02 | ریاضیات پیش‌نیاز | [r/](../phase-0-foundations/M02-math-prerequisites/r/README.md) |
-| M03 | جامعه، نمونه و طرح مطالعه | [r/](../phase-0-foundations/M03-population-sampling-study-design/r/README.md) |
-| M04 | آماده‌سازی و پاک‌سازی داده | [r/](../phase-0-foundations/M04-data-preparation-cleaning/r/README.md) |
+| M01 | داده، متغیر و ساختار مجموعه‌داده | [r/](../phase-00-foundations/M01-data-and-variables/r/README.md) |
+| M02 | ریاضیات پیش‌نیاز | [r/](../phase-00-foundations/M02-math-prerequisites/r/README.md) |
+| M03 | جامعه، نمونه و طرح مطالعه | [r/](../phase-00-foundations/M03-population-sampling-study-design/r/README.md) |
+| M04 | آماده‌سازی و پاک‌سازی داده | [r/](../phase-00-foundations/M04-data-preparation-cleaning/r/README.md) |

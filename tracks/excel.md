@@ -19,7 +19,7 @@
 
 | شناسه | عنوان | پوشه | وضعیت |
 |---|---|---|---|
-| M01 | داده، متغیر و ساختار مجموعه‌داده | [excel/](../phase-0-foundations/M01-data-and-variables/excel/README.md) | آماده |
-| M02 | ریاضیات پیش‌نیاز | [excel/](../phase-0-foundations/M02-math-prerequisites/excel/README.md) | آماده |
-| M03 | جامعه، نمونه و طرح مطالعه | [excel/](../phase-0-foundations/M03-population-sampling-study-design/excel/README.md) | آماده |
-| M04 | آماده‌سازی و پاک‌سازی داده | [excel/](../phase-0-foundations/M04-data-preparation-cleaning/excel/README.md) | آماده |
+| M01 | داده، متغیر و ساختار مجموعه‌داده | [excel/](../phase-00-foundations/M01-data-and-variables/excel/README.md) | آماده |
+| M02 | ریاضیات پیش‌نیاز | [excel/](../phase-00-foundations/M02-math-prerequisites/excel/README.md) | آماده |
+| M03 | جامعه، نمونه و طرح مطالعه | [excel/](../phase-00-foundations/M03-population-sampling-study-design/excel/README.md) | آماده |
+| M04 | آماده‌سازی و پاک‌سازی داده | [excel/](../phase-00-foundations/M04-data-preparation-cleaning/excel/README.md) | آماده |

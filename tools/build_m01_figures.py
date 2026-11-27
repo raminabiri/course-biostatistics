@@ -3,7 +3,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'phase-0-foundations/M01-data-and-variables/figures'
+OUT = ROOT / 'phase-00-foundations/M01-data-and-variables/figures'
 
 def text(x, y, value, size=18, fill='#172b43', bold=False):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}" font-weight="{700 if bold else 400}">{escape(value)}</text>'

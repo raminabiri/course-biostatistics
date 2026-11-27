@@ -23,7 +23,7 @@
 
 | شناسه | عنوان | پوشه |
 |---|---|---|
-| M01 | داده، متغیر و ساختار مجموعه‌داده | [python/](../phase-0-foundations/M01-data-and-variables/python/README.md) |
-| M02 | ریاضیات پیش‌نیاز | [python/](../phase-0-foundations/M02-math-prerequisites/python/README.md) |
-| M03 | جامعه، نمونه و طرح مطالعه | [python/](../phase-0-foundations/M03-population-sampling-study-design/python/README.md) |
-| M04 | آماده‌سازی و پاک‌سازی داده | [python/](../phase-0-foundations/M04-data-preparation-cleaning/python/README.md) |
+| M01 | داده، متغیر و ساختار مجموعه‌داده | [python/](../phase-00-foundations/M01-data-and-variables/python/README.md) |
+| M02 | ریاضیات پیش‌نیاز | [python/](../phase-00-foundations/M02-math-prerequisites/python/README.md) |
+| M03 | جامعه، نمونه و طرح مطالعه | [python/](../phase-00-foundations/M03-population-sampling-study-design/python/README.md) |
+| M04 | آماده‌سازی و پاک‌سازی داده | [python/](../phase-00-foundations/M04-data-preparation-cleaning/python/README.md) |

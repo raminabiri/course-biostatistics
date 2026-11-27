@@ -27,32 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. شکل داده را با فیلم بررسی کنید. رتبه و P را از فرمول‌های کارگاه بسازید.
-- مرجع نوشتاری. [Microsoft، تابع‌های آماری Excel](https://support.microsoft.com/en-us/excel/excel-functions-by-category)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=peF0OXx0G2o). متوسط. پس از ساخت تفاضل، بخش قدر مطلق، رتبه‌بندی و جمع رتبه‌ها را ببینید. شمارش دقیق P در کاربرگ نشان داده شده است.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/functions/binom-dist-function).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/seminars/notes/analyzing-data/)
+- [فیلم آموزشی](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874). متوسط. ویدئوی Wilcoxon Signed Rank Test دانشگاه Guelph را برای تنظیم آزمون ناپارامتری ببینید. نام و جهت جفت‌ها در فرمان کارگاه آمده‌اند.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=reference-npar-tests).
 
 ### Prism
 
-- فیلم. [آزمون زوجی ناپارامتری در Prism](https://www.youtube.com/watch?v=8Rb3CdcVcRg)
-- دامنهٔ دیدن. ردیف‌های زوج را مطابق تمرین وارد کنید.
-- مرجع نوشتاری. [GraphPad، گزارش Wilcoxon](https://www.graphpad.com/guides/prism/latest/statistics/stat_interpreting_results_wilcoxon_.htm)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-t-test). مقدماتی. بخش ورود دو ستون جفت‌شده را ببینید. گزینهٔ آزمون رتبه‌ای را طبق راهنمای نوشتاری انتخاب کنید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_how_to_do_an_unpaired_t_test_w_3_2.htm).
 
 ### R
 
-- فیلم. [آزمون‌های ناپارامتری در R](https://www.youtube.com/watch?v=tfBymPw1l_w)
-- دامنهٔ دیدن. متوسط. نوع paired یا مستقل و خروجی آماره را با درس خود تطبیق دهید.
-- مرجع نوشتاری. [R، آزمون Wilcoxon](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/wilcox.test.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=zM8OZUM5I4Y). متوسط. بخش اجرای آزمون علامت‌دار در R و خواندن آماره و P را پس از ساخت تفاوت‌ها دنبال کنید.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/wilcox.test.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=ZkA1fZETQEs). متوسط. پس از آشنایی با زوج‌ها، بخش Wilcoxon در SciPy را ببینید. روش دقیق و تقریبی در متن کارگاه مشخص شده است.
+- [مرجع نوشتاری](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html).
 
 </div>

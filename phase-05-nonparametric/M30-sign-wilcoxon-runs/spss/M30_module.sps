@@ -1,0 +1,9 @@
+GET DATA /TYPE=TXT /FILE='data/practice.csv' /DELCASE=LINE /DELIMITERS=","
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /VARIABLES=design A8 id F3.0 before F8.1 after F8.1.
+SELECT IF design='paired'.
+NPAR TESTS /SIGN=after WITH before (PAIRED) /WILCOXON=after WITH before (PAIRED).
+GET DATA /TYPE=TXT /FILE='data/practice.csv' /DELCASE=LINE /DELIMITERS=","
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /VARIABLES=design A8 id F3.0 before F8.1 after F8.1.
+SELECT IF design='runs'.
+SORT CASES BY id(A).
+NPAR TESTS /RUNS(.5)=before.

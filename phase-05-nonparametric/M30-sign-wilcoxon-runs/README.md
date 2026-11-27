@@ -2,18 +2,19 @@
 
 # M30 — آزمون علامت، ویلکاکسون علامت‌دار و گردش‌ها
 
-ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
+**[درس یکپارچه ←](lessons/README.md)**
 
-- [درس 30.1 — آزمون علامت برای یک نمونه یا زوج](lessons/L1.md) · [تمرین‌ها و پاسخ‌ها](exercises/L1.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [۳۰ پاسخ تشریحی](solutions/module.md) · [منابع و فیلم‌ها](references.md)
 
-- [درس 30.2 — ویلکاکسون علامت‌دار رتبه‌ای](lessons/L2.md) · [تمرین‌ها و پاسخ‌ها](exercises/L2.md)
+[Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
 
-- [درس 30.3 — آزمون گردش‌ها برای ترتیب](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
+[اعتبارسنجی](VALIDATION.md)
 
-[کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
+<details>
+<summary>خواندنی‌ها و تمرین‌های تکمیلی پیشین</summary>
 
-## درس‌های مستقل پنج نرم‌افزار
+[علامت](lessons/L1.md) · [ویلکاکسون علامت‌دار](lessons/L2.md) · [گردش‌ها](lessons/L3.md)
 
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+</details>
 
 </div>

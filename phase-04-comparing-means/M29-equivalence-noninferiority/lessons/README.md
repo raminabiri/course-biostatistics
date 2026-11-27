@@ -62,6 +62,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M28-experimental-designs/lessons/README.md) · [درس بعد](../../../phase-05-nonparametric/M30-sign-wilcoxon-runs/lessons/L1.md)
+[درس پیش](../../M28-experimental-designs/lessons/README.md) · [درس بعد](../../../phase-05-nonparametric/M30-sign-wilcoxon-runs/lessons/README.md)
 
 </div>

@@ -27,37 +27,28 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=tMRq1TaOv5s). متوسط. پس از شناخت شیب، بخش مقایسهٔ گروه‌ها در خط پایهٔ یکسان را ببینید. کاربرگ این درس داده و فرمول‌های خودش را دارد.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/functions/linest-function).
 
 ### SPSS
 
-- فیلم. [ANCOVA در SPSS](https://www.youtube.com/watch?v=j6UmlZ62D3E)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/code/repeated-measures-anova-in-spss/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=ZYBpVgAFa24). متوسط. در فیلم بررسی رابطهٔ خطی و شیب‌ها از ۶:۰۵ معرفی می‌شود. در کارگاه خط پایه را صریح روی ۲۴ می‌گذاریم.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=unianova-emmeans-subcommand-command).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
+- [فیلم آموزشی](https://www.graphpad.com/series/how-to-perform-linear-regression-analysis). متوسط. پس از شناخت جدول XY، ساخت خط رگرسیون را ببینید. برای تعدیل و اختلاف در ۲۴، بخش رگرسیون چندمتغیرهٔ متن را انجام دهید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_comparingslopesandintercepts.htm).
+- [مجموعهٔ آموزش رگرسیون چندمتغیرهٔ ناشر](https://www.graphpad.com/series/data-analysis). بخش Multiple linear regression را برای خواندن ضریب و جدول ANOVA ببینید.
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=OqBiCb1GjgE). متوسط. فیلم اجرای ANCOVA و گزارش آن در RStudio را نشان می‌دهد. در این درس lm و مقایسهٔ دو مدل تودرتو مستقیم اجرا می‌شوند.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/anova.lm.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
-
-## مستندات اجرای تعدیل
-
-- [GraphPad، جدول Multiple Variables برای رگرسیون چندمتغیره](https://www.graphpad.com/guides/prism/latest/user-guide/multiple-variable-tables.htm)
-- [GraphPad، مقایسهٔ شیب و عرض از مبدأ](https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_comparingslopesandintercepts.htm)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=aJcIMwVOLeA). متوسط. پس از خواندن جدول CSV، تفسیر تحلیل کوواریانس را در فیلم دنبال کنید. متن با NumPy ساخت ماتریس مدل و با SciPy خواندن P را نشان می‌دهد.
+- [مرجع نوشتاری](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html).
 
 </div>

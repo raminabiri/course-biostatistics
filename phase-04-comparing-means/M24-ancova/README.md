@@ -4,16 +4,19 @@
 
 ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
 
-- [درس 24.1 — تعدیل نسبت به خط پایه](lessons/L1.md) · [تمرین‌ها و پاسخ‌ها](exercises/L1.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-- [درس 24.2 — همگنی شیب و دو عامل](lessons/L2.md) · [تمرین‌ها و پاسخ‌ها](exercises/L2.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-- [درس 24.3 — ANCOVA تکراری و انتخاب خروجی](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
+[Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
 
-[کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
+[اعتبارسنجی](VALIDATION.md)
 
-## درس‌های مستقل پنج نرم‌افزار
+<details>
+<summary>متن‌ها و تمرین‌های تکمیلی پیشین</summary>
 
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[خط پایه و پیش‌بینی](lessons/L1.md) · [شیب و تعامل](lessons/L2.md) · [تحلیل تغییر](lessons/L3.md)
+
+</details>
 
 </div>

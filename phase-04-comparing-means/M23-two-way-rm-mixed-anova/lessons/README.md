@@ -64,6 +64,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M22-repeated-measures-anova/lessons/README.md) · [درس بعد](../../M24-ancova/lessons/L1.md)
+[درس پیش](../../M22-repeated-measures-anova/lessons/README.md) · [درس بعد](../../M24-ancova/lessons/README.md)
 
 </div>

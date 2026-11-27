@@ -1,0 +1,18 @@
+GET DATA /TYPE=TXT /FILE='data/practice.csv' /DELCASE=LINE /DELIMITERS=","
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2
+ /VARIABLES=a F1.0 b F1.0 replicate F2.0 baseline F8.2 value F8.2.
+COMPUTE x=baseline-24.
+TEMPORARY.
+SELECT IF b=0.
+UNIANOVA value BY a WITH x /EMMEANS=TABLES(a) WITH(x=0) COMPARE(a)
+ /DESIGN=a x.
+TEMPORARY.
+SELECT IF b=0.
+UNIANOVA value BY a WITH x /DESIGN=a x a*x.
+UNIANOVA value BY a b WITH x /DESIGN=a b a*b x.
+UNIANOVA value BY a b WITH x /DESIGN=a b a*b x a*x b*x a*b*x.
+GET DATA /TYPE=TXT /FILE='data/change.csv' /DELCASE=LINE /DELIMITERS=","
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /VARIABLES=a F1.0 baseline F8.2 change F8.2.
+COMPUTE x=baseline-24.
+UNIANOVA change BY a WITH x /EMMEANS=TABLES(a) WITH(x=0) COMPARE(a)
+ /DESIGN=a x.

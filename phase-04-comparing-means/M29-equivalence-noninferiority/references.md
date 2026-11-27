@@ -27,32 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/functions/t-dist-2t-function)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=jYFHs8mF5_s). متوسط. در فیلم دو اجرای ToolPak با دو مقدار فرضی را ببینید. کاربرگ این ماژول همان دنباله‌ها را با فرمول نشان می‌دهد.
+- [مرجع نوشتاری](https://support.microsoft.com/en-au/excel/compatibility-functions-reference).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/library/spss-librarymanova-and-glm-2/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=C2Qa5d9ij0Y). مقدماتی. فیلم آزمون t در برابر مقدار مرجع را نشان می‌دهد. برای دو گروه این درس، مسیر داده و دو مرز را از فرمان‌های زیر دنبال کنید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=functions-cumulative-distribution).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/guides/prism/latest/user-guide/available_functions_transforms.htm)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-t-test). متوسط. در مجموعهٔ GraphPad، بخش آزمون دو گروه جدا را برای چیدمان ستون‌ها و خواندن بازه دنبال کنید. آزمون دو مرزی از روش مکتوب به دست می‌آید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_testing_for_equivalence_with_c.htm).
 
 ### R
 
-- فیلم. [مرور توان و اندازهٔ اثر](https://www.youtube.com/watch?v=Rsc5znwR5FA)
-- دامنهٔ دیدن. متوسط. فیلم مفهوم اثر هدف را مرور می‌کند. کد TOST در کارگاه و متن Lakens آمده است.
-- مرجع نوشتاری. [Lakens، دستور و مثال هم‌ارزی در R](https://github.com/Lakens/statistical_inferences/blob/master/09-equivalencetest.qmd)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=GpyNlJ5F2HE). متوسط. بخش R فیلم TOST را برای دو گروه ببینید. اسکریپت درس با توابع پایه اجرا می‌شود.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/TDist.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://www.statsmodels.org/v0.14.3/generated/statsmodels.stats.weightstats.ttost_ind.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=VUINlWBEs1Y). متوسط. فیلم آزمون t با واریانس مشترک در SciPy را نشان می‌دهد. در اسکریپت درس به جای مرز صفر، توزیع را در دو حاشیه می‌خوانیم.
+- [مرجع نوشتاری](https://www.statsmodels.org/stable/generated/statsmodels.stats.weightstats.ttost_ind.html).
 
 </div>

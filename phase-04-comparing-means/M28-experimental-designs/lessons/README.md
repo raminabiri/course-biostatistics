@@ -75,6 +75,6 @@ F بازو برابر ۸۸٫۱۶۷÷۹٫۱۶۷≈۹٫۶۱۸ با درجه‌ها
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M27-mancova/lessons/README.md) · [درس بعد](../../M29-equivalence-noninferiority/lessons/L1.md)
+[درس پیش](../../M27-mancova/lessons/README.md) · [درس بعد](../../M29-equivalence-noninferiority/lessons/README.md)
 
 </div>

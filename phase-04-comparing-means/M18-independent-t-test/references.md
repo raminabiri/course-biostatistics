@@ -27,32 +27,27 @@
 
 ### Excel
 
-- فیلم. [آزمون میانگین در Excel](https://www.youtube.com/watch?v=v-ZcqrdTcIQ)
-- دامنهٔ دیدن. متوسط. ساخت احتمال آزمون را ببینید. نوع آزمون کارگاه را از طرح داده انتخاب کنید.
-- مرجع نوشتاری. [Microsoft، T.TEST](https://support.microsoft.com/en-us/excel/functions/t-test-function)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=MuES_q90leQ). در فیلم اجرای ToolPak را ببینید و حاصل P دوطرفه را با فرمول این درس مقایسه کنید.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/functions/t-test-function).
 
 ### SPSS
 
-- فیلم. [دانشگاه Guelph، ویدئوهای SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. واردکردن داده و خروجی را ببینید. منوی آزمون مورد نظر در کارگاه آمده است.
-- مرجع نوشتاری. [Kent State، آزمون‌های SPSS](https://libguides.library.kent.edu/SPSS/OneSampletTest)
+- [فیلم آموزشی](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874). در صفحهٔ دانشگاه Guelph ویدئوی Independent Samples T-Test را باز کنید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=tests-independent-samples-t-test).
 
 ### Prism
 
-- فیلم. [GraphPad، ویدئوهای آزمون t](https://www.graphpad.com/series/key-analysis-t-test)
-- دامنهٔ دیدن. متوسط. نوع جدول و جهت آزمون را دنبال کنید. برای دادهٔ زوجی از زوج‌های خام کارگاه کمک بگیرید.
-- مرجع نوشتاری. [GraphPad، آزمون با خلاصهٔ داده](https://www.graphpad.com/support/faq/anova-and-t-tests-with-data-entered-as-mean-n-and-sd-or-sem/)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-t-test). در مجموعهٔ GraphPad، تنظیم طرح و خواندن نتایج آزمون t را ببینید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_choosing_a_t_test.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، آزمون t در R](https://www.youtube.com/watch?v=RlhnNbPZC0A)
-- دامنهٔ دیدن. متوسط. ورودی، تخمین اختلاف و P را ببینید.
-- مرجع نوشتاری. [R، t.test](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/t.test.html)
+- [فیلم آموزشی](https://guides.lib.uoguelph.ca/c.php?g=545993&p=5329085). در صفحهٔ دانشگاه Guelph بخش Video: Independent Samples T-Test را باز کنید. گزینهٔ Welch را از متن درس نگه دارید.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/t.test.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. مبنای محاسبه در SciPy را ببینید. نوع آزمون در اسکریپت ماژول تنظیم شده است.
-- مرجع نوشتاری. [SciPy، ttest_ind](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=tSOSOlWQq-s). در فیلم به ورود آرایه و خواندن نتیجهٔ ttest_ind توجه کنید.
+- [مرجع نوشتاری](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html).
 
 </div>

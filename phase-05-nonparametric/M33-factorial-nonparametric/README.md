@@ -2,18 +2,12 @@
 
 # M33 — تحلیل عاملی ناپارامتری و ANCOVA رتبه‌ای
 
-ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
+در یک طرح ۲×۲ بررسی می‌کنیم که آیا اثر یک روش تمرینی به نوع بازخورد بستگی دارد. سپس برای یک سؤال جداگانه در همان داده، رتبهٔ پاسخ دو گروه را با درنظرگرفتن خط پایه مقایسه می‌کنیم.
 
-- [درس 33.1 — ART در طرح عاملی متوازن](lessons/L1.md) · [تمرین‌ها و پاسخ‌ها](exercises/L1.md)
+**[خواندن درس یکپارچه ←](lessons/README.md)**
 
-- [درس 33.2 — گسترش Scheirer–Ray–Hare](lessons/L2.md) · [تمرین‌ها و پاسخ‌ها](exercises/L2.md)
-
-- [درس 33.3 — ANCOVA رتبه‌ای Quade](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
-
-[کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
-
-## درس‌های مستقل پنج نرم‌افزار
-
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+- [۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ‌های تشریحی](solutions/module.md) · [دادهٔ تمرین](data/practice.csv)
+- [Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
+- [منابع و فیلم‌ها](references.md) · [اعتبارسنجی](VALIDATION.md)
 
 </div>

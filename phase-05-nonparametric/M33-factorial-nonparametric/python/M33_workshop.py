@@ -1,4 +1,6 @@
-from scipy.stats import f
+from pathlib import Path
+
+from scipy.stats import chi2, f, rankdata
 import numpy as np
 
 def nested_test(y, reduced, full):
@@ -11,13 +13,12 @@ def nested_test(y, reduced, full):
     df1, df2 = rank1-rank0, len(y)-rank1
     statistic = ((ss0-ss1)/df1)/(ss1/df2)
     return statistic, f.sf(statistic, df1, df2)
-from pathlib import Path
-from scipy.stats import rankdata,chi2
-
 path=Path(__file__).resolve().parents[1]/"data/practice.csv"
 a,b,i,x,y=np.loadtxt(path,delimiter=",",skiprows=1,unpack=True)
+counts = np.array([np.sum((a == i) & (b == j)) for i in (0, 1) for j in (0, 1)])
+if not (np.all(counts == counts[0]) and counts[0] >= 2 and counts.sum() == y.size):
+    raise ValueError("This workshop requires a complete balanced 2×2 design")
 o=np.ones(y.size)
-full=np.column_stack([o,a,b,a*b])
 orthogonal=np.column_stack([o,a-.5,b-.5,(a-.5)*(b-.5)])
 ma=np.array([y[a==g].mean() for g in a])
 mb=np.array([y[b==g].mean() for g in b])
@@ -25,6 +26,8 @@ cell=np.array([y[(a==aa)&(b==bb)].mean() for aa,bb in zip(a,b)])
 grand=y.mean()
 aligned=[y-cell+ma-grand,y-cell+mb-grand,y-ma-mb+grand]
 for j,col in enumerate(aligned,1):
+    unwanted = np.delete(orthogonal, j, axis=1)
+    assert np.allclose(unwanted.T @ col, 0, atol=1e-10), "Check alignment"
     print("L1",j,nested_test(rankdata(np.round(col,10)),np.delete(orthogonal,j,axis=1),orthogonal))
 r=rankdata(y)
 coef=np.linalg.lstsq(orthogonal,r,rcond=None)[0]

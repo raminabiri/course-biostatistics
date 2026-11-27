@@ -1,6 +1,9 @@
 d <- read.csv("data/practice.csv")
 d$a <- factor(d$a)
 d$b <- factor(d$b)
+counts <- table(d$a, d$b)
+stopifnot(identical(dim(counts), c(2L, 2L)), length(unique(as.vector(counts))) == 1,
+          all(counts >= 2), sum(counts) == nrow(d))
 g <- mean(d$value)
 a <- ave(d$value,d$a)
 b <- ave(d$value,d$b)
@@ -8,6 +11,9 @@ cell <- ave(d$value,d$a,d$b)
 aligned <- list(a=d$value-cell+a-g,b=d$value-cell+b-g,interaction=d$value-a-b+g)
 terms <- c("a","b","a:b")
 for(i in seq_along(terms)) {
+  before_rank <- anova(lm(aligned[[i]]~a*b,d))
+  stopifnot(abs(sum(aligned[[i]])) < 1e-10,
+            all(abs(before_rank[terms[-i],"Sum Sq"]) < 1e-10))
   fit <- anova(lm(rank(round(aligned[[i]],10))~a*b,d))
   cat("L1",terms[i],fit[terms[i],"F value"],fit[terms[i],"Pr(>F)"],"\n")
 }

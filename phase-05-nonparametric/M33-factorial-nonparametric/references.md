@@ -1,58 +1,46 @@
 <div dir="rtl">
 
-# منابع M33
+# منابع و فیلم‌های M33
 
-عنوان و محتوای قابل مشاهده در صفحهٔ ناشر یا نمایهٔ فیلم با موضوع درس تطبیق داده شد. دسترسی پخش از شبکهٔ خواننده و اجرای مسیرهای تجاری جداگانه بررسی می‌شوند.
+## منابع همراه درس
 
-## درس 33.1
+- هم‌ترازسازی، رتبه‌بندی و آزمون اثر هدف را در بخش روش مقالهٔ پایه دنبال کنید. [Wobbrock و همکاران، ART](https://depts.washington.edu/acelab/proj/art/)
+- برای سؤال مقایسهٔ دو ترکیب از مقالهٔ کنتراست چندعاملی شروع کنید. [Elkin و همکاران، ART-C](https://faculty.washington.edu/wobbrock/pubs/uist-21.pdf) · [ارائهٔ نویسندگان](https://www.youtube.com/watch?v=t2BNFdp93C8)
+- بخش روش رتبه‌بندی طرح عاملی را برای SRH بخوانید. [Scheirer، Ray و Hare، مقالهٔ اصلی](https://pubmed.ncbi.nlm.nih.gov/953139/)
+- برای رگرسیون رتبه‌ای و خواندن مانده، مقالهٔ Quade را کنار راهنمای IBM بگذارید. [Quade، تحلیل کوواریانس رتبه‌ای](https://doi.org/10.1080/01621459.1967.10500925)
 
-- [مرجع نوشتاری درس](https://depts.washington.edu/acelab/proj/art/)
-- [سخنرانی ART و کنتراست‌های چندعاملی](https://www.youtube.com/watch?v=t2BNFdp93C8) — پیشرفته. دلیل هم‌ترازسازی جداگانه برای هر اثر و تفاوت کنتراست‌ها را مرور کنید.
+## فیلم و مرجع هر نرم‌افزار
 
-## درس 33.2
+عنوان و توضیح ناشر یا نمایه با موضوع راهنما تطبیق داده شد. مراحل نوشته‌شده برای انجام کار با دادهٔ همین ماژول کافی‌اند.
 
-- [مرجع نوشتاری درس](https://pubmed.ncbi.nlm.nih.gov/953139/)
-- [سخنرانی ART و کنتراست‌های چندعاملی](https://www.youtube.com/watch?v=t2BNFdp93C8) — پیشرفته. دلیل هم‌ترازسازی جداگانه برای هر اثر و تفاوت کنتراست‌ها را مرور کنید.
-
-## درس 33.3
-
-- [مرجع نوشتاری درس](https://www.tandfonline.com/doi/full/10.1080/01621459.1967.10500925)
-- [سخنرانی ART و کنتراست‌های چندعاملی](https://www.youtube.com/watch?v=t2BNFdp93C8) — پیشرفته. دلیل هم‌ترازسازی جداگانه برای هر اثر و تفاوت کنتراست‌ها را مرور کنید.
-
-<a id="software-media"></a>
-
-## فیلم و مرجع پنج نرم‌افزار
-
-دیدن فیلم اختیاری است. تفاوت داده، رابط یا ابزار در توضیح زیر پیوند آمده است.
-
+</div>
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=xUPVEfIsl7Q). مقدماتی. ساخت جدول دو عامل با تکرار و خواندن سطر تعامل در Excel. فیلم دربارهٔ ANOVA معمولی است و کاربرگ هم‌ترازی و رتبه‌بندی را اضافه می‌کند.
+- [مرجع نوشتاری](https://support.microsoft.com/en-us/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/library/spss-librarymanova-and-glm-2/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=x9i0xWveOFM). متوسط. مدل عاملی و خواندن تعامل در SPSS. دستورهای دوره جداگانه ART، SRH و ماندهٔ Quade را می‌سازند.
+- [مرجع نوشتاری](https://www.ibm.com/support/pages/can-spss-do-nonparametric-or-rank-analysis-covariance-quades-test).
+- [مرجع دستور RANK در IBM](https://www.ibm.com/docs/en/spss-statistics/32.0.0?topic=reference-rank).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/series/graphing-in-prism)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=sA4lPpKyNyE). مقدماتی تا متوسط. چیدمان جدول Grouped و اجرای two-way ANOVA را برای رتبه‌های آماده ببینید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_howto_2wayanova.htm).
+- [چگونگی محاسبهٔ ANOVA دوعاملی](https://www.graphpad.com/guides/prism/latest/statistics/how_prism_computes_two-way_anova.htm).
 
 ### R
 
-- فیلم. [سخنرانی ART و کنتراست‌های چندعاملی](https://www.youtube.com/watch?v=t2BNFdp93C8)
-- دامنهٔ دیدن. متوسط تا پیشرفته. فرق ART و ART-C را ببینید. حالت متوازنِ جزوه در اسکریپت نیز بدون نصب بسته قابل اجراست.
-- مرجع نوشتاری. [دانشگاه Washington، ARTool](https://depts.washington.edu/acelab/proj/art/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=Ajge83UVBZo). متوسط. اجرای ART در R با ARTool. اسکریپت دوره همین طرح متوازن را با R پایه هم محاسبه می‌کند.
+- [مرجع نوشتاری](https://depts.washington.edu/acelab/proj/art/).
+- [راهنمای بستهٔ ARTool](https://cloud.r-project.org/web/packages/ARTool/ARTool.pdf).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rankdata.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=zsXzti1H2PY). متوسط. مدل عاملی Python با Statsmodels و خواندن جدول ANOVA. اسکریپت دوره هم‌ترازی را با NumPy و آزمون را با SciPy انجام می‌دهد.
+- [مرجع نوشتاری](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rankdata.html).
+- [کمترین مربعات در NumPy](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html).
 
 </div>

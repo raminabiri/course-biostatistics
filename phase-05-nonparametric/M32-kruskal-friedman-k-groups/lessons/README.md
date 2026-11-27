@@ -140,6 +140,6 @@ Friedman به همهٔ بلوک‌ها وزن یکسان می‌دهد. Quade ب
 
 [دادهٔ اصلی](../data/practice.csv) · [فیلم و مرجع](../references.md) · [اعتبارسنجی](../VALIDATION.md) · [واژه‌نامهٔ دوره](../../../resources/glossary.md)
 
-[ادامهٔ دوره در M33 ←](../../M33-factorial-nonparametric/lessons/L1.md)
+[ادامهٔ دوره در M33 ←](../../M33-factorial-nonparametric/lessons/README.md)
 
 </div>

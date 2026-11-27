@@ -54,6 +54,6 @@
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../../phase-04-comparing-means/M29-equivalence-noninferiority/lessons/README.md) · [درس بعد](../../M31-mann-whitney-two-groups/lessons/L1.md)
+[درس پیش](../../../phase-04-comparing-means/M29-equivalence-noninferiority/lessons/README.md) · [درس بعد](../../M31-mann-whitney-two-groups/lessons/README.md)
 
 </div>

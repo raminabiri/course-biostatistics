@@ -27,34 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/load-the-analysis-toolpak-in-excel)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=KCCkT4Jdz5A). مقدماتی. پس از شناخت سطر فرد و ستون زمان، فیلم را برای ورود بازهٔ آماده و خواندن ردیف Columns ببینید. بازبینی کرویت را در کاربرگ انجام می‌دهیم.
+- [مرجع نوشتاری](https://support.microsoft.com/en-gb/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://stats.oarc.ucla.edu/spss/code/repeated-measures-anova-in-spss/)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=I7e6mr11-Rc). متوسط. پس از شناخت طرح زوجی، فیلم را برای تعریف عامل درون‌فردی و ترتیب ستون‌ها ببینید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=reference-glm-repeated-measures).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-anova). متوسط. در صفحهٔ GraphPad، فیلم Learn to Perform Repeated Measures One-way ANOVA in Prism را برای چیدن دادهٔ پهن و تنظیم جفت‌کردن ببینید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_howto_1wayanova.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=iR7NqJL-7Vk). متوسط. پس از تمرین مدل M20، فیلم را برای تحلیل زمان در دادهٔ تکراری ببینید. محاسبهٔ ضریب گرین‌هاوس–گایزر در اسکریپت همین ماژول آمده است.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
-
-[فیلم رسمی GraphPad برای تحلیل یک‌طرفه با اندازه‌گیری تکراری](https://www.youtube.com/watch?v=THFFf8Le3Yg) — پس از شناخت جدول پهن، بخش تنظیم matching، خواندن نتیجه و مقایسهٔ زمان‌ها را ببینید.
+- [فیلم آموزشی](https://www.youtube.com/watch?v=_X3g-dvlMF0). متوسط. با پیش‌نیاز خواندن CSV، بخش AnovaRM در statsmodels را برای آزمون کلاسیک ببینید. متن زیر همان آزمون و بازبینی کرویت را با NumPy و SciPy توضیح می‌دهد.
+- [مرجع نوشتاری](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html).
 
 </div>

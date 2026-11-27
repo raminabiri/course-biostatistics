@@ -63,6 +63,6 @@ D می‌تواند از جابه‌جایی مکان، تفاوت گستره ی
 
 [منابع و فیلم‌ها](../references.md) · [واژه‌نامه](../../../resources/glossary.md) · [اعتبارسنجی](../VALIDATION.md)
 
-[درس پیش](../../M30-sign-wilcoxon-runs/lessons/README.md) · [درس بعد](../../M32-kruskal-friedman-k-groups/lessons/L1.md)
+[درس پیش](../../M30-sign-wilcoxon-runs/lessons/README.md) · [درس بعد](../../M32-kruskal-friedman-k-groups/lessons/README.md)
 
 </div>

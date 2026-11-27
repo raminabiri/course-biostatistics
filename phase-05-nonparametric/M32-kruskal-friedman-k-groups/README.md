@@ -2,18 +2,13 @@
 
 # M32 — روش‌های رتبه‌ای چندگروهی و بلوکی
 
-ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
+با دو طرح تمرین می‌کنیم. در طرح اول سه گروه از افراد متفاوت داریم. در طرح دوم هر نفر در سه وضعیت اندازه‌گیری شده است. یاد می‌گیریم واحد مشاهده را پیدا کنیم، رتبه‌ها را بسازیم و نتیجهٔ آزمون کلی، آزمون روند و مقایسهٔ جفت‌ها را جداگانه بخوانیم.
 
-- [درس 32.1 — Kruskal–Wallis و پیگیری جفت‌ها](lessons/L1.md) · [تمرین‌ها و پاسخ‌ها](exercises/L1.md)
+**[خواندن درس یکپارچه ←](lessons/README.md)**
 
-- [درس 32.2 — روند Jonckheere–Terpstra](lessons/L2.md) · [تمرین‌ها و پاسخ‌ها](exercises/L2.md)
-
-- [درس 32.3 — Friedman، Quade و توافق Kendall](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
-
-[کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
-
-## درس‌های مستقل پنج نرم‌افزار
-
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+- [۳۰ تمرین و مسئله](exercises/module.md) · [۳۰ پاسخ تشریحی](solutions/module.md)
+- [دادهٔ اصلی](data/practice.csv) · [گروه‌های مستقل](data/independent.csv) · [بلوک‌ها در قالب پهن](data/blocked_wide.csv)
+- [Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
+- [منابع و فیلم‌ها](references.md) · [اعتبارسنجی](VALIDATION.md)
 
 </div>

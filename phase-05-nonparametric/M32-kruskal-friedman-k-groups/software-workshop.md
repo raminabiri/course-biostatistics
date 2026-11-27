@@ -1,93 +1,9 @@
 <div dir="rtl">
 
-# کارگاه گام‌به‌گام M32
+# کارگاه یکپارچهٔ M32
 
-این کارگاه ادامهٔ [شروع M01](../../phase-00-foundations/M01-data-and-variables/START.md) است. [فیلم و مرجع هر پنج مسیر](references.md#software-media) برای مرور در دسترس است.
+[درس اصلی](lessons/README.md) · [اعتبارسنجی](VALIDATION.md)
 
-- **Excel.** کارپوشهٔ خالی باز کنید. هر فرمول را با علامت = وارد کنید و Enter بزنید. اگر جداکنندهٔ آرگومان در نصب شما نقطه‌ویرگول است، ویرگول بین آرگومان‌ها را عوض کنید. کارپوشه را با File → Save As ذخیره کنید.
-- **SPSS.** برای قطعه‌های Syntax از File → New → Syntax استفاده کنید. کد را وارد کنید و Run → All را بزنید. برای حفظ پروژهٔ باز، تمرین را در یک مجموعهٔ تازه انجام دهید. جدول را در Output و متغیر محاسبه‌شده را در Data View بخوانید.
-- **Prism.** از File → New Project شروع کنید. نوع جدول و چگونگی ورود داده در تمرین آمده است. Analyze را بزنید و نتیجه را در Results بخوانید. پروژه را از File → Save As ذخیره کنید.
-- **R.** در RStudio پوشهٔ ماژول را از Session → Set Working Directory → Choose Directory انتخاب کنید، سپس فایل [M32_workshop.R](r/M32_workshop.R) را باز کنید و Source را بزنید. برای اجرای ترمینالی در پوشهٔ ماژول، `Rscript --vanilla r/M32_workshop.R`. پاسخ در Console دیده می‌شود.
-- **Python.** در VS Code پوشهٔ ماژول را باز کنید و فایل [M32_workshop.py](python/M32_workshop.py) را با Run Python File اجرا کنید. اگر SciPy لازم است، در همان مفسر M01 و از Terminal → New Terminal، فرمان `python -m pip install scipy` را اجرا کنید. در سیستمی که M01 را با python3 اجرا کردید همان نام را به کار ببرید. سپس `python python/M32_workshop.py` را اجرا کنید. پاسخ در Terminal چاپ می‌شود. برای نگهداری آن، می‌توانید در پایان فرمان `> output.txt` بگذارید تا متن در همان پوشه ذخیره شود.
-
-[دادهٔ ساختگی](data/practice.csv). در Excel از Data → From Text/CSV و در SPSS از Import Data → CSV Data کمک بگیرید. سرستون‌ها را از ردیف اول بخوانید و جداکننده را ویرگول بگذارید.
-
-<a id="lesson-1"></a>
-
-## تمرین 32.1
-
-**خروجی مرجع R و Python.** H≈۴٫۵۲۶۳۱۶ و P≈۰٫۱۰۴۰۲۱.
-
-### Excel
-
-در فایل فقط independent را نگه دارید. روی ستون value رتبهٔ میانگین بسازید و مجموع رتبهٔ هر گروه را در PivotTable بخوانید. H را با فرمول ۱۲Σ(R²/n)/(N(N+1))−۳(N+1) حساب کنید و `CHISQ.DIST.RT(H,2)` را بزنید. دادهٔ این مثال tie ندارد.
-
-### SPSS
-
-Nonparametric Tests → Independent Samples را باز کنید. value را متغیر و group را گروه‌بندی بگذارید. در Settings روش Kruskal–Wallis و در صورت وجود مقایسهٔ جفتی را انتخاب کنید. نام روش تعدیل SPSS را ثبت کنید.
-
-### Prism
-
-سه ستون مستقل بسازید. Analyze → One-way ANOVA (and nonparametric)، Kruskal–Wallis و Dunn را انتخاب کنید. جفت‌ها را قبل از اجرا تعریف کنید.
-
-### R
-
-اسکریپت R را اجرا کنید. خط L1 خروجی همین درس را نشان می‌دهد. تعریف گروه‌ها، مدل و توزیع مرجع درون فایل آمده است.
-
-### Python
-
-اسکریپت Python را اجرا کنید. خط L1 را با عدد کنترل مقایسه کنید. این فایل به SciPy و NumPy متکی است.
-
-<a id="lesson-2"></a>
-
-## تمرین 32.2
-
-**خروجی مرجع R و Python.** J=۸۱ و P راستِ تقریبی≈۰٫۰۱۴۵۲۵.
-
-### Excel
-
-برای هر مقدار در گروه دوز پایین‌تر، COUNTIF روی هر گروه بالاتر با معیار > را جمع کنید. برای تساوی COUNTIF با معیار = را نیم‌وزن اضافه کنید. اسکریپت کارگاه P نرمال را می‌دهد.
-
-### SPSS
-
-از Nonparametric Tests → Independent Samples و Customize tests کمک بگیرید. اگر Jonckheere–Terpstra در نسخهٔ شما در دسترس است، کد گروه را ۱ تا ۳ در جهت افزایش تعریف کنید. P دقیق و تقریبی را با برچسب جدا بخوانید.
-
-### Prism
-
-گروه‌ها را به ترتیب دوز رسم کنید. برای J، اسکریپت R یا Python کارگاه را اجرا کنید.
-
-### R
-
-اسکریپت R را اجرا کنید. خط L2 خروجی همین درس را نشان می‌دهد. تعریف گروه‌ها، مدل و توزیع مرجع درون فایل آمده است.
-
-### Python
-
-اسکریپت Python را اجرا کنید. خط L2 را با عدد کنترل مقایسه کنید. این فایل به SciPy و NumPy متکی است.
-
-<a id="lesson-3"></a>
-
-## تمرین 32.3
-
-**خروجی مرجع R و Python.** Q=۶٫۲۵، W=۰٫۳۹۰۶۲۵ و P آزمون Quade≈۰٫۰۱۹۵۴۹.
-
-### Excel
-
-فقط blocked را به جدول پهن با سطر block و سه ستون شرط تبدیل کنید. در هر سطر با RANK.AVG رتبه بگیرید و مجموع‌های ستونی را در فرمول Q بدون tie بگذارید. P تقریبی را با CHISQ.DIST.RT بخوانید. برای Quade و Conover بلوکی از اسکریپت همین کارگاه کمک بگیرید.
-
-### SPSS
-
-دادهٔ پهن با سه ستون شرط را بسازید. Nonparametric Tests → Legacy Dialogs → K Related Samples و Friedman یا Kendall W را بزنید. برای Nemenyi یا Conover بلوکی، اسکریپت کارگاه را اجرا کنید.
-
-### Prism
-
-سه شرط را ستون و هر بلوک را ردیف قرار دهید. Friedman و مقایسهٔ جفتی متناسب با دادهٔ matched را در تنظیمات بررسی کنید. برای Nemenyi یا Quade کارگاه R را اجرا کنید.
-
-### R
-
-اسکریپت R را اجرا کنید. خط L3 خروجی همین درس را نشان می‌دهد. تعریف گروه‌ها، مدل و توزیع مرجع درون فایل آمده است.
-
-### Python
-
-اسکریپت Python را اجرا کنید. خط L3 را با عدد کنترل مقایسه کنید. این فایل به SciPy و NumPy متکی است.
+[Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
 
 </div>

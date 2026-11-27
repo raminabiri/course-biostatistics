@@ -4,16 +4,18 @@
 
 ابتدا درس را با نمونهٔ حل‌شده بخوانید، سپس تمرین‌ها را حل کنید. برای بازتولید نمونه، یکی از پنج مسیر کارگاه را دنبال کنید.
 
-- [درس 21.1 — اثرهای اصلی و تعامل دوطرفه](lessons/L1.md) · [تمرین‌ها و پاسخ‌ها](exercises/L1.md)
+**[درس یکپارچه ←](lessons/README.md)**
 
-- [درس 21.2 — اثر ساده و طرح نامتوازن](lessons/L2.md) · [تمرین‌ها و پاسخ‌ها](exercises/L2.md)
+[۳۰ تمرین و مسئله](exercises/module.md) · [پاسخ تشریحی](solutions/module.md) · [منابع](references.md)
 
-- [درس 21.3 — مدل سه‌طرفه](lessons/L3.md) · [تمرین‌ها و پاسخ‌ها](exercises/L3.md)
+متن‌ها و تمرین‌های تکمیلی پیشین برای مطالعهٔ بیشتر در دسترس‌اند.
 
-[کارگاه پنج نرم‌افزار](software-workshop.md) · [منابع و فیلم‌ها](references.md) · [وضعیت اعتبارسنجی](VALIDATION.md)
+[دو عامل و تعامل](lessons/L1.md) · [اثر ساده و وزن‌دهی](lessons/L2.md) · [تعامل سه عامل](lessons/L3.md)
 
-## درس‌های مستقل پنج نرم‌افزار
+## درس‌های پنج نرم‌افزار
 
-[Excel](excel/README.md) · [SPSS](spss/README.md) · [Prism](prism/README.md) · [R](r/README.md) · [Python](python/README.md)
+[Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
+
+[اعتبارسنجی](VALIDATION.md)
 
 </div>

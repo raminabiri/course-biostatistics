@@ -27,34 +27,27 @@
 
 ### Excel
 
-- فیلم. [Microsoft، رسم نمودار در Excel](https://www.youtube.com/watch?v=4Bma9ieavIg)
-- دامنهٔ دیدن. مقدماتی. ساخت نمودار را مرور کنید. محاسبهٔ آزمون از مراحل مکتوب کارگاه پیروی می‌کند.
-- مرجع نوشتاری. [Microsoft، مرجع Excel](https://support.microsoft.com/en-us/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=0_XuUSYUvEA). بخش آماده‌سازی جدول تکرارها و خواندن Interaction را ببینید.
+- [مرجع نوشتاری](https://support.microsoft.com/en-gb/excel/use-the-analysis-toolpak-to-perform-complex-data-analysis).
 
 ### SPSS
 
-- فیلم. [Guelph، کارگاه‌های SPSS](https://guides.lib.uoguelph.ca/c.php?g=525348&p=5374874)
-- دامنهٔ دیدن. متوسط. ورود داده و خواندن Output را دنبال کنید. تحلیل همین طرح در مرجع و کارگاه است.
-- مرجع نوشتاری. [راهنمای SPSS](https://www.ibm.com/docs/en/spss-statistics/30.0.0?topic=features-glm-univariate-analysis)
+- [فیلم آموزشی](https://libguides.lib.msu.edu/SPSS/inferential/anova). در صفحهٔ دانشگاه Michigan State، بخش Two Way ANOVA را باز کنید.
+- [مرجع نوشتاری](https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=unianova-overview-command).
 
 ### Prism
 
-- فیلم. [GraphPad، ANOVA](https://www.graphpad.com/series/key-analysis-anova)
-- دامنهٔ دیدن. متوسط. نوع جدول و خروجی را مرور کنید. اگر روش در Prism پیاده نشده، کارگاه حدود پوشش و روش انجام را مشخص می‌کند.
-- مرجع نوشتاری. [GraphPad، مرجع این مسیر](https://www.graphpad.com/features/prism-anova)
-
-- مرجع چیدمان درس ۲۱٫۳. [GraphPad، ورود داده برای تحلیل سه‌طرفه](https://www.graphpad.com/guides/prism/latest/statistics/stat_howto_3wayanova.htm)
+- [فیلم آموزشی](https://www.graphpad.com/series/key-analysis-anova). فیلم Learn to Perform a Three-way ANOVA را باز کنید و ترتیب ستون‌ها را دنبال کنید.
+- [مرجع نوشتاری](https://www.graphpad.com/guides/prism/latest/statistics/stat_howto_3wayanova.htm).
 
 ### R
 
-- فیلم. [MarinStatsLectures، ANOVA در R](https://www.youtube.com/watch?v=lpdFr5SZR0Q)
-- دامنهٔ دیدن. متوسط. ساخت مدل و خواندن خروجی را مرور کنید. مدل این ماژول در اسکریپت کارگاه آمده است.
-- مرجع نوشتاری. [مستندات R](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=yhHvzlJYqQY). فیلم به تعامل دو عامل در طرح متوازن می‌پردازد.
+- [مرجع نوشتاری](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/aov.html).
 
 ### Python
 
-- فیلم. [PyData، آزمون با SciPy](https://pyvideo.org/pydata-london-2018/hypothesis-testing-with-scipy.html)
-- دامنهٔ دیدن. متوسط. توزیع مرجع و P را مرور کنید. کد همین مثال با نام ماژول آمادهٔ اجراست.
-- مرجع نوشتاری. [مرجع پیاده‌سازی Python](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)
+- [فیلم آموزشی](https://www.youtube.com/watch?v=1NqgLWAiWYA). فیلم آزمون دوطرفه را با statsmodels نشان می‌دهد. در این درس مدل‌های تودرتو را با NumPy و SciPy می‌سازیم.
+- [مرجع نوشتاری](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html).
 
 </div>

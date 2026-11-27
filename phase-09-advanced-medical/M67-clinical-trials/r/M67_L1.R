@@ -1,0 +1,5 @@
+d <- read.csv("data/M67_L1.csv")
+itt <- -diff(d$success/d$n)
+pp <- -diff(d$adherent_success/d$adherent_n)
+stopifnot(abs(itt-.1)<1e-12, abs(pp-37/240)<1e-12)
+print(c(ITT=itt, adherent=pp, design_effect=1+19*.05))

@@ -1,0 +1,8 @@
+d <- read.csv("data/M51_counts.csv")
+x <- data.frame(group=rep(d$group,each=3), y=ordered(rep(1:3,2)), w=c(t(d[,-1])))
+f <- MASS::polr(y~group,x,weights=w,Hess=TRUE)
+g <- nnet::multinom(y~group,x,weights=w,trace=FALSE)
+lr <- 2*as.numeric(logLik(g)-logLik(f))
+print(c(coef(f),f$zeta,LR=lr,p=pchisq(lr,1,lower.tail=FALSE)))
+print(predict(f,data.frame(group=c("A","B")),type="probs"))
+stopifnot(abs(lr-.9174931)<1e-5)

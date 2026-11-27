@@ -1,0 +1,7 @@
+d <- read.csv("data/M58_cox.csv")
+m <- survival::coxph(survival::Surv(time,event)~group,d,x=TRUE)
+z <- survival::cox.zph(m,transform="identity")
+res <- residuals(m,type="schoenfeld")
+print(z)
+print(res)
+stopifnot(abs(res[1]+.3247001)<1e-6)

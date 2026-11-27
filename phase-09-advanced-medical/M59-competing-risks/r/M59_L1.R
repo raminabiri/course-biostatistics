@@ -1,0 +1,5 @@
+d <- read.csv("data/M59_events.csv")
+d$status <- factor(d$status,levels=0:2)
+fit <- survival::survfit(survival::Surv(time,status)~1,data=d)
+print(cbind(time=fit$time,fit$pstate))
+stopifnot(abs(tail(fit$pstate[,2],1)-13/60)<1e-10)

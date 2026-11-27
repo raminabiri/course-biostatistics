@@ -1,0 +1,6 @@
+d <- read.csv("data/M53_probit.csv")
+fit <- glm(cbind(positive,total-positive)~log(input), data=d, family=binomial(link="probit"))
+x50 <- exp(-coef(fit)[1]/coef(fit)[2])
+print(c(coef(fit),x50=unname(x50)))
+print(fitted(fit))
+stopifnot(abs(x50-2)<1e-8)

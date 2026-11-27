@@ -1,0 +1,5 @@
+d <- read.csv("data/M52_rates.csv")
+fit <- glm(events~group+offset(log(exposure)),data=d,family=poisson())
+print(exp(coef(fit)))
+print(fitted(fit))
+stopifnot(abs(exp(coef(fit)[2])-1.4)<1e-8)

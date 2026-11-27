@@ -1,0 +1,7 @@
+d <- read.csv("data/M52_table.csv")
+d[c("a","b","stratum")] <- lapply(d[c("a","b","stratum")],factor)
+fit <- glm(count~a*stratum+b*stratum,data=d,family=poisson())
+g <- deviance(fit)
+print(fitted(fit))
+print(c(G2=g,df=df.residual(fit),p=pchisq(g,2,lower.tail=FALSE)))
+stopifnot(abs(g-4.02710271)<1e-6)

@@ -1,0 +1,10 @@
+x <- c(1,2,4)
+t <- 0:8
+mm <- 100*x/(2+x)
+logistic <- 100/(1+exp(-.5*(t-4)))
+gompertz <- 100*exp(-exp(-.5*(t-4)))
+f <- ((96-60)/2)/(60/20)
+print(mm)
+print(data.frame(t,logistic,gompertz))
+print(c(F=f,p=pf(f,2,20,lower.tail=FALSE)))
+stopifnot(mm[2]==50, logistic[t==4]==50, f==6)

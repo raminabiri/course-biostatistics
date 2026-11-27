@@ -1,0 +1,8 @@
+d <- read.csv("data/M49_counts.csv")
+fit <- glm(cbind(completed, not_completed) ~ group_b, data=d, family=binomial())
+probabilities <- predict(fit,type="response")
+odds_ratio <- exp(coef(fit)[["group_b"]])
+print(coef(fit))
+print(probabilities)
+print(odds_ratio)
+stopifnot(max(abs(probabilities-c(.4,.6)))<1e-8,abs(odds_ratio-2.25)<1e-8)

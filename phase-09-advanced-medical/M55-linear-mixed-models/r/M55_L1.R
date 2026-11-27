@@ -1,0 +1,5 @@
+d <- read.csv("data/M55_repeated.csv")
+fit <- nlme::lme(y~time,random=~1|id,data=d,method="REML")
+print(nlme::fixef(fit))
+print(nlme::VarCorr(fit))
+stopifnot(abs(nlme::fixef(fit)[2]-23/12)<1e-8)

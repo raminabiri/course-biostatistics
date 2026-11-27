@@ -1,0 +1,6 @@
+d <- read.csv("data/M66_L1.csv")
+e <- with(d, treated_n/(treated_n+control_n))
+raw <- with(d, weighted.mean(treated_mean,treated_n)-weighted.mean(control_mean,control_n))
+adjusted <- with(d, weighted.mean(treated_mean,treated_n/e)-weighted.mean(control_mean,control_n/(1-e)))
+stopifnot(raw == -2, adjusted == 4)
+print(c(raw=raw, adjusted=adjusted, iv=2/.5, did=(16-10)-(12-9)))

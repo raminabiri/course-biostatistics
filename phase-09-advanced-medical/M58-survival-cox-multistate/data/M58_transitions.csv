@@ -1,0 +1,4 @@
+from,stable,followup,exit
+stable,0.7,0.2,0.1
+followup,0,0.6,0.4
+exit,0,0,1

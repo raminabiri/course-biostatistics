@@ -1,0 +1,7 @@
+library(survival)
+d <- read.csv("data/M50_sets.csv")
+fit <- survival::clogit(case ~ exposed + strata(set_id), data=d)
+beta <- unname(coef(fit))
+opt <- optimize(function(b) 8*b-12*log(exp(b)+2), c(-5,5), maximum=TRUE)
+print(c(beta,exp(beta),opt$maximum))
+stopifnot(abs(exp(beta)-4)<1e-7,abs(beta-opt$maximum)<1e-4)

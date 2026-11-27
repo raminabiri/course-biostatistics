@@ -1,0 +1,5 @@
+d <- read.csv("data/M58_cox.csv")
+fit <- survival::coxph(survival::Surv(time,event)~group,data=d)
+print(coef(fit))
+print(exp(cbind(coef(fit),confint(fit))))
+stopifnot(abs(exp(coef(fit)[1])-.4808235)<1e-6)

@@ -1,0 +1,5 @@
+case_exposed,control_exposed,pairs
+0,0,12
+1,1,12
+1,0,12
+0,1,4

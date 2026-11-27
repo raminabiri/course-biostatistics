@@ -1,0 +1,5 @@
+d <- read.csv("data/M51_counts.csv")
+fit <- nnet::multinom(cbind(no,partial,full)~group,data=d,trace=FALSE,reltol=1e-12)
+ratios <- exp(coef(fit)[,"groupB"])
+print(ratios)
+stopifnot(max(abs(ratios-c(2.5,20/7)))<1e-4)

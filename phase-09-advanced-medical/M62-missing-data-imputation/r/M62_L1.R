@@ -1,0 +1,6 @@
+d <- read.csv("data/M62_missing.csv")
+print(with(d,table(group,is.na(y))))
+cc <- mean(d$y,na.rm=TRUE)
+weighted <- mean(tapply(d$y,d$group,mean,na.rm=TRUE))
+print(c(complete=cc,weighted=weighted))
+stopifnot(abs(cc-104/7)<1e-9,weighted==17)

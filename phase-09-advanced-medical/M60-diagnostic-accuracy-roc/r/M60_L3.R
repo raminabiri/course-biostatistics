@@ -1,0 +1,5 @@
+d <- read.csv("data/M60_roc.csv")
+gap <- function(change) mean(change[d$reference==1])-mean(change[d$reference==0])
+out <- c(NRI=gap((d$score_b>=.6)-(d$score_a>=.6)),IDI=gap(d$score_b-d$score_a))
+print(out)
+stopifnot(max(abs(out-c(.4,.026)))<1e-10)

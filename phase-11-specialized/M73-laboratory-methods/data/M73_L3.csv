@@ -1,0 +1,7 @@
+sample,group,target,reference
+A1,control,25,20
+A2,control,26,20
+A3,control,24,20
+B1,comparison,23,20
+B2,comparison,24,20
+B3,comparison,22,20

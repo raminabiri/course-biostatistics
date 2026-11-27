@@ -1,0 +1,6 @@
+d <- read.csv("data/M75_L2.csv")
+fit <- factanal(d,factors=1,rotation="none")
+loads <- abs(as.numeric(fit$loadings[,1]))
+stopifnot(max(abs(loads-c(.8,.7,.6)))<.001)
+print(loads)
+print(fit$uniquenesses)

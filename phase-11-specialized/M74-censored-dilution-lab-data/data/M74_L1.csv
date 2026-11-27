@@ -1,0 +1,5 @@
+id,kind,lower,upper
+1,left,0,2
+2,interval,2,4
+3,interval,4,8
+4,exact,8,8

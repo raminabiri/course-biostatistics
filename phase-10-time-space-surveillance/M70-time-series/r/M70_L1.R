@@ -1,0 +1,5 @@
+d <- read.csv("data/M70_L1.csv")
+fit <- lm(wait~month+post+since,data=d)
+stopifnot(max(abs(coef(fit)-c(20,1,-5,-2)))<1e-10)
+print(coef(fit))
+print(predict(fit,newdata=data.frame(month=10,post=1,since=3)))

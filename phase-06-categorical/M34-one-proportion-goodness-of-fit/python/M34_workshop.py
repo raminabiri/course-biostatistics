@@ -22,3 +22,17 @@ print("L2:", z, stats.norm.sf(z), 2*stats.norm.sf(abs(z)))
 print("L3:", gof.statistic, 2, gof.pvalue)
 assert isclose(exact.pvalue, .056887933641, abs_tol=1e-10)
 assert isclose(gof.statistic, 31/3)
+
+z_cc = max(0, abs(k - n*.5) - .5) / sqrt(n*.5*.5)
+print("Corrected P:", 2*stats.norm.sf(z_cc))
+print("95% exact interval:", exact.proportion_ci(.95, method="exact"))
+print("95% Wilson interval:", exact.proportion_ci(.95, method="wilson"))
+
+# Enumerate counts with the Pearson statistic defining the tail.
+tables = [(a, b, n-a-b) for a in range(n+1) for b in range(n-a+1)]
+expected = [50, 30, 20]
+tail = [table for table in tables
+        if sum((obs-exp)**2/exp for obs, exp in zip(table, expected)) >= gof.statistic-1e-10]
+exact_gof = stats.multinomial.pmf(tail, n, [.5,.3,.2]).sum()
+print("Exact multinomial Pearson tail:", exact_gof)
+assert isclose(exact_gof, .00586547283532, abs_tol=1e-10)

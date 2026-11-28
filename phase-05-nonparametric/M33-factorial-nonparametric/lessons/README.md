@@ -117,6 +117,6 @@ SRH پاسخ اصلی را یک‌بار رتبه‌بندی می‌کند. از
 
 [منابع و فیلم‌ها](../references.md) · [اعتبارسنجی](../VALIDATION.md) · [واژه‌نامهٔ دوره](../../../resources/glossary.md)
 
-[درس پیش، M32](../../M32-kruskal-friedman-k-groups/lessons/README.md) · [درس بعد، M34](../../../phase-06-categorical/M34-one-proportion-goodness-of-fit/lessons/L1.md)
+[درس پیش، M32](../../M32-kruskal-friedman-k-groups/lessons/README.md) · [درس بعد، M34](../../../phase-06-categorical/M34-one-proportion-goodness-of-fit/lessons/README.md)
 
 </div>

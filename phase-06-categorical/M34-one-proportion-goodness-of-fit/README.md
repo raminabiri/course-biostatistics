@@ -2,12 +2,12 @@
 
 # M34 — یک نسبت و نیکویی برازش
 
-در سه درس، از شمارهای یک فایل آموزشی به آزمون دقیق، تقریب نرمال و بررسی توزیع سه رده می‌رسید. پیش‌نیاز: [M14، آزمون فرضیه](../../phase-03-inference/M14-hypothesis-testing/README.md).
+با ۱۰۰ درخواست ساختگی، سهم ثبت به‌موقع را برآورد و آن را با مقدار مرجع مقایسه می‌کنیم. سپس می‌سنجیم که آیا ترکیب سه مسیر دریافت با برنامهٔ کاری سازگار است.
 
-- [۳۴٫۱ آزمون دقیق یک نسبت](lessons/L1.md)
-- [۳۴٫۲ آزمون z یک نسبت](lessons/L2.md)
-- [۳۴٫۳ کای‌دو نیکویی برازش](lessons/L3.md)
+**[خواندن درس یکپارچه ←](lessons/README.md)**
 
-[کدبوک و داده](data/README.md) · [منابع](references.md) · [اعتبارسنجی](VALIDATION.md)
+- [۳۰ تمرین](exercises/module.md) · [پاسخ‌های تشریحی](solutions/module.md) · [داده و کدبوک](data/README.md)
+- [Excel](excel/MODULE.md) · [SPSS](spss/MODULE.md) · [GraphPad Prism](prism/MODULE.md) · [R](r/MODULE.md) · [Python](python/MODULE.md)
+- [منابع و فیلم‌ها](references.md) · [اعتبارسنجی](VALIDATION.md)
 
 </div>
